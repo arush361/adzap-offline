@@ -16,14 +16,13 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 import {
     CONTENT_SCRIPT_END_OUTPUT,
     CONTENT_SCRIPT_START_OUTPUT,
     SUBSCRIBE_OUTPUT,
-    IMPORT_CONFIGURATION_OUTPUT,
-    IMPORT_CONFIGURATION_HOSTNAMES,
-    THANKYOU_OUTPUT,
 } from '../../constants';
 
 export const commonManifest = {
@@ -74,25 +73,7 @@ export const commonManifest = {
             'match_about_blank': false,
             'run_at': 'document_end',
         },
-        {
-            'all_frames': false,
-            'js': [
-                `${THANKYOU_OUTPUT}.js`,
-            ],
-            'matches': [
-                '*://*.adguard.com/*/thankyou.html*',
-                '*://*.adguard.info/*/thankyou.html*',
-                '*://*.adguard.app/*/thankyou.html*',
-            ],
-            'run_at': 'document_start',
-        },
-        {
-            'all_frames': false,
-            'js': [
-                `${IMPORT_CONFIGURATION_OUTPUT}.js`,
-            ],
-            'matches': IMPORT_CONFIGURATION_HOSTNAMES.map((hostname) => `*://${hostname}/*`),
-            'run_at': 'document_end',
-        },
+        // OFFLINE PATCH: removed the thankyou and import-configuration content
+        // scripts so adguard.com pages can't change extension settings.
     ],
 };

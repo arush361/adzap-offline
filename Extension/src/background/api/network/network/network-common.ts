@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 import browser from 'webextension-polyfill';
 import { NetworkSettings } from 'network-api-settings';
@@ -333,16 +335,9 @@ export abstract class NetworkCommon {
      *
      * @param stats Sent stats.
      */
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars, class-methods-use-this
     public async sendHitStats(stats: HitStats): Promise<void> {
-        const statsString = JSON.stringify(stats);
-
-        await fetch(this.settings.ruleStatsUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: statsString,
-        });
+        // OFFLINE PATCH: never send filter hit stats.
     }
 
     /**
@@ -374,6 +369,11 @@ export abstract class NetworkCommon {
      * compatible with XMLHttpRequest.
      */
     protected static async fetchJson(url: string): Promise<ResponseLikeXMLHttpRequest> {
+        // OFFLINE PATCH: only allow reading files bundled inside the extension.
+        if (!url.startsWith(browser.runtime.getURL(''))) {
+            throw new Error(`Offline build: blocked request to ${url}`);
+        }
+
         const response = await fetch(url, {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },

@@ -17,6 +17,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import { logger } from '../../../common/logger';
@@ -100,11 +102,21 @@ export class BackendUpdateChecker {
     private static readonly HTTP_OK = 200;
 
     /**
+     * OFFLINE PATCH: when true, update checks are skipped entirely.
+     */
+    private static readonly OFFLINE_BUILD: boolean = true;
+
+    /**
      * Performs an update check against the AdGuard Backend API.
      *
      * @returns Discriminated result indicating the update status.
      */
     public static async checkUpdate(): Promise<UpdateCheckResult> {
+        // OFFLINE PATCH: never ping the update backend (it sends a per-install client ID).
+        if (BackendUpdateChecker.OFFLINE_BUILD) {
+            return { status: UpdateCheckStatus.NoContent };
+        }
+
         try {
             const isDevBuild = !IS_RELEASE && !IS_BETA;
 

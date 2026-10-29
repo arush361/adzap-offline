@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import browser from 'webextension-polyfill';
@@ -377,7 +379,8 @@ export abstract class AppCommon {
      */
     private static async setUninstallUrl(): Promise<void> {
         try {
-            await browser.runtime.setUninstallURL(AppCommon.uninstallUrl);
+            // OFFLINE PATCH: empty string = don't open an AdGuard page on uninstall.
+            await browser.runtime.setUninstallURL('');
         } catch (e) {
             logger.error('[ext.AppCommon.setUninstallUrl]: cannot set app uninstall url. Origin error:', e);
         }

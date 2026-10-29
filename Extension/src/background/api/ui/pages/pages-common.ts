@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 import browser, { type Runtime, type Windows } from 'webextension-polyfill';
 import { format } from 'date-fns';
@@ -155,6 +157,11 @@ export abstract class PagesApiCommon {
      * Filters download page url.
      */
     private static readonly postInstallPageUrl = PagesApiCommon.getExtensionPageUrl(POST_INSTALL_OUTPUT);
+
+    /**
+     * OFFLINE PATCH: when true, the hosted thank-you page is never opened.
+     */
+    private static readonly OFFLINE_BUILD: boolean = true;
 
     /**
      * Thank you page url.
@@ -493,6 +500,18 @@ export abstract class PagesApiCommon {
      * Opens thank you page.
      */
     public openThankYouPage = async (): Promise<void> => {
+        // OFFLINE PATCH: show the local settings page instead of AdGuard's
+        // hosted thank-you page (link.adtidy.org -> welcome.adguard.com).
+        if (PagesApiCommon.OFFLINE_BUILD) {
+            const postInstallTab = await TabsApi.findOne({ url: PagesApiCommon.postInstallPageUrl });
+            if (postInstallTab?.id) {
+                await browser.tabs.update(postInstallTab.id, { url: PagesApiCommon.settingsUrl });
+            } else {
+                await browser.tabs.create({ url: PagesApiCommon.settingsUrl });
+            }
+            return;
+        }
+
         const params = BrowserUtils.getExtensionParams();
         params.push(`_locale=${encodeURIComponent(browser.i18n.getUILanguage())}`);
         // Param for hiding telemetry consent checkbox for old extension versions

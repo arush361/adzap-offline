@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 import {
     BACKGROUND_OUTPUT,
@@ -54,6 +56,12 @@ export const chromeMv3Manifest = {
     ],
     'options_page': OPTIONS_PAGE,
     'devtools_page': `${DEVTOOLS_OUTPUT}.html`,
+    // OFFLINE PATCH: the browser blocks any fetch/XHR/WebSocket from the service
+    // worker and extension pages to anything outside the extension itself.
+    // 'wasm-unsafe-eval' is Chrome's MV3 default, needed for the bundled re2 WASM.
+    'content_security_policy': {
+        'extension_pages': "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; connect-src 'self'",
+    },
     'permissions': [
         'tabs',
         'webRequest',

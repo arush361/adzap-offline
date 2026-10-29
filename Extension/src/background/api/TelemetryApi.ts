@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 import { logger } from '../../common/logger';
 import { type TelemetryApiEventData } from '../services';
@@ -32,6 +34,11 @@ export class TelemetryApi {
     private static readonly API_PATH = 'api/v1/event';
 
     /**
+     * OFFLINE PATCH: when true, no telemetry request is ever sent.
+     */
+    private static readonly OFFLINE_BUILD: boolean = true;
+
+    /**
      * Session start API endpoint path.
      */
     private static readonly SESSION_START_PATH = 'api/v1/session_start';
@@ -42,6 +49,11 @@ export class TelemetryApi {
      * @param data Telemetry event data to send.
      */
     static async sendEvent(data: TelemetryApiEventData): Promise<void> {
+        // OFFLINE PATCH: never send telemetry.
+        if (TelemetryApi.OFFLINE_BUILD) {
+            return;
+        }
+
         const url = TelemetryApi.requestUrl;
 
         const config: RequestInit = {
@@ -71,6 +83,11 @@ export class TelemetryApi {
      * @returns Parsed session start response.
      */
     static async sendSessionStart(data: SessionStartRequest): Promise<SessionStartResponse> {
+        // OFFLINE PATCH: never contact the telemetry / A/B test service.
+        if (TelemetryApi.OFFLINE_BUILD) {
+            return { versions: {} };
+        }
+
         const url = new URL(TelemetryApi.SESSION_START_PATH, `https://${TELEMETRY_URL}`);
 
         const config: RequestInit = {
