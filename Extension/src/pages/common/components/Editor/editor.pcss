@@ -1,0 +1,157 @@
+.editor {
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    min-height: 300px;
+    max-height: 100%;
+    box-shadow: inset -10px 0 0 0 var(--scrollbar-track);
+    position: relative;
+    overflow: hidden;
+    /* If change left or right padding, also change EDITOR_PADDING */
+    padding: 0 10px 0 16px;
+    max-width: 100%;
+
+    /*
+     * Host node for @adguard/rules-editor / CodeMirror 6. The library hides it
+     * after init (`element.style.display = "none"`), but until then — especially
+     * while User rules loads the Oniguruma WASM — the bare <textarea> flashes.
+     * Hide it immediately so only the sized .editor shell is visible.
+     */
+    & > textarea {
+        display: none;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-bottom: 10px solid var(--gray-50);
+        border-left: 10px solid transparent;
+
+        @media (max-width: 640px) {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        width: 100% !important;
+        resize: none;
+    }
+
+    @media (min-width: 1024px) {
+        min-width: 618px;
+        max-width: 100vw;
+        resize: both;
+    }
+
+    @media (max-width: 640px) {
+        width: calc(100% - 32px) !important;
+        border: 1px solid var(--gray-50);
+        border-radius: 8px;
+        margin-left: 16px;
+        padding: 16px;
+    }
+
+    &--full-screen {
+        width: 100% !important;
+        height: calc(100vh - 112px) !important;
+
+        &:after {
+            display: none;
+        }
+
+        @media (min-width: 1024px) {
+            padding-left: 0;
+            resize: none;
+        }
+    }
+
+    &--with-margin {
+        margin-top: 16px;
+    }
+}
+
+/* ── CodeMirror 6 overrides ── */
+.cm-editor {
+    width: 100%;
+    height: 100%;
+
+    &.cm-focused {
+        outline: none;
+    }
+
+    .cm-scroller {
+        overflow: auto;
+    }
+
+    .cm-content {
+        caret-color: var(--text-main-text-main-default);
+    }
+
+    .cm-cursor {
+        border-left-color: var(--text-main-text-main-default);
+    }
+
+    .cm-gutters {
+        background: var(--fills-backgrounds-page-background-additional-default);
+        border-right: none;
+    }
+
+    .cm-activeLineGutter {
+        background: var(--fills-backgrounds-page-background-additional-hovered);
+    }
+
+    .cm-gutterElement {
+        color: var(--text-main-text-main-default);
+    }
+
+    .cm-activeLine {
+        background-color: var(--fills-backgrounds-page-background-additional-default);
+    }
+
+    .cm-selectionBackground,
+    &.cm-focused .cm-selectionBackground {
+        background-color: var(--editor-selection) !important;
+    }
+
+    .cm-selectionMatch {
+        background-color: var(--editor-highlight);
+    }
+
+    .cm-placeholder {
+        color: var(--gray-50) !important;
+        opacity: 1 !important;
+    }
+
+    .cm-searchMatch {
+        background-color: var(--editor-highlight);
+    }
+}
+
+/* Mobile: hide gutters */
+@media (max-width: 640px) {
+    .cm-gutters {
+        display: none;
+    }
+}
+
+/* ------------------------------------------------------------------
+   Work-around for Quest/Android "focus-zoom" bug
+   AG-43589
+   ------------------------------------------------
+   CM6 uses a contenteditable div instead of Ace's hidden
+   <textarea>. The Blink auto-zoom heuristic is not triggered
+   by contenteditable, so no workaround is currently needed.
+   The oculus-browser class is preserved for potential future
+   Oculus-specific fixes.
+------------------------------------------------------------------ */
+
+@media (forced-colors: active) {
+    .cm-editor {
+        border: 1px solid CanvasText;
+    }
+}

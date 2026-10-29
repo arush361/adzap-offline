@@ -1,0 +1,22 @@
+.miscellaneous-filters {
+    margin-left: auto;
+    display: flex;
+    position: relative;
+
+    &__section {
+        white-space: nowrap;
+        border-right: 1px solid var(--stroke-dividers-item-divider-default);
+        margin-right: 8px;
+    }
+
+    &__filters {
+        display: flex;
+        width: auto;
+        min-width: 160px;
+        position: static;
+        z-index: var(--z-idx-filtering-log-base);
+        right: 30px;
+        top: 10px;
+        font-size: 13px;
+    }
+}

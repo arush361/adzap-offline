@@ -1,0 +1,283 @@
+.filtering-log {
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+    color: var(--text-main-text-main-default);
+
+    * {
+        box-sizing: border-box;
+    }
+
+    &__inner {
+        table-layout: fixed;
+        width: 100%;
+        height: 100%;
+
+        & .thead {
+            min-width: 100%;
+            position: sticky;
+            z-index: var(--z-idx-filtering-log-thead);
+            background-color: var(--fills-backgrounds-page-background-default);
+            border-bottom: 1px solid var(--stroke-dividers-item-divider-default);
+        }
+
+        & .thead .th {
+            background-color: var(--fills-backgrounds-page-background-default);
+            border-bottom: 1px solid var(--stroke-dividers-item-divider-default);
+        }
+
+        & .tbody {
+            z-index: var(--z-idx-filtering-log-base);
+        }
+
+        & .tr--tbody {
+            border: 0;
+            border-bottom: 1px solid var(--stroke-dividers-item-divider-default);
+            background-color: transparent;
+            text-align: left;
+            padding: 0;
+            width: 100%;
+            outline-offset: -2px;
+
+            /* Use `focus-within` because button to open details is located inside of row */
+            &:focus-within {
+                outline: 2px solid var(--outline);
+            }
+
+            &:focus {
+                z-index: var(--z-idx-filtering-log-base);
+            }
+
+            &:hover {
+                cursor: pointer;
+                background: var(--fills-backgrounds-page-background-hovered);
+            }
+
+            &:active {
+                background: var(--fills-backgrounds-page-background-pressed);
+            }
+
+            /* blocked */
+            &.red {
+                background-color: var(--fills-backgrounds-recent-activity-request-blocked-default);
+
+                &:hover {
+                    background-color: var(--fills-backgrounds-recent-activity-request-blocked-hovered);
+                }
+
+                &:active {
+                    background-color: var(--fills-backgrounds-recent-activity-request-blocked-pressed);
+                }
+            }
+
+            /* stealth exceptions */
+            &.green {
+                background-color: var(--fills-backgrounds-recent-activity-request-allowlisted-default);
+
+                &:hover {
+                    background-color: var(--fills-backgrounds-recent-activity-request-allowlisted-hovered);
+                }
+
+                &:active {
+                    background-color: var(--fills-backgrounds-recent-activity-request-allowlisted-pressed);
+                }
+            }
+
+            /* allowlist (non-stealth) exceptions */
+            &.light-green {
+                background-color: var(--fills-backgrounds-recent-activity-request-allowlisted-default);
+
+                &:hover {
+                    background-color: var(--fills-backgrounds-recent-activity-request-allowlisted-hovered);
+                }
+
+                &:active {
+                    background-color: var(--fills-backgrounds-recent-activity-request-allowlisted-pressed);
+                }
+            }
+
+            /* mofidied */
+            &.yellow {
+                background-color: var(--fills-backgrounds-recent-activity-request-changed-default);
+
+                &:hover {
+                    background-color: var(--fills-backgrounds-recent-activity-request-changed-hovered);
+                }
+
+                &:active {
+                    background-color: var(--fills-backgrounds-recent-activity-request-changed-pressed);
+                }
+            }
+        }
+
+        & .tr--active, & .tr--active:hover {
+            background: var(--fills-backgrounds-page-background-pressed);
+
+            &.red, &.red:hover {
+                background-color: var(--fills-backgrounds-recent-activity-request-blocked-pressed);
+            }
+
+            &.green, &.green:hover {
+                background-color: var(--green-row-active);
+            }
+
+            &.light-green, &.light-green:hover {
+                background-color: var(--fills-backgrounds-recent-activity-request-allowlisted-pressed);
+            }
+
+            &.yellow, &.yellow:hover {
+                background-color: var(--fills-backgrounds-recent-activity-request-changed-pressed);
+            }
+        }
+
+        & .thead .tr {
+            border-top: 0;
+        }
+
+        & .list {
+            width: 100vw;
+            z-index: var(--z-idx-filtering-log-base);
+            scrollbar-width: thin;
+            scrollbar-color: var(--stroke-inputs-inactive-input-stroke-default) var(--fills-backgrounds-page-background-default);
+        }
+
+        & .th {
+            text-align: left;
+            padding: 7px 10px;
+            font-size: 14px;
+            position: relative;
+
+            &:first-child {
+                width: 40%;
+
+                @media (--to-mobile) {
+                    padding-left: 16px;
+                }
+            }
+
+            &:nth-child(2) {
+                width: 10%;
+            }
+
+            &:last-child {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+
+        & .td {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            padding: 8px 10px;
+            color: var(--text-main-text-main-default);
+            font-size: 14px;
+
+            &:first-child {
+                @media (--to-mobile) {
+                    padding-left: 16px;
+                }
+            }
+        }
+    }
+
+    &__empty {
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* do not remove "position" and "z-index" */
+        /* due to AG-10446 */
+        position: relative;
+        z-index: var(--z-idx-filtering-log-content);
+    }
+
+    &__empty-in {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        color: var(--text-description-description-default);
+    }
+
+    &__empty-img {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto;
+    }
+
+    &__desc {
+        text-align: center;
+        font-size: 16px;
+        line-height: 21px;
+
+        & button {
+            text-decoration: underline;
+        }
+
+        @media (--to-mobile) {
+            padding: 0 50px;
+        }
+    }
+
+    &__th {
+        line-height: 30px;
+    }
+
+    & .table {
+        & .tr {
+            height: 30px;
+            display: flex;
+            flex-wrap: nowrap;
+            width: auto!important;
+            min-width: 100%;
+        }
+
+        & .resizer {
+            display: inline-block;
+            background: transparent;
+            width: 20px;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: var(--z-idx-filtering-log-base);
+            /* prevents from scrolling while dragging on touch devices */
+            touch-action: none;
+
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: calc(50% - 10px);
+                right: 50%;
+                width: 1px;
+                height: 20px;
+                background-color: var(--stroke-dividers-item-divider-default);
+            }
+        }
+
+        & .th, & .td {
+            flex-shrink: 0;
+            height: 30px;
+            display: inline-block;
+            width: 20%;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        & .th {
+            padding: 7px 10px;
+            font-weight: 450;
+        }
+
+        & .td {
+            padding: 0 10px;
+            line-height: 30px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.radio-button-label,
+.checkbox-label {
+    white-space: nowrap;
+    word-break: inherit;
+}
+
+.radio-button {
+    min-width: 17px;
+    align-self: flex-start;
+}
+
+.request-modal {
+    &__rule-text {
+        font-size: 16px;
+        border-radius: 4px;
+        padding: 8px;
+        border: 1px solid var(--stroke-inputs-active-input-stroke-default);
+        background-color: var(--fills-inputs-input-background-default);
+        resize: vertical;
+    }
+
+    &__view {
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+
+.patterns,
+.options {
+    font-size: 16px;
+    word-break: break-all;
+
+    & > .request-info__key {
+        margin-bottom: 16px;
+    }
+
+    &__content {
+        & > .radio-button-label{
+            margin-bottom: 22px;
+
+            &:only-child {
+                margin-bottom: 0;
+            }
+
+            @media (--from-tablet) {
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        & > .checkbox-label:not(:only-child) {
+            margin-bottom: 16px;
+
+            &:only-child {
+                margin-bottom: 0;
+            }
+
+            @media (--from-tablet) {
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.request-info.patterns {
+    word-break: break-all;
+}
+
+.create-rule-title {
+    color: var(--text-lables-labels-default);
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.create-rule-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-main-text-main-default);
+    margin: 16px 0;
+}

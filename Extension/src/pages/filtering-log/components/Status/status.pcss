@@ -1,0 +1,94 @@
+.status-wrapper {
+    overflow: hidden;
+}
+
+.status {
+    display: inline-flex;
+    white-space: nowrap;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+
+        &--red {
+            color: var(--text-links-error-link-default);
+        }
+
+        &--gray {
+            color: var(--stroke-icons-gray-icons-default);
+        }
+
+        &--green {
+            color: var(--stroke-icons-product-icon-default);
+        }
+
+        &--orange {
+            color: var(--orange-50);
+        }
+
+        &_width60 {
+            width: 60px;
+        }
+
+        &_centered {
+            min-width: 30px;
+            justify-content: center;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        & > div {
+            cursor: default;
+        }
+    }
+
+    &__label {
+        margin-right: 6px;
+    }
+
+    &__icon {
+        width: 16px;
+        height: 16px;
+
+        &--wrapper {
+            display: flex;
+        }
+    }
+
+    &__badge {
+        padding: 2px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        line-height: 14px;
+        border-radius: 16px;
+        max-height: 20px;
+
+        &--green {
+            color: var(--text-buttons-primary-default);
+            background-color: var(--fills-buttons-main-button-default);
+            border: 1px solid var(--fills-buttons-main-button-default);
+        }
+
+        &--gray {
+            color: var(--text-buttons-primary-default);
+            background-color: var(--fills-buttons-main-button-default-inactive);
+            border: 1px solid var(--fills-buttons-main-button-default-inactive);
+        }
+
+        &--orange {
+            color: var(--text-buttons-primary-default);
+            background-color: var(--orange-50);
+            border: 1px solid var(--orange-50);
+        }
+
+        &--transparent {
+            color: var(--text-description-description-default);
+            border: 1px solid var(--stroke-icons-gray-icons-default);
+        }
+    }
+}

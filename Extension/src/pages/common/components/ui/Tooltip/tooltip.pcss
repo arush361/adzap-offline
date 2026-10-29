@@ -1,0 +1,28 @@
+.tooltip {
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    padding: 8px 16px;
+    color: var(--text-main-text-main-default);
+    background-color: var(--fills-menus-dropdown-menu-background-default);
+    font-size: 12px;
+    line-height: 130%;
+    box-shadow: var(--small-light-shadow-br);
+    border-radius: 4px;
+
+    &--fixed-width {
+        white-space: break-spaces;
+        width: max-content;
+        max-width: 188px;
+    }
+
+    &--on {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &--off {
+        visibility: hidden;
+        opacity: 0;
+    }
+}

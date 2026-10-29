@@ -1,0 +1,95 @@
+.icon {
+    /* 'display' property for 'icon' class should be set in specific page style files */
+
+    &--48 {
+        width: 48px;
+        height: 48px;
+    }
+
+    &--24 {
+        width: 24px;
+        height: 24px;
+    }
+
+    &--18 {
+        width: 18px;
+        height: 18px;
+    }
+
+    &--logo {
+        width: 104px;
+        height: 24px;
+        color: var(--fills-logo-key-color-default);
+    }
+
+    &--select {
+        width: 14px;
+        height: 8px;
+
+        @media (max-width: 640px) {
+            width: 10px;
+            height: 6px;
+        }
+    }
+
+    &--gray-default {
+        color: var(--stroke-icons-gray-icons-default);
+    }
+
+    &--green-default {
+        color: var(--stroke-icons-product-icon-default);
+    }
+
+    &--red-default {
+        color: var(--stroke-icons-error-icon-default);
+    }
+
+    &--orange-default {
+        color: var(--stroke-icons-warning-icon-default);
+    }
+
+    &--white {
+        color: var(--gray-0);
+    }
+
+    &--loading {
+        pointer-events: none;
+        animation: loader-spin 1s infinite linear;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes loader-spin {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+}
+
+.logo {
+    width: 104px;
+    height: 24px;
+    background-image: url("../../../assets/images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+
+    @media (prefers-color-scheme: dark) {
+        background-image: url("../../../assets/images/logo-dark.svg");
+    }
+}
+
+.light-mode {
+    .logo {
+        background-image: url("../../../assets/images/logo.svg");
+    }
+}
+
+.dark-mode {
+    .logo {
+        background-image: url("../../../assets/images/logo-dark.svg");
+    }
+}

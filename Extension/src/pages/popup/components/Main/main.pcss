@@ -1,0 +1,367 @@
+.main {
+    padding: 24px 0;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--has-user-rules {
+        /* 1. min(24px, max(4px, calc)) = clamp(calc, 4px, 24px) */
+        /* Which means that vertical padding will be between 4px <= calc <= 24px. */
+
+        /* 2. Equation inside of calc: */
+        /* Adjust vertical padding proportionally if actual height of popup (--popup-height) */
+        /* becomes smaller that default height of popup in desktops (--popup-default-height). */
+        /* Design specified vertical padding with value 24px will be base. */
+
+        /* 3. Combination of clamp and calc allows us to specify buffer size of 15px. */
+        /* It means that first 15px padding will not shrink, or in other words */
+        /* padding will not shrink until popup height reaches var(--popup-default-height) - 15px. */
+
+        /* This is needed for extension running on mobile browsers where popup height is dynamic. */
+        padding: min(
+            24px,
+            max(
+                4px,
+                calc(24px - var(--popup-default-height) + var(--popup-height) + 15px)
+            )
+        ) 0;
+    }
+
+    &__header {
+        width: 100%;
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        &--current-site,
+        &--current-status--title,
+        &--current-status--subtitle {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        &--current-status {
+            &--title {
+                font-size: 24px;
+                line-height: 1.2;
+                font-weight: 700;
+                margin: 4px 0;
+            }
+
+            &--subtitle {
+                color: var(--text-description-description-default);
+                font-size: 14px;
+                line-height: 1.3;
+            }
+        }
+
+        &--current-site {
+            font-size: 14px;
+            line-height: 1.3;
+        }
+    }
+
+    &__control {
+        width: 100%;
+        flex: 1 1 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__no-filtering {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: var(--fills-logo-white-color-default);
+        box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.15);
+
+        &__wrapper {
+            padding: 5px 0;
+        }
+
+        &__icon {
+            color: var(--stroke-icons-product-icon-default);
+        }
+    }
+
+    &__site-exception {
+        width: 100%;
+        padding: 0 32px;
+        color: var(--text-description-description-default);
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    &__cta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        gap: 8px;
+        width: 100%;
+        max-width: 225px;
+        min-height: 40px;
+        padding: 8px 16px;
+        border-radius: 8px;
+        border: 0.5px solid var(--stroke-icons-black-icons-default);
+        background: var(--fills-backgrounds-page-background-default);
+
+        &--link {
+            font-size: 14px;
+            line-height: 1.3;
+            text-decoration: none;
+            color: var(--text-description-description-default);
+            transition: var(--t3) color;
+
+            &:hover {
+                color: var(--text-main-text-main-default);
+            }
+        }
+    }
+}
+
+.switcher {
+    position: relative;
+    cursor: pointer;
+    min-height: 60px;
+    height: 60px;
+    padding: 0 5px;
+
+    &__track {
+        width: 80px;
+        height: 30px;
+        border-radius: 100px;
+
+        /* consider enabled by default */
+        background-color: var(--fills-buttons-main-button-default);
+
+        &--disabled {
+            background-color: var(--fills-buttons-danger-button-default);
+        }
+    }
+
+    &__handle {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 5px;
+        border-radius: 50%;
+        box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.15);
+        background-color: var(--fills-logo-white-color-default);
+        padding: 4px;
+        cursor: pointer;
+        transition: var(--t3) box-shadow;
+
+        /* consider enabled by default */
+        right: 5px;
+
+        & .switcher__icon--on {
+            display: block;
+        }
+
+        & .switcher__icon--off {
+            display: none;
+        }
+
+        &:before {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: var(--fills-logo-white-color-default);
+        }
+
+        &--disabled {
+            right: 36px;
+
+            & .switcher__icon--on {
+                display: none;
+            }
+
+            & .switcher__icon--off {
+                display: block;
+            }
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        left: 13px;
+        top: 13px;
+
+        &--on {
+            color: var(--stroke-icons-product-icon-default);
+        }
+
+        &--off {
+            color: var(--stroke-icons-error-icon-default);
+        }
+    }
+
+    &:hover {
+        & .switcher__track {
+            background-color: var(--fills-buttons-main-button-hovered);
+
+            &--disabled {
+                background-color: var(--fills-buttons-danger-button-hovered);
+            }
+        }
+
+        & .switcher__icon {
+            &--on {
+                color: var(--stroke-icons-product-icon-hovered);
+            }
+
+            &--off {
+                color: var(--stroke-icons-error-icon-hovered);
+            }
+        }
+    }
+
+    &:active {
+        & .switcher__track {
+            background-color: var(--fills-buttons-main-button-pressed);
+
+            &--disabled {
+                background-color: var(--fills-buttons-danger-button-hovered);
+            }
+        }
+
+        & .switcher__icon {
+            &--on {
+                color: var(--stroke-icons-product-icon-pressed);
+            }
+
+            &--off {
+                color: var(--stroke-icons-error-icon-pressed);
+            }
+        }
+    }
+}
+
+@media (forced-colors: active) {
+    .switcher {
+        &__track {
+            forced-color-adjust: none;
+            background-color: Highlight;
+            border: 1px solid Highlight;
+
+            &--disabled {
+                background-color: Canvas;
+                border-color: CanvasText;
+            }
+        }
+
+        &__handle {
+            forced-color-adjust: none;
+            background-color: Canvas;
+            border: 1px solid CanvasText;
+
+            &:before {
+                background-color: Canvas;
+            }
+
+            &--disabled {
+                background-color: CanvasText;
+                border-color: Canvas;
+
+                &:before {
+                    background-color: CanvasText;
+                }
+            }
+        }
+
+        &__icon {
+            forced-color-adjust: none;
+
+            &--on {
+                color: CanvasText;
+            }
+
+            &--off {
+                color: Canvas;
+            }
+        }
+
+        &:hover {
+            & .switcher__track {
+                background-color: Highlight;
+
+                &--disabled {
+                    background-color: Canvas;
+                }
+            }
+
+            & .switcher__icon {
+                &--on {
+                    color: CanvasText;
+                }
+
+                &--off {
+                    color: Canvas;
+                }
+            }
+        }
+    }
+}
+
+.resume {
+    &__wrapper{
+        padding: 8px 16px;
+    }
+
+    &__btn {
+        color: var(--text-buttons-primary-default);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        background-color: var(--fills-buttons-main-button-default);
+        padding: 16px 48px;
+        min-width: 168px;
+        border: 0;
+        border-radius: 8px;
+    }
+}
+
+.non-active {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.android {
+    .main {
+        padding: 48px 0 24px;
+        justify-content: space-around;
+
+        &__control {
+            flex: 0 0 auto;
+        }
+
+        &__header {
+            &--current-status {
+                &--title {
+                    margin: 12px 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+html,
+body,
+#root {
+    color: var(--text-main-text-main-default);
+    background-color: var(--fills-backgrounds-page-background-default);
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    font-family: 'Roboto Flex', system-ui;
+    font-optical-sizing: none;
+    width: var(--popup-width);
+    min-width: var(--popup-min-width);
+    height: var(--popup-height);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled {
+    opacity: .5;
+    pointer-events: none;
+    cursor: help;
+}
+
+a {
+    color: currentColor;
+
+    &:focus-visible {
+        outline: 2px solid var(--outline);
+    }
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+
+    &:focus-visible {
+        outline: 2px solid var(--outline);
+    }
+}
+
+.light-mode {
+    color-scheme: light;
+}
+
+.dark-mode {
+    color-scheme: dark;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}

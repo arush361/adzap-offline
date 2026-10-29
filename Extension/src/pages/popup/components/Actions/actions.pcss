@@ -1,0 +1,58 @@
+.actions {
+    border: 0;
+    min-height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 100%;
+
+    &:focus-visible {
+        outline: 2px solid var(--outline);
+        outline-offset: -2px;
+    }
+
+    .action {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        cursor: pointer;
+        transition: 0.3s ease background-color;
+        height: 40px;
+
+        &:hover {
+            background-color: var(--fills-backgrounds-page-background-hovered);
+        }
+
+        &--disabled {
+            cursor: not-allowed;
+            opacity: 0.5;
+
+            &:hover {
+                background-color: transparent;
+                cursor: not-allowed;
+            }
+        }
+
+        &__title {
+            padding-left: 12px;
+            font-size: 14px;
+            line-height: 18px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100%;
+        }
+    }
+}
+
+.android {
+    .action {
+        height: 56px;
+        
+        &__title {
+            font-size: 16px;
+        }
+    }
+}
