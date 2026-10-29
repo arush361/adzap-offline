@@ -45,7 +45,7 @@ AdZap Offline isn't on the Chrome Web Store, so you install it by hand. It's eas
 3. **Move that folder somewhere it can stay forever** — like your Documents folder. ⚠️ If you move or delete this folder later, the extension stops working.
 4. **Open Chrome's extensions page.** Type `chrome://extensions` into the address bar and press Enter.
 5. **Turn on "Developer mode"** using the switch in the top-right corner.
-6. **Click "Load unpacked"** (top-left) and pick the `AdZap-Offline` folder from step 3.
+6. **Click "Load unpacked"** (top-left) and pick the `AdZap-Offline` folder from step 3. Pick the folder that has a file called `manifest.json` directly inside it — on Windows, unzipping sometimes puts it one folder deeper. If Chrome says the manifest is missing, open the folder and pick the inner `AdZap-Offline` one.
 7. **Pin it** so it's easy to find: click the puzzle-piece icon next to the address bar, then the pin next to AdZap Offline.
 
 That's it. You'll see the purple lightning-bolt shield in your toolbar. Click it any time to see what's been blocked or to pause it.
@@ -82,7 +82,7 @@ You don't have to take my word for it:
 
 - The extension's manifest includes a rule (`connect-src 'self'`) that tells Chrome to block every outgoing connection the extension tries to make. Chrome enforces this, not the extension.
 - The code that sent update checks, usage stats and filter statistics has been removed.
-- I loaded it in a fresh browser, deliberately switched **on** every data-sharing setting, browsed news sites, and recorded all network traffic. The extension made zero connections — while still blocking over 24,000 ad and tracker requests.
+- I loaded it in a fresh browser, deliberately switched **on** every data-sharing setting, browsed a few news sites and recorded all network traffic. The extension made zero connections of its own — while still blocking requests to about 20 ad and tracking services, including Google's ad network (DoubleClick), Amazon ads and The Trade Desk.
 
 If you're technical and want to check for yourself, see [docs/BUILDING.md](docs/BUILDING.md) to build it from source.
 

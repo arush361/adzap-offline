@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, { createContext } from 'react';
@@ -99,7 +101,8 @@ describe.skipIf(!__IS_MV3__)('WarningVariantB', () => {
             expect(container.innerHTML).toContain('options_rule_limits_warning_variant_b_title_limit_reached');
         });
 
-        it('should render desktop app section in both cases', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('should render desktop app section in both cases', async () => {
             const { context } = createMockRootStore({
                 areFilterLimitsExceeded: true,
                 shouldShowLimitLoweredWarning: false,

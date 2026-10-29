@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, { createContext } from 'react';
@@ -109,7 +111,8 @@ describe('RateNotification', () => {
         expect(container.innerHTML).toBe('');
     });
 
-    it('should use sidebar styles', async () => {
+    // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+    it.skip('should use sidebar styles', async () => {
         const { context } = createMockRootStore({
             rateShowState: true,
         });
@@ -131,7 +134,8 @@ describe('RateNotification', () => {
         expect(rateButton.className).toContain('button--m');
     });
 
-    it('should call hideRateShow when close button is clicked', async () => {
+    // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+    it.skip('should call hideRateShow when close button is clicked', async () => {
         const { context, store } = createMockRootStore({ rateShowState: true });
 
         vi.doMock('../../../../../../Extension/src/pages/options/stores/RootStore', () => ({
@@ -150,7 +154,8 @@ describe('RateNotification', () => {
         expect(store.settingsStore.hideRateShow).toHaveBeenCalledOnce();
     });
 
-    it('should render close button as accessible button element', async () => {
+    // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+    it.skip('should render close button as accessible button element', async () => {
         const { context } = createMockRootStore({ rateShowState: true });
 
         vi.doMock('../../../../../../Extension/src/pages/options/stores/RootStore', () => ({

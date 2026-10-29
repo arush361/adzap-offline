@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import {
@@ -83,7 +85,8 @@ function createMockResponse(status: number, body?: unknown): Response {
 
 describe('UpdateCheckService', () => {
     describe('init', () => {
-        it('performs check immediately when no prior timestamp exists', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('performs check immediately when no prior timestamp exists', async () => {
             fetchMock.mockResolvedValue(createMockResponse(204));
 
             await updateCheckService.init();
@@ -102,7 +105,8 @@ describe('UpdateCheckService', () => {
             expect(fetchMock).not.toHaveBeenCalled();
         });
 
-        it('performs check when last check was more than 24h ago', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('performs check when last check was more than 24h ago', async () => {
             const oldTimestamp = Date.now() - 25 * 60 * 60 * 1000; // 25h ago
             await browserStorage.set(EXTENSION_UPDATE_CHECK_KEYS.timestamp, oldTimestamp);
 
@@ -133,7 +137,8 @@ describe('UpdateCheckService', () => {
             expect(fetchMock).not.toHaveBeenCalled();
         });
 
-        it('performs check when storage read fails on init', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('performs check when storage read fails on init', async () => {
             // Simulate failed timestamp read.
             vi.spyOn(browserStorage, 'get').mockRejectedValueOnce(new Error('Storage read failed'));
 
@@ -194,7 +199,8 @@ describe('UpdateCheckService', () => {
             );
         });
 
-        it('runs a check from the interval callback when the check period has elapsed', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('runs a check from the interval callback when the check period has elapsed', async () => {
             const baseTime = Date.now();
             vi.spyOn(Date, 'now').mockReturnValue(baseTime);
 
@@ -237,7 +243,8 @@ describe('UpdateCheckService', () => {
             expect(clearIntervalSpy).toHaveBeenCalledTimes(1);
         });
 
-        it('does not reuse stale in-memory timestamp when storage value becomes invalid on re-init', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('does not reuse stale in-memory timestamp when storage value becomes invalid on re-init', async () => {
             const recentTimestamp = Date.now();
             await browserStorage.set(EXTENSION_UPDATE_CHECK_KEYS.timestamp, recentTimestamp);
 
@@ -254,7 +261,8 @@ describe('UpdateCheckService', () => {
     });
 
     describe('checkUpdate', () => {
-        it('persists available version when backend reports newer version', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('persists available version when backend reports newer version', async () => {
             fetchMock.mockResolvedValue(createMockResponse(200, { version: '5.3.0' }));
 
             await updateCheckService.checkUpdate();
@@ -316,7 +324,8 @@ describe('UpdateCheckService', () => {
             expect(timestamp).toBeGreaterThan(0);
         });
 
-        it('skips overlapping checks while a check is already running', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('skips overlapping checks while a check is already running', async () => {
             let resolveFetch!: (response: Response) => void;
             fetchMock
                 .mockImplementationOnce(() => new Promise<Response>((resolve) => {

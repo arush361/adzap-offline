@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, { useContext } from 'react';
@@ -24,6 +26,7 @@ import { Link } from 'react-router-dom';
 import cn from 'classnames';
 
 import { translator } from '../../../../../common/translators/translator';
+import { OFFLINE_BUILD } from '../../../../../common/offline';
 import { OptionsPageSections } from '../../../../../common/nav';
 import { Icon } from '../../../../common/components/ui/Icon';
 import { CloseIcon } from '../../../../common/components/ui/CloseIcon';
@@ -152,31 +155,34 @@ export const WarningVariantB = ({ onClickCloseWarning }: WarningVariantBProps) =
                     </div>
                 </div>
 
-                <div className={cn(styles.section, styles.getAppSection)}>
-                    <Icon
-                        id="#quality"
-                        className="icon--24 icon--green-default"
-                        aria-hidden="true"
-                    />
+                {/* AdZap Offline: no desktop app to promote, so this section is hidden. */}
+                {!OFFLINE_BUILD && (
+                    <div className={cn(styles.section, styles.getAppSection)}>
+                        <Icon
+                            id="#quality"
+                            className="icon--24 icon--green-default"
+                            aria-hidden="true"
+                        />
 
-                    <div>
-                        <div className={styles.sectionTitle}>
-                            {translator.getMessage('options_rule_limits_warning_variant_b_desktop_app_title')}
+                        <div>
+                            <div className={styles.sectionTitle}>
+                                {translator.getMessage('options_rule_limits_warning_variant_b_desktop_app_title')}
+                            </div>
+                            <div className={styles.sectionDescription}>
+                                {translator.getMessage('options_rule_limits_warning_variant_b_desktop_app_description')}
+                            </div>
+                            <a
+                                href={desktopAppUrl}
+                                target="_blank"
+                                rel="noreferrer"
+                                className={cn('button button--green-bg button--m', styles.getAppButton)}
+                                onClick={handleGetTheApp}
+                            >
+                                {desktopAppButtonLabel}
+                            </a>
                         </div>
-                        <div className={styles.sectionDescription}>
-                            {translator.getMessage('options_rule_limits_warning_variant_b_desktop_app_description')}
-                        </div>
-                        <a
-                            href={desktopAppUrl}
-                            target="_blank"
-                            rel="noreferrer"
-                            className={cn('button button--green-bg button--m', styles.getAppButton)}
-                            onClick={handleGetTheApp}
-                        >
-                            {desktopAppButtonLabel}
-                        </a>
                     </div>
-                </div>
+                )}
             </div>
         </div>
     );

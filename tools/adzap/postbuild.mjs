@@ -1,7 +1,23 @@
 /**
+ * Copyright (c) 2026 Arush Sharma
+ *
  * @file
- * AdZap Offline post-build step (part of AdZap Offline, a modified version of
- * AdGuard Browser Extension; see NOTICE). Licensed under GPL-3.0-or-later.
+ * This file is part of AdZap Offline (https://github.com/arush361/adzap-offline),
+ * a modified version of AdGuard Browser Extension. See NOTICE.
+ *
+ * AdZap Offline is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * AdZap Offline is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details.
+ */
+
+/**
+ * AdZap Offline post-build step.
  *
  * Rebrands user-visible text that comes from bundled upstream packages
  * (assistant, blocking pages, click-to-load placeholder, page titles, filter
@@ -9,6 +25,7 @@
  *
  * Usage: node tools/adzap/postbuild.mjs <build dir>
  */
+/* eslint-disable no-console */
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -23,7 +40,8 @@ const BRAND = /AdGuard/g;
 const BRAND_WORD = /AdGuard(?:’s|'s)?\s+/g;
 // Natural-language string literals: contain whitespace or non-ASCII letters.
 const STRING_LITERAL = /(['"`])((?:(?!\1)[^\\\n]|\\.)*?AdGuard(?:(?!\1)[^\\\n]|\\.)*?)\1/g;
-const isProse = (text) => /\s|[^\x00-\x7F]/.test(text) && !/https?:|@adguard|adguard\//.test(text);
+const NON_ASCII = /[\u0080-\uFFFF]/;
+const isProse = (text) => (/\s/.test(text) || NON_ASCII.test(text)) && !/https?:|@adguard|adguard\//.test(text);
 
 let changedFiles = 0;
 const rewrite = (relPath, transform) => {
@@ -43,7 +61,9 @@ const rewrite = (relPath, transform) => {
 const walk = (dir, ext) => fs.readdirSync(path.join(buildDir, dir), { withFileTypes: true })
     .flatMap((e) => {
         const rel = path.join(dir, e.name);
-        if (e.isDirectory()) return walk(rel, ext);
+        if (e.isDirectory()) {
+            return walk(rel, ext);
+        }
         return rel.endsWith(ext) ? [rel] : [];
     });
 
@@ -68,7 +88,11 @@ rewrite('filters/filters_i18n.json', (s) => {
             for (const entry of Object.values(byLocale)) {
                 for (const key of ['name', 'description']) {
                     if (typeof entry[key] === 'string') {
-                        entry[key] = entry[key].replace(BRAND_WORD, '').replace(BRAND, '').replace(/\s{2,}/g, ' ').trim();
+                        entry[key] = entry[key]
+                            .replace(BRAND_WORD, '')
+                            .replace(BRAND, '')
+                            .replace(/\s{2,}/g, ' ')
+                            .trim();
                     }
                 }
             }

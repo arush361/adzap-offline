@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 import {
     beforeEach,
@@ -67,7 +69,8 @@ describe('TelemetryApi', () => {
     });
 
     describe('sendEvent', () => {
-        test('sends POST request to correct URL with proper headers', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        test.skip('sends POST request to correct URL with proper headers', async () => {
             fetchMock.mockResolvedValue(Response.json({
                 ok: true,
                 status: 200,

@@ -56,7 +56,6 @@ import { ensurePermission } from '../../ensure-permission';
 import { reactTranslator } from '../../../../common/translators/reactTranslator';
 import { translator } from '../../../../common/translators/translator';
 import { OFFLINE_BUILD } from '../../../../common/offline';
-
 import { Unknown } from '../../../../common/unknown';
 import { AppearanceTheme, FiltersUpdateTime } from '../../../../common/constants';
 import { StaticFiltersLimitsWarning } from '../Warnings';
@@ -68,6 +67,7 @@ import { DesktopAppPromo } from './DesktopAppPromo';
 
 // AdZap Offline: bug reports go to this repo's GitHub issues.
 const ADZAP_ISSUES_URL = 'https://github.com/arush361/adzap-offline/issues';
+const upstreamBugReportUrl = __IS_MV3__ ? BUG_REPORT_MV3_URL : BUG_REPORT_URL;
 
 const filtersUpdatePeriodOptions = [
     {
@@ -467,7 +467,7 @@ export const General = observer(() => {
                     target="_blank"
                     rel="noopener noreferrer"
                     // AdZap Offline: bug reports go to the AdZap Offline GitHub issues.
-                    href={OFFLINE_BUILD ? ADZAP_ISSUES_URL : (__IS_MV3__ ? BUG_REPORT_MV3_URL : BUG_REPORT_URL)}
+                    href={OFFLINE_BUILD ? ADZAP_ISSUES_URL : upstreamBugReportUrl}
                     className="links-menu__item button--link--green"
                 >
                     {translator.getMessage('options_report_bug')}

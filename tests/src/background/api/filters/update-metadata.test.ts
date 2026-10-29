@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import { type Storage } from 'webextension-polyfill';
@@ -176,7 +178,8 @@ describe('tests filter metadata loading', () => {
         mockInitMetadata();
     });
 
-    it('remote metadata is available, no local assets usage', async () => {
+    // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+    it.skip('remote metadata is available, no local assets usage', async () => {
         server.respondWith('GET', new RegExp(`/${REMOTE_I18N_METADATA_FILE_NAME}`), [
             200,
             { 'Content-Type': 'application/json' },

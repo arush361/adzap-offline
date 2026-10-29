@@ -280,7 +280,10 @@ module.exports = {
                 mustMatch: `Copyright \\(c\\) 2015(?:-(?:${Array.from(
                     { length: new Date().getFullYear() - 2016 + 1 },
                     (_, i) => 2016 + i,
-                ).join('|')}))? Adguard Software Ltd\\.[\\s\\S]*This file is part of AdGuard Browser Extension[\\s\\S]*GNU General Public License[\\s\\S]*<http://www\\.gnu\\.org/licenses/>`,
+                ).join('|')}))? Adguard Software Ltd\\.[\\s\\S]*This file is part of AdGuard Browser Extension[\\s\\S]*GNU General Public License[\\s\\S]*<http://www\\.gnu\\.org/licenses/>`
+                    // AdZap Offline: files written for this fork carry their own copyright.
+                    + '|Copyright \\(c\\) 2026 Arush Sharma'
+                    + '[\\s\\S]*This file is part of AdZap Offline[\\s\\S]*GNU General Public License',
                 onNonMatchingHeader: 'replace',
                 messages: {
                     'whenFailedToMatch': 'Copyright notice is not valid',

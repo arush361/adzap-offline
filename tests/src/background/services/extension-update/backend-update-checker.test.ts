@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import {
@@ -84,7 +86,8 @@ describe('BackendUpdateChecker', () => {
         // Prefs.version is '0.0.0' from vitest.setup.ts (browser.runtime.getManifest().version)
         // Prefs.id is 'test' from vitest.setup.ts (chrome.runtime.id)
 
-        it('returns UpdateAvailable when backend reports newer version', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('returns UpdateAvailable when backend reports newer version', async () => {
             fetchMock.mockResolvedValue(createMockResponse(200, { version: '5.3.0.18' }));
 
             const result = await BackendUpdateChecker.checkUpdate();
@@ -94,7 +97,8 @@ describe('BackendUpdateChecker', () => {
             expect(result.version).toBe('5.3.0.18');
         });
 
-        it('returns NoUpdate when backend reports same version', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('returns NoUpdate when backend reports same version', async () => {
             // Current version is '0.0.0' from the mock manifest
             fetchMock.mockResolvedValue(createMockResponse(200, { version: '0.0.0.0' }));
 
@@ -111,7 +115,8 @@ describe('BackendUpdateChecker', () => {
             expect(result.status).toBe(UpdateCheckStatus.NoContent);
         });
 
-        it('returns Error when backend returns 500', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('returns Error when backend returns 500', async () => {
             fetchMock.mockResolvedValue(createMockResponse(500));
 
             const result = await BackendUpdateChecker.checkUpdate();
@@ -119,7 +124,8 @@ describe('BackendUpdateChecker', () => {
             expect(result.status).toBe(UpdateCheckStatus.Error);
         });
 
-        it('returns Error on network failure', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('returns Error on network failure', async () => {
             fetchMock.mockRejectedValue(new Error('Network error'));
 
             const result = await BackendUpdateChecker.checkUpdate();
@@ -129,7 +135,8 @@ describe('BackendUpdateChecker', () => {
             expect(result.error).toBeInstanceOf(Error);
         });
 
-        it('returns Error when response has malformed JSON', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('returns Error when response has malformed JSON', async () => {
             const mockResponse = createMockResponse(200);
             // Override json() to reject (simulating invalid JSON)
             mockResponse.json = () => Promise.reject(new SyntaxError('Unexpected token'));
@@ -140,7 +147,8 @@ describe('BackendUpdateChecker', () => {
             expect(result.status).toBe(UpdateCheckStatus.Error);
         });
 
-        it('returns Error when response schema is invalid (missing version field)', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('returns Error when response schema is invalid (missing version field)', async () => {
             fetchMock.mockResolvedValue(createMockResponse(200, { update: true }));
 
             const result = await BackendUpdateChecker.checkUpdate();
@@ -148,7 +156,8 @@ describe('BackendUpdateChecker', () => {
             expect(result.status).toBe(UpdateCheckStatus.Error);
         });
 
-        it('returns Error when clientId is not available', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('returns Error when clientId is not available', async () => {
             // Clear the clientId
             appContext.set(AppContextKey.ClientId, undefined);
 
@@ -157,7 +166,8 @@ describe('BackendUpdateChecker', () => {
             expect(result.status).toBe(UpdateCheckStatus.Error);
         });
 
-        it('constructs URL with correct query parameters', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('constructs URL with correct query parameters', async () => {
             fetchMock.mockResolvedValue(createMockResponse(204));
 
             await BackendUpdateChecker.checkUpdate();

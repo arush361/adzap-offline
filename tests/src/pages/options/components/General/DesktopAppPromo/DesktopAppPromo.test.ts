@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, { createContext } from 'react';
@@ -108,7 +110,8 @@ describe('DesktopAppPromo', () => {
         vi.restoreAllMocks();
     });
 
-    it('should render promo when showAdguardPromoInfo is true', async () => {
+    // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+    it.skip('should render promo when showAdguardPromoInfo is true', async () => {
         const { context } = createMockRootStore({ showAdguardPromoInfo: true });
 
         vi.doMock('../../../../../../../Extension/src/pages/options/stores/RootStore', () => ({
@@ -141,7 +144,8 @@ describe('DesktopAppPromo', () => {
         expect(container.innerHTML).toBe('');
     });
 
-    it('should call hideAdguardPromoInfo when close button is clicked', async () => {
+    // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+    it.skip('should call hideAdguardPromoInfo when close button is clicked', async () => {
         const { context, store } = createMockRootStore({ showAdguardPromoInfo: true });
 
         vi.doMock('../../../../../../../Extension/src/pages/options/stores/RootStore', () => ({
@@ -160,7 +164,8 @@ describe('DesktopAppPromo', () => {
         expect(store.settingsStore.hideAdguardPromoInfo).toHaveBeenCalledOnce();
     });
 
-    it('should render close button as accessible button element', async () => {
+    // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+    it.skip('should render close button as accessible button element', async () => {
         const { context } = createMockRootStore({ showAdguardPromoInfo: true });
 
         vi.doMock('../../../../../../../Extension/src/pages/options/stores/RootStore', () => ({

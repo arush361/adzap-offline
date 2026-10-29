@@ -26,6 +26,7 @@ import { observer } from 'mobx-react';
 import cn from 'classnames';
 
 import { popupStore } from '../../stores/PopupStore';
+import { OFFLINE_BUILD } from '../../../../common/offline';
 
 import {
     BlockAdsAction,
@@ -36,7 +37,6 @@ import {
 } from './SingleActions';
 
 import './actions.pcss';
-import { OFFLINE_BUILD } from '../../../../common/offline';
 
 const ACTIONS_TAB_ID = 'actions-tab';
 const ACTIONS_PANEL_ID = 'actions-panel';

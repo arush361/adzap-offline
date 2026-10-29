@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import { type Storage } from 'webextension-polyfill';
@@ -152,7 +154,8 @@ describe.skipIf(__IS_MV3__)('Filter Update API should', () => {
             Date.now = nativeDateNow;
         });
 
-        it('check for updates after load filter from local resources', async () => {
+        // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+        it.skip('check for updates after load filter from local resources', async () => {
             const filterId = 999;
 
             const v2 = '2.0.0.0';
@@ -234,7 +237,8 @@ describe.skipIf(__IS_MV3__)('Filter Update API should', () => {
         });
     });
 
-    it('update filters after 60 minutes delay', async () => {
+    // AdZap Offline: skipped, upstream behavior removed in this build (see tests/src/adzap).
+    it.skip('update filters after 60 minutes delay', async () => {
         vi.useFakeTimers({
             // Note: We need to enable this option because our IndexedDB mock (fake-indexeddb)
             // uses `setTimeout` internally with a 0ms delay.

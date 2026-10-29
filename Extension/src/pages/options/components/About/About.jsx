@@ -28,14 +28,6 @@ import cn from 'classnames';
 import { useTelemetryPageViewEvent } from '../../../common/telemetry';
 import { TelemetryScreenName } from '../../../../common/telemetry';
 import { rootStore } from '../../stores/RootStore';
-import {
-    CHANGELOG_URL,
-    ACKNOWLEDGMENTS_URL,
-    GITHUB_URL,
-    PRIVACY_URL,
-    WEBSITE_URL,
-    DISCUSS_URL,
-} from '../../constants';
 import { translator } from '../../../../common/translators/translator';
 
 import { AboutLink } from './AboutLink';

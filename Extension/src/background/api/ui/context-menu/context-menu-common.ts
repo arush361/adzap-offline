@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 import browser, { type Menus } from 'webextension-polyfill';
 import { nanoid } from 'nanoid';
@@ -31,6 +33,7 @@ import { SettingOption } from '../../../schema';
 import { SettingsApi } from '../../settings';
 import { OPTIONS_PAGE } from '../../../../common/constants';
 import { type FrameData } from '../frames';
+import { OFFLINE_BUILD } from '../../../../common/offline';
 
 /**
  * Wrapper around context menus create method.
@@ -153,8 +156,11 @@ export class ContextMenuApiCommon {
                     await ContextMenuApiCommon.addMenuItem(ContextMenuAction.BlockSiteAds);
                 }
 
-                await ContextMenuApiCommon.addMenuItem(ContextMenuAction.SecurityReport);
-                await ContextMenuApiCommon.addMenuItem(ContextMenuAction.ComplaintWebsite);
+                // AdZap Offline: these open AdGuard's website with the page URL.
+                if (!OFFLINE_BUILD) {
+                    await ContextMenuApiCommon.addMenuItem(ContextMenuAction.SecurityReport);
+                    await ContextMenuApiCommon.addMenuItem(ContextMenuAction.ComplaintWebsite);
+                }
                 await ContextMenuApiCommon.addSeparator();
                 await this.addUpdateFiltersMenuItem(true);
                 if (!isOptionsPage) {

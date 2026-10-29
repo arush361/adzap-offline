@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 // TODO figure out how to fix the eslint errors
@@ -33,6 +35,7 @@ import {
 } from '../../../../../common/forward';
 import { reactTranslator } from '../../../../../common/translators/reactTranslator';
 import { translator } from '../../../../../common/translators/translator';
+import { OFFLINE_BUILD } from '../../../../../common/offline';
 
 /**
  * Props for the Warning component
@@ -151,22 +154,25 @@ export const Warning = ({
                             ),
                         })}
                     </div>
-                    <div className="rules-limits__group-option">
-                        {reactTranslator.getMessage('options_rule_limits_warning_actions_install_app', {
-                            // eslint-disable-next-line react/no-unstable-nested-components
-                            a: (chunks: string) => (
-                                <a
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    href={getTheAppUrl}
-                                    className="rules-limits__group-option-link rules-limits__text--gray"
-                                    onClick={onClickGetTheApp}
-                                >
-                                    {chunks}
-                                </a>
-                            ),
-                        })}
-                    </div>
+                    {/* AdZap Offline: no desktop app to install, so this option is hidden. */}
+                    {!OFFLINE_BUILD && (
+                        <div className="rules-limits__group-option">
+                            {reactTranslator.getMessage('options_rule_limits_warning_actions_install_app', {
+                                // eslint-disable-next-line react/no-unstable-nested-components
+                                a: (chunks: string) => (
+                                    <a
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        href={getTheAppUrl}
+                                        className="rules-limits__group-option-link rules-limits__text--gray"
+                                        onClick={onClickGetTheApp}
+                                    >
+                                        {chunks}
+                                    </a>
+                                ),
+                            })}
+                        </div>
+                    )}
                     <div className="rules-limits__group-option">
                         {
                             actuallyEnabledFilterNames.length > 0
