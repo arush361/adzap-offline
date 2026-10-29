@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, { useContext } from 'react';
@@ -25,6 +27,7 @@ import classNames from 'classnames';
 
 import { logger } from '../../../../common/logger';
 import { translator } from '../../../../common/translators/translator';
+import { OFFLINE_BUILD } from '../../../../common/offline';
 import { popupStore } from '../../stores/PopupStore';
 import { AppState } from '../../state-machines/app-state-machine';
 import { COMPARE_URL, SpecificPopupState } from '../../constants';
@@ -208,7 +211,7 @@ export const Main = observer(() => {
     };
 
     const renderAdvancedProtection = () => {
-        if (!showInfoAboutFullVersion) {
+        if (OFFLINE_BUILD || !showInfoAboutFullVersion) {
             return;
         }
 

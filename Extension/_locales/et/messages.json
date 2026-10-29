@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Reeglite kopeerimiseks ja kleepimiseks luba AdGuardil pääseda juurde lõikepuhvrile. <a>Luba<\/a>"
+        "message": "Reeglite kopeerimiseks ja kleepimiseks luba AdZapil pääseda juurde lõikepuhvrile. <a>Luba<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Sisesta filtri nimi"
@@ -27,13 +27,13 @@
         "message": "Lugege enne häirivate filtrite lubamist hoolikalt läbi"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Olete lubamas ühte või mitut tüütuse filtrit. Need blokeerivad elemente, mis ei ole seotud veebisaidi sisuga või on seotud, kuid tüütud ja mõjutavad teie kasutuskogemust. Veebisaitide omanikud võivad neid elemente pidada kohustuslikuks: kui te neid blokeerite, võite rikkuda nende tingimusi; mõned veebisaidi funktsioonid ei pruugi olla kättesaadavad või ei tööta korralikult. Te mõistate ja nõustute, et vastutate täielikult Külastatavate veebisaitide kasutustingimuste täitmise eest ja et AdGuard ei vastuta teie poolt meie toodete kasutamisega külastatud veebisaitide kasutustingimuste täitmise eest."
+        "message": "Olete lubamas ühte või mitut tüütuse filtrit. Need blokeerivad elemente, mis ei ole seotud veebisaidi sisuga või on seotud, kuid tüütud ja mõjutavad teie kasutuskogemust. Veebisaitide omanikud võivad neid elemente pidada kohustuslikuks: kui te neid blokeerite, võite rikkuda nende tingimusi; mõned veebisaidi funktsioonid ei pruugi olla kättesaadavad või ei tööta korralikult. Te mõistate ja nõustute, et vastutate täielikult Külastatavate veebisaitide kasutustingimuste täitmise eest ja et ei vastuta teie poolt meie toodete kasutamisega külastatud veebisaitide kasutustingimuste täitmise eest."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Kas lubada need filtrid?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Üksikasjade saamiseks selle kohta, mida AdGuardi häirimisfiltrid blokeerivad, vaadake <a>Filtripoliitikat<\/a>"
+        "message": "Üksikasjade saamiseks selle kohta, mida AdZapi häirimisfiltrid blokeerivad, vaadake <a>Filtripoliitikat<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Lubama"
@@ -57,10 +57,10 @@
         "message": "Jätka"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard for iOS"
+        "message": "AdZap for iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard Androidile"
+        "message": "AdZap Androidile"
     },
     "options_filters_filter_version": {
         "message": "versioon:"
@@ -159,10 +159,10 @@
         "message": "Telli"
     },
     "name": {
-        "message": "AdGuardi reklaamiblokeerija"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Parim reklaamiblokeerija, mis blokeerib reklaame ja hüpikaknaid kõikjal, sealhulgas Facebookis ja YouTubes.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Valge list"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard ei blokeeri reklaame ega jälgijaid loendis olevatel veebisaitidel"
+        "message": "AdZap ei blokeeri reklaame ega jälgijaid loendis olevatel veebisaitidel"
     },
     "options_allowlist_invert": {
         "message": "Pöördjärjesta valge list"
@@ -313,7 +313,7 @@
         "message": "Muudatuste salvestamine ebaõnnestus. Proovi uuesti või võta ühendust toega"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Selle seadistuste faili importimiseks luba AdGuardil muuta teie privaatsusega seotud seadeid."
+        "message": "Selle seadistuste faili importimiseks luba AdZapil muuta teie privaatsusega seotud seadeid."
     },
     "options_popup_import_success_title": {
         "message": "Seaded imporditud"
@@ -472,7 +472,7 @@
         "message": "on uuendatud."
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuardi brauserilisa on uuendatud versioonile %current_version%"
+        "message": "AdZapi brauserilisa on uuendatud versioonile %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "See versioon toob endaga veaparandusi ja teisi väiksemaid täiustusi."
@@ -484,7 +484,7 @@
         "message": "Mis selles versioonis uut on?"
     },
     "options_popup_version_update_offer": {
-        "message": "Kas teadsid, et AdGuardi võimalused ei piirdu ainult brauserilaiendusega?"
+        "message": "Kas teadsid, et AdZapi võimalused ei piirdu ainult brauserilaiendusega?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "ROHKEM TEAVET"
@@ -499,7 +499,7 @@
         "message": "Kustuta kasutaja reeglid selle veebilehe jaoks"
     },
     "popup_open_settings": {
-        "message": "Avage AdGuard seaded"
+        "message": "Avage AdZap seaded"
     },
     "popup_protection_button": {
         "message": "Sisse lülitatud"
@@ -514,19 +514,19 @@
         "message": "Teatage probleemist"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard ei saa seda lehte filtreerida"
+        "message": "AdZap ei saa seda lehte filtreerida"
     },
     "context_disable_protection": {
-        "message": "Peata AdGuardi kaitse"
+        "message": "Peata AdZapi kaitse"
     },
     "context_enable_protection": {
-        "message": "Lülita AdGuardi kaitse sisse"
+        "message": "Lülita AdZapi kaitse sisse"
     },
     "context_site_protection_disabled": {
-        "message": "AdGuardi kaitse on peatatud"
+        "message": "AdZapi kaitse on peatatud"
     },
     "context_open_settings": {
-        "message": "AdGuardi seaded"
+        "message": "AdZapi seaded"
     },
     "context_open_log": {
         "message": "Filtreerimise logi"
@@ -778,7 +778,7 @@
         "message": "Navigatsioon"
     },
     "options_settings": {
-        "message": "AdGuardi seaded"
+        "message": "AdZapi seaded"
     },
     "options_general_settings": {
         "message": "Üldine"
@@ -790,7 +790,7 @@
         "message": "Blokeerib reklaamid otsingutulemustes ja veebisaitide isereklaami. <a>Lisateave<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Kuva AdGuardi ikoonil blokeeritud reklaami arvu"
+        "message": "Kuva AdZapi ikoonil blokeeritud reklaami arvu"
     },
     "options_enable_autodetect_filter": {
         "message": "Aktiveeri automaatselt sobivad filtrid"
@@ -947,7 +947,7 @@
         "message": "Õngevõtmine ja pahavara kaitse"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Hoiatab pahatahtlike ja andmepüügiveebisaitide eest, kasutades AdGuardi Sirvimise Turvalisuse moodulit. <a>Loe lisaks<\/a>"
+        "message": "Hoiatab pahatahtlike ja andmepüügiveebisaitide eest, kasutades AdZapi Sirvimise Turvalisuse moodulit. <a>Loe lisaks<\/a>"
     },
     "options_site": {
         "message": "Meie koduleht"
@@ -956,7 +956,7 @@
         "message": "Avalda arvamust"
     },
     "options_do_you_like_question": {
-        "message": "Sulle meeldib AdGuard?"
+        "message": "Sulle meeldib AdZap?"
     },
     "options_rate_us_cta": {
         "message": "Jäta hinnang"
@@ -1029,7 +1029,7 @@
         "message": "Võimalus 1. Kustutage oma brauserist mittevajalikud reklaami blokeerivad laiendused. Punktis \"Enne uuendust lubatud filtrid\" nimetatud filtrite taasaktiveerimiseks klõpsake <a>filtrite taasaktiveerimisele.<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Võimalus 2. Paigaldage AdGuard Ad Blocker rakendus: sellel ei ole filtreerimisreeglitele piiranguid. <a>Hankige AdGuard Ad Blocker rakendus<\/a>"
+        "message": "Võimalus 2. Paigaldage AdZap Ad Blocker rakendus: sellel ei ole filtreerimisreeglitele piiranguid. <a>Hankige AdZap Ad Blocker rakendus<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Võimalus 3. Kui olete rahul hetkel aktiveeritud vaikimisi filtriga, <a>sulgege see hoiatus.<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Eemalda teised reklaamiblokeerijad"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Brauseri laiendused jagavad sama reeglite piirangut. Teiste reklaamiblokeerijate eemaldamine võib vabastada rohkem reegleid AdGuard Browser Extension jaoks"
+        "message": "Brauseri laiendused jagavad sama reeglite piirangut. Teiste reklaamiblokeerijate eemaldamine võib vabastada rohkem reegleid AdZap Offline jaoks"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Halda laiendusi"
@@ -1123,13 +1123,13 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Näita teavitust AdGuardi täisversiooni kohta"
+        "message": "Näita teavitust AdZapi täisversiooni kohta"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Kõik andmekasutuse statistika kustutatakse jäädavalt"
     },
     "options_show_app_updated_notification": {
-        "message": "Teavita mind AdGuardi brauserilisa uuendustest"
+        "message": "Teavita mind AdZapi brauserilisa uuendustest"
     },
     "options_open_log": {
         "message": "Ava filtreerimise logi"
@@ -1150,13 +1150,13 @@
         "message": "Seadete taastamisel ilmnes tõrge"
     },
     "options_collect_hit_stats_title": {
-        "message": "Aita arendada AdGuardi filtreid"
+        "message": "Aita arendada AdZapi filtreid"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Saadab anonüümseid statistilisi andmeid reklaamifiltrite kasutamise kohta AdGuardile. <a>Lisateave<\/a>"
+        "message": "Saadab anonüümseid statistilisi andmeid reklaamifiltrite kasutamise kohta AdZapile. <a>Lisateave<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Lisa AdGuard brauseri parema kliki menüüsse"
+        "message": "Lisa AdZap brauseri parema kliki menüüsse"
     },
     "options_use_optimized_filters": {
         "message": "Kasuta optimeeritud filtreid"
@@ -1219,13 +1219,13 @@
         "message": "Eemalda jälitamise parameetrid URLidest"
     },
     "options_strip_tracking_params_description": {
-        "message": "Eemaldab AdGuardi URL-i jälgimise filtri abil jälgimisparameetrid lehe URLidest"
+        "message": "Eemaldab AdZapi URL-i jälgimise filtri abil jälgimisparameetrid lehe URLidest"
     },
     "options_block_known_trackers_title": {
         "message": "Blokeeri tuntud jälitajad"
     },
     "options_block_known_trackers_description": {
-        "message": "Blokeerib jälitajad ja veebianalüütika, kasutades AdGuardi Jälgimiskaitse filtrit"
+        "message": "Blokeerib jälitajad ja veebianalüütika, kasutades AdZapi Jälgimiskaitse filtrit"
     },
     "options_third_party_title": {
         "message": "Kustuta kolmandate osapoolte küpsised"
@@ -1255,7 +1255,7 @@
         "message": "Saada anonüümseid laienduse kasutusandmeid"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Saadab AdGuardile anonüümset statistikat laienduse kasutamise kohta. <button>Lisateave<\/button>"
+        "message": "Saadab AdZapile anonüümset statistikat laienduse kasutamise kohta. <button>Lisateave<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Laienduse kasutamise andmed"
@@ -1273,7 +1273,7 @@
         "message": "Seansi identifikaatorid"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Me vajame seda teavet, et analüüsida ja parandada AdGuardi funktsionaalsust"
+        "message": "Me vajame seda teavet, et analüüsida ja parandada AdZapi funktsionaalsust"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Need andmed on anonüümsed ja neid kasutatakse ainult ettevõttesiseselt. Me ei jaga neid kunagi kolmandate osapooltega"
@@ -1318,10 +1318,10 @@
         "message": "Brauser on muutnud aktiivsete sisseehitatud filtrite nimekirja"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "Reeglite piirang ületatud AdGuard Brauseri Laienduses. Palun kontrollige oma filtreid ja keelake need, mida te ei vaja"
+        "message": "Reeglite piirang ületatud AdZap Brauseri Laienduses. Palun kontrollige oma filtreid ja keelake need, mida te ei vaja"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "Teave"
@@ -1354,7 +1354,7 @@
         "message": "Eemalda"
     },
     "options_nav_better_than_extension": {
-        "message": "Miks on AdGuardi programm parem kui brauseri laiendus?"
+        "message": "Miks on AdZapi programm parem kui brauseri laiendus?"
     },
     "options_nav_compare": {
         "message": "Võrdle"
@@ -1369,13 +1369,13 @@
         "message": "Meie töölauarakendus saab teid nende eest kaitsta"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Hangi AdGuard Windows jaoks"
+        "message": "Hangi AdZap Windows jaoks"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Hangi AdGuard Mac jaoks"
+        "message": "Hangi AdZap Mac jaoks"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Hangi AdGuard Linux jaoks"
+        "message": "Hangi AdZap Linux jaoks"
     },
     "options_filters_search": {
         "message": "Otsing"
@@ -1384,7 +1384,7 @@
         "message": "Otsingufilter"
     },
     "options_about_title": {
-        "message": "AdGuard'i brauseri laiendus"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Siin saad seadistada reklaami blokeerimisel kasutatavaid filtreid. Liiga paljude filtrite korraga kasutamine võib jõudlusele negatiivselt mõjuda"
@@ -1402,7 +1402,7 @@
         "message": "Kaitse end pahavara, andmepüügist ja teistest veebiohtudest."
     },
     "group_description_miscellaneous": {
-        "message": "Erinevad valikud, mis võimaldavad AdGuardi veelgi rohkem seadistada"
+        "message": "Erinevad valikud, mis võimaldavad AdZapi veelgi rohkem seadistada"
     },
     "group_description_custom": {
         "message": "Loo erinevaid filtreid, mis aitavad veebisisu veelgi paremini filtreerida."
@@ -1585,10 +1585,10 @@
         "message": "Varsti saadaval"
     },
     "blocking_pages_malware": {
-        "message": "Veebileht <strong>%host%<\/strong> on meile teadaolevalt pahavara levitav veebileht. Keelasime sellele ligipääsu vastavalt AdGuardi seadistusele."
+        "message": "Veebileht <strong>%host%<\/strong> on meile teadaolevalt pahavara levitav veebileht. Keelasime sellele ligipääsu vastavalt AdZapi seadistusele."
     },
     "blocking_pages_phishing": {
-        "message": "Veebileht <strong>%host%<\/strong> on meile teadaolevalt õngevõtmise veebileht. Keelasime sellele ligipääsu vastavalt AdGuardi seadistusele."
+        "message": "Veebileht <strong>%host%<\/strong> on meile teadaolevalt õngevõtmise veebileht. Keelasime sellele ligipääsu vastavalt AdZapi seadistusele."
     },
     "blocking_pages_advanced_button": {
         "message": "Edasijõudnule"
@@ -1600,13 +1600,13 @@
         "message": "Ligipääs on keelatud"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard on sellele lehele ligipääsu blokeerinud"
+        "message": "AdZap on sellele lehele ligipääsu blokeerinud"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Blokeeritud AdGuardi poolt"
+        "message": "Blokeeritud AdZapi poolt"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard on takistanud selle lehe laadimist järgmise filtrireegli tõttu"
+        "message": "AdZap on takistanud selle lehe laadimist järgmise filtrireegli tõttu"
     },
     "blocking_pages_btn_go_back": {
         "message": "Mine tagasi"

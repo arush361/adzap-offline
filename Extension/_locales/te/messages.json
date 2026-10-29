@@ -1,11 +1,11 @@
 {
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "description": {
-        "message": "Unmatched adblock extension against advertising and pop-ups. Blocks ads on Facebook, Youtube and all other websites."
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0)."
     }
 }

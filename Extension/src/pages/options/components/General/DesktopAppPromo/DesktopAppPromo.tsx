@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, { useContext } from 'react';
@@ -38,7 +40,8 @@ import styles from './desktop-app-promo.module.pcss';
  * Displays an OS-dependent CTA button (Windows/Mac/Linux) linking to the
  * corresponding product page. Hidden when the user dismisses the promo.
  */
-export const DesktopAppPromo = observer(() => {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const UpstreamDesktopAppPromo = observer(() => {
     const { settingsStore, telemetryStore } = useContext(rootStore);
 
     if (!settingsStore.showAdguardPromoInfo) {
@@ -99,3 +102,8 @@ export const DesktopAppPromo = observer(() => {
         </div>
     );
 });
+
+/**
+ * AdZap Offline: upstream DesktopAppPromo promotes AdGuard products/ratings, so it renders nothing.
+ */
+export const DesktopAppPromo = () => null;

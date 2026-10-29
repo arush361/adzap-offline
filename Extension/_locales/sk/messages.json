@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Ak chcete kopírovať a vkladať pravidlá, povoľte AdGuardu prístup k pamäťovej schránke. <a>Povoliť<\/a>"
+        "message": "Ak chcete kopírovať a vkladať pravidlá, povoľte AdZapu prístup k pamäťovej schránke. <a>Povoliť<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Zadajte meno filtra"
@@ -27,13 +27,13 @@
         "message": "Pred povolením filtrov obťažovania si pozorne prečítajte"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Chystáte sa povoliť jeden alebo viac filtrov obťažujúcich prvkov. Blokujú prvky, ktoré buď nesúvisia s obsahom webovej stránky, alebo súvisia s obsahom webovej stránky, ale obťažujú Vašu používateľskú skúsenosť. Vlastníci webových stránok môžu tieto prvky považovať za povinné: ak ich zablokujete, môžete porušiť ich podmienky; niektoré funkcie webových stránok nemusia byť dostupné alebo nemusia fungovať správne. Beriete na vedomie a súhlasíte s tým, že ste výlučne zodpovedný za dodržiavanie podmienok používania webových stránok, ktoré navštevujete, a že AdGuard nezodpovedá za Vaše dodržiavanie podmienok používania webových stránok, ktoré navštevujete pomocou našich produktov."
+        "message": "Chystáte sa povoliť jeden alebo viac filtrov obťažujúcich prvkov. Blokujú prvky, ktoré buď nesúvisia s obsahom webovej stránky, alebo súvisia s obsahom webovej stránky, ale obťažujú Vašu používateľskú skúsenosť. Vlastníci webových stránok môžu tieto prvky považovať za povinné: ak ich zablokujete, môžete porušiť ich podmienky; niektoré funkcie webových stránok nemusia byť dostupné alebo nemusia fungovať správne. Beriete na vedomie a súhlasíte s tým, že ste výlučne zodpovedný za dodržiavanie podmienok používania webových stránok, ktoré navštevujete, a že nezodpovedá za Vaše dodržiavanie podmienok používania webových stránok, ktoré navštevujete pomocou našich produktov."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Zapnúť tieto filtre?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Podrobnosti o tom, čo blokujú filtre obťažovania AdGuard, nájdete v časti <a>Politika filtrácie<\/a>"
+        "message": "Podrobnosti o tom, čo blokujú filtre obťažovania AdZap, nájdete v časti <a>Politika filtrácie<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Zapnúť"
@@ -57,10 +57,10 @@
         "message": "Pokračovať"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard pre iOS"
+        "message": "AdZap pre iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard pre Android"
+        "message": "AdZap pre Android"
     },
     "options_filters_filter_version": {
         "message": "verzia:"
@@ -159,10 +159,10 @@
         "message": "Odoberať"
     },
     "name": {
-        "message": "AdGuard blokovač reklamy"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Neprekonané rozšírenie proti reklamám a vyskakovacím oknám. Blokuje reklamy na Facebooku, YouTube a na ostatných webových stránkach.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Zoznam povolení"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard neblokuje reklamy a sledovače na webových stránkach zo zoznamu"
+        "message": "AdZap neblokuje reklamy a sledovače na webových stránkach zo zoznamu"
     },
     "options_allowlist_invert": {
         "message": "Invertovať zoznam povolení"
@@ -313,7 +313,7 @@
         "message": "Zmeny sa nepodarilo uložiť. Skúste to znova alebo kontaktujte podporu"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Ak chcete importovať tento súbor nastavení, povoľte AdGuardu zmeniť Vaše nastavenia týkajúce sa ochrany osobných údajov."
+        "message": "Ak chcete importovať tento súbor nastavení, povoľte AdZapu zmeniť Vaše nastavenia týkajúce sa ochrany osobných údajov."
     },
     "options_popup_import_success_title": {
         "message": "Nastavenia boli importované"
@@ -472,7 +472,7 @@
         "message": "boli aktualizované."
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuard rozšírenie prehliadača bolo aktualizované na verziu %current_version%"
+        "message": "AdZap rozšírenie prehliadača bolo aktualizované na verziu %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "Táto verzia obsahuje prevažne opravy a drobné vylepšenia."
@@ -484,7 +484,7 @@
         "message": "Kliknutím sem zobrazíte úplný zoznam zmien."
     },
     "options_popup_version_update_offer": {
-        "message": "Ak ste posadnutý súkromím ako my, vyskúšajte produkty Premium AdGuard pre systémy Windows, Mac, iOS alebo Android a vyhľadajte ešte viac funkcií."
+        "message": "Ak ste posadnutý súkromím ako my, vyskúšajte produkty Premium AdZap pre systémy Windows, Mac, iOS alebo Android a vyhľadajte ešte viac funkcií."
     },
     "options_popup_version_update_offer_button_text": {
         "message": "VIAC INFORMÁCIÍ"
@@ -499,10 +499,10 @@
         "message": "Odstrániť používateľské pravidlá pre túto webovú stránku"
     },
     "popup_open_settings": {
-        "message": "Otvoriť nastavenia AdGuardu"
+        "message": "Otvoriť nastavenia AdZapu"
     },
     "popup_protection_button": {
-        "message": "Ochrana AdGuard"
+        "message": "Ochrana AdZap"
     },
     "context_block_site_ads": {
         "message": "Blokujte reklamy manuálne"
@@ -514,19 +514,19 @@
         "message": "Nahlásiť problém"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard nemôže filtrovať túto stránku"
+        "message": "AdZap nemôže filtrovať túto stránku"
     },
     "context_disable_protection": {
-        "message": "Pozastaviť ochranu AdGuard"
+        "message": "Pozastaviť ochranu AdZap"
     },
     "context_enable_protection": {
-        "message": "Opätovne zapnúť ochranu AdGuard"
+        "message": "Opätovne zapnúť ochranu AdZap"
     },
     "context_site_protection_disabled": {
-        "message": "Ochrana AdGuard je pozastavená"
+        "message": "Ochrana AdZap je pozastavená"
     },
     "context_open_settings": {
-        "message": "Nastavenia AdGuard"
+        "message": "Nastavenia AdZap"
     },
     "context_open_log": {
         "message": "Denník filtrácie"
@@ -778,7 +778,7 @@
         "message": "Navigácia"
     },
     "options_settings": {
-        "message": "Nastavenia AdGuard"
+        "message": "Nastavenia AdZap"
     },
     "options_general_settings": {
         "message": "Všeobecné"
@@ -790,7 +790,7 @@
         "message": "Blokuje reklamy vo výsledkoch vyhľadávania a vlastnú propagáciu webových stránok. <a>Dozvedieť sa viac<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Zobrazovať počet zablokovaných reklám na ikone AdGuard rozšírenia"
+        "message": "Zobrazovať počet zablokovaných reklám na ikone AdZap rozšírenia"
     },
     "options_enable_autodetect_filter": {
         "message": "Zapnúť najvhodnejšie filtre automaticky"
@@ -947,16 +947,16 @@
         "message": "Ochrana proti podvodným a škodlivým stránkam"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Varuje pred nebezpečnými a phishingovými webovými stránkami pomocou modulu AdGuard Bezpečnosť prehliadania. <a>Prečítať si viac<\/a>"
+        "message": "Varuje pred nebezpečnými a phishingovými webovými stránkami pomocou modulu Bezpečnosť prehliadania. <a>Prečítať si viac<\/a>"
     },
     "options_site": {
         "message": "Oficiálna stránka"
     },
     "options_discuss": {
-        "message": "Prediskutovať s AdGuard"
+        "message": "Prediskutovať s AdZap"
     },
     "options_do_you_like_question": {
-        "message": "Páči sa Vám AdGuard?"
+        "message": "Páči sa Vám AdZap?"
     },
     "options_rate_us_cta": {
         "message": "Ohodnoťte to"
@@ -1029,7 +1029,7 @@
         "message": "Možnosť 1. Odstráňte z prehliadača nepotrebné rozšírenia na blokovanie reklamy. Ak chcete opätovne aktivovať filtre uvedené v časti \"Filtre povolené pred aktualizáciou\", kliknite na tlačidlo <a>opätovne aktivovať filtre.<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Možnosť 2. Nainštalujte si aplikáciu AdGuard: nemá žiadne obmedzenia pravidiel filtrácie. <a>Získajte aplikáciu AdGuard<\/a>"
+        "message": "Možnosť 2. Nainštalujte si aplikáciu AdZap: nemá žiadne obmedzenia pravidiel filtrácie. <a>Získajte aplikáciu AdZap<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Možnosť 3. Ak ste spokojní s aktuálne povoleným predvoleným filtrom, <a>zatvorte toto upozornenie.<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Odstráňte iné blokovače reklám"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Rozšírenia prehliadača zdieľajú rovnaký limit pravidiel. Odstránenie iných blokovačov reklám môže uvoľniť viac pravidiel pre rozšírenie prehliadača AdGuard"
+        "message": "Rozšírenia prehliadača zdieľajú rovnaký limit pravidiel. Odstránenie iných blokovačov reklám môže uvoľniť viac pravidiel pre rozšírenie prehliadača AdZap"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Spravovať rozšírenia"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Zobraziť informáciu o plnej verzii AdGuard"
+        "message": "Zobraziť informáciu o plnej verzii AdZap"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Všetky štatistiky o spotrebe dát budú natrvalo odstránené"
@@ -1150,13 +1150,13 @@
         "message": "Chyba pri obnove nastavení"
     },
     "options_collect_hit_stats_title": {
-        "message": "Pomôžte vyvíjať filtre AdGuard"
+        "message": "Pomôžte vyvíjať filtre AdZap"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Odosiela anonymné štatistiky o používaní filtrov reklám do AdGuardu. <a>Dozvedieť sa viac<\/a>"
+        "message": "Odosiela anonymné štatistiky o používaní filtrov reklám do AdZapu. <a>Dozvedieť sa viac<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Pridať položku AdGuard do kontextovej ponuky prehliadača"
+        "message": "Pridať položku AdZap do kontextovej ponuky prehliadača"
     },
     "options_use_optimized_filters": {
         "message": "Použiť optimalizované filtre"
@@ -1219,13 +1219,13 @@
         "message": "Odstráňte parametre sledovania z adries URL"
     },
     "options_strip_tracking_params_description": {
-        "message": "Odstráni parametre sledovania z adries URL stránok pomocou filtra sledovania adries URL AdGuard"
+        "message": "Odstráni parametre sledovania z adries URL stránok pomocou filtra sledovania adries URL AdZap"
     },
     "options_block_known_trackers_title": {
         "message": "Blokuje známe sledovače"
     },
     "options_block_known_trackers_description": {
-        "message": "Blokuje sledovače a webové analýzy pomocou filtra AdGuard Tracking Protection"
+        "message": "Blokuje sledovače a webové analýzy pomocou filtra Tracking Protection"
     },
     "options_third_party_title": {
         "message": "Odstraňovať súbory cookie tretích strán"
@@ -1255,7 +1255,7 @@
         "message": "Odosielať anonymizované údaje o používaní rozšírení"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Odosiela anonymné štatistiky o používaní rozšírenia AdGuard. <button>Zistite viac<\/button>"
+        "message": "Odosiela anonymné štatistiky o používaní rozšírenia AdZap. <button>Zistite viac<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Údaje o používaní rozšírenia"
@@ -1273,7 +1273,7 @@
         "message": "Identifikátory relácie"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Tieto informácie potrebujeme na analýzu a zlepšenie funkčnosti AdGuardu"
+        "message": "Tieto informácie potrebujeme na analýzu a zlepšenie funkčnosti AdZapu"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Tieto údaje sú anonymné a používajú sa iba interne. Nikdy ich nezdieľame s tretími stranami"
@@ -1318,10 +1318,10 @@
         "message": "Váš prehliadač upravil zoznam aktívnych zabudovaných filtrov"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "V rozšírení prehliadača AdGuard bol prekročený limit na počet pravidiel. Skontrolujte svoje filtre a deaktivujte tie, ktoré nepotrebujete"
+        "message": "V rozšírení prehliadača AdZap bol prekročený limit na počet pravidiel. Skontrolujte svoje filtre a deaktivujte tie, ktoré nepotrebujete"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "O"
@@ -1354,7 +1354,7 @@
         "message": "Odstrániť"
     },
     "options_nav_better_than_extension": {
-        "message": "Prečo je aplikácia AdGuard lepšia ako rozšírenie?"
+        "message": "Prečo je aplikácia AdZap lepšia ako rozšírenie?"
     },
     "options_nav_compare": {
         "message": "Porovnanie"
@@ -1369,13 +1369,13 @@
         "message": "Naša desktopová aplikácia Vás pred nimi môže ochrániť"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Získajte AdGuard pre Windows"
+        "message": "Získajte AdZap pre Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Získajte AdGuard pre Mac"
+        "message": "Získajte AdZap pre Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Získajte AdGuard pre Linux"
+        "message": "Získajte AdZap pre Linux"
     },
     "options_filters_search": {
         "message": "Hľadať"
@@ -1384,7 +1384,7 @@
         "message": "Hľadať filter"
     },
     "options_about_title": {
-        "message": "AdGuard rozšírenie prehliadača"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Tu si nakonfigurujte blokovanie reklám, aby ste sa raz a navždy vysporiadali s nepríjemnými bannermi, kontextovými oknami, videoreklamami a podobne"
@@ -1402,7 +1402,7 @@
         "message": "Chráňte sa pred malvérom, phishingom a inými online hrozbami"
     },
     "group_description_miscellaneous": {
-        "message": "Ďalšie nastavenia na ešte lepšiu konfiguráciu surfovania na webe pomocou AdGuard"
+        "message": "Ďalšie nastavenia na ešte lepšiu konfiguráciu surfovania na webe pomocou AdZap"
     },
     "group_description_custom": {
         "message": "Vytvorte si vlastné filtre, ktoré doladia filtráciu webu podľa Vašich preferencií."
@@ -1600,13 +1600,13 @@
         "message": "Prístup bol zamietnutý"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard zablokoval prístup k tejto stránke"
+        "message": "AdZap zablokoval prístup k tejto stránke"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Zablokované AdGuardom"
+        "message": "Zablokované AdZapom"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard zabránil načítaniu tejto stránky kvôli nasledujúcemu filtračnému pravidlu"
+        "message": "AdZap zabránil načítaniu tejto stránky kvôli nasledujúcemu filtračnému pravidlu"
     },
     "blocking_pages_btn_go_back": {
         "message": "Naspäť"

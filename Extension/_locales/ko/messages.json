@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "규칙을 복사하여 붙여넣으려면 AdGuard가 클립보드에 접근할 수 있도록 허용하세요. <a>허용<\/a>"
+        "message": "규칙을 복사하여 붙여넣으려면 AdZap가 클립보드에 접근할 수 있도록 허용하세요. <a>허용<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "필터 이름 입력"
@@ -27,13 +27,13 @@
         "message": "방해 요소 필터를 활성화하기 전에 주의 깊게 읽어주세요."
     },
     "options_filters_annoyances_consent_description": {
-        "message": "귀하는 하나 이상의 방해 요소 필터를 활성화하려 합니다. 이 필터는 웹사이트 콘텐츠와 무관하거나 관련이 있으나 사용자 경험에 방해가 되는 요소를 차단합니다. 웹사이트 소유자는 이러한 요소를 필수로 간주할 수 있습니다: 이를 차단할 경우 해당 사이트의 이용 약관을 위반할 수 있으며, 웹사이트의 일부 기능이 사용 불가능하거나 제대로 작동하지 않을 수 있습니다. 귀하는 방문하는 웹사이트의 이용 약관을 준수할 책임이 전적으로 귀하에게 있으며, AdGuard는 귀하가 당사 제품을 사용하여 방문하는 웹사이트의 이용 약관 준수에 대해 책임을 지지 않음을 이해하고 동의합니다."
+        "message": "귀하는 하나 이상의 방해 요소 필터를 활성화하려 합니다. 이 필터는 웹사이트 콘텐츠와 무관하거나 관련이 있으나 사용자 경험에 방해가 되는 요소를 차단합니다. 웹사이트 소유자는 이러한 요소를 필수로 간주할 수 있습니다: 이를 차단할 경우 해당 사이트의 이용 약관을 위반할 수 있으며, 웹사이트의 일부 기능이 사용 불가능하거나 제대로 작동하지 않을 수 있습니다. 귀하는 방문하는 웹사이트의 이용 약관을 준수할 책임이 전적으로 귀하에게 있으며, AdZap는 귀하가 당사 제품을 사용하여 방문하는 웹사이트의 이용 약관 준수에 대해 책임을 지지 않음을 이해하고 동의합니다."
     },
     "options_filters_annoyances_consent_question": {
         "message": "이 필터를 활성화하시겠습니까?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "AdGuard의 방해 요소 필터가 차단하는 항목에 대한 자세한 내용은 <a>필터 정책<\/a>을 참조하세요."
+        "message": "AdZap의 방해 요소 필터가 차단하는 항목에 대한 자세한 내용은 <a>필터 정책<\/a>을 참조하세요."
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "활성화"
@@ -57,10 +57,10 @@
         "message": "재개하기"
     },
     "popup_adguard_for_ios": {
-        "message": "iOS용 AdGuard"
+        "message": "iOS용 AdZap"
     },
     "popup_adguard_for_android": {
-        "message": "Android용 AdGuard"
+        "message": "Android용 AdZap"
     },
     "options_filters_filter_version": {
         "message": "버전:"
@@ -159,10 +159,10 @@
         "message": "구독"
     },
     "name": {
-        "message": "AdGuard 광고차단기"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "광고, 팝업, Facebook이나 YouTube 등 사이트의 광고를 차단하는 타의 추종을 불허하는 광고 차단 확장 프로그램입니다.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "허용 목록"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard는 목록에 있는 웹사이트에서 광고와 추적기를 차단하지 않습니다."
+        "message": "AdZap는 목록에 있는 웹사이트에서 광고와 추적기를 차단하지 않습니다."
     },
     "options_allowlist_invert": {
         "message": "허용 목록 반전"
@@ -313,7 +313,7 @@
         "message": "변경 사항을 저장하지 못했습니다. 다시 시도하거나 고객 지원팀에 문의하세요."
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "이 설정 파일을 불러오기 위해 AdGuard가 개인정보 보호 관련 설정을 변경하도록 허용하세요."
+        "message": "이 설정 파일을 불러오기 위해 AdZap가 개인정보 보호 관련 설정을 변경하도록 허용하세요."
     },
     "options_popup_import_success_title": {
         "message": "설정을 가져왔습니다."
@@ -472,7 +472,7 @@
         "message": "가 업데이트 되었습니다."
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuard 확장 프로그램이 %current_version% 버전으로 업데이트 되었습니다."
+        "message": "AdZap 확장 프로그램이 %current_version% 버전으로 업데이트 되었습니다."
     },
     "options_popup_version_update_description_minor": {
         "message": "이 버전은 버그 수정과 마이너한 기능 개선이 포함되어 있습니다."
@@ -484,7 +484,7 @@
         "message": "이번 버전의 업데이트 내역"
     },
     "options_popup_version_update_offer": {
-        "message": "AdGuard 기능이 이 브라우저에만 제한되지 않는다는 사실을 알고 계시나요?"
+        "message": "AdZap 기능이 이 브라우저에만 제한되지 않는다는 사실을 알고 계시나요?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "더 알아보기"
@@ -499,10 +499,10 @@
         "message": "이 웹사이트에 대한 사용자 규칙 삭제"
     },
     "popup_open_settings": {
-        "message": "AdGuard 설정 열기"
+        "message": "AdZap 설정 열기"
     },
     "popup_protection_button": {
-        "message": "AdGuard 보호"
+        "message": "AdZap 보호"
     },
     "context_block_site_ads": {
         "message": "수동으로 광고 차단"
@@ -514,19 +514,19 @@
         "message": "문제 신고"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard가 이 페이지를 필터링할 수 없습니다."
+        "message": "AdZap가 이 페이지를 필터링할 수 없습니다."
     },
     "context_disable_protection": {
-        "message": "AdGuard 보호 일시 정지"
+        "message": "AdZap 보호 일시 정지"
     },
     "context_enable_protection": {
-        "message": "AdGuard 보호 재시작"
+        "message": "AdZap 보호 재시작"
     },
     "context_site_protection_disabled": {
-        "message": "AdGuard 보호 일시 정지됨"
+        "message": "AdZap 보호 일시 정지됨"
     },
     "context_open_settings": {
-        "message": "AdGuard 설정"
+        "message": "AdZap 설정"
     },
     "context_open_log": {
         "message": "필터링 로그 열기"
@@ -778,7 +778,7 @@
         "message": "탐색"
     },
     "options_settings": {
-        "message": "AdGuard 설정"
+        "message": "AdZap 설정"
     },
     "options_general_settings": {
         "message": "일반"
@@ -790,7 +790,7 @@
         "message": "검색결과의 광고와 웹사이트의 자체 홍보를 차단합니다. <a>자세히 알아보기<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "차단된 광고의 수를 AdGuard 확장 프로그램 아이콘에 표시"
+        "message": "차단된 광고의 수를 AdZap 확장 프로그램 아이콘에 표시"
     },
     "options_enable_autodetect_filter": {
         "message": "가장 적당한 필터들을 자동으로 활성화"
@@ -947,16 +947,16 @@
         "message": "피싱, 멀웨어 보호"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "AdGuard 브라우징 보안 모듈을 사용하여 악성 및 피싱 웹사이트에 대해 경고합니다. <a>자세히 보기<\/a>"
+        "message": "브라우징 보안 모듈을 사용하여 악성 및 피싱 웹사이트에 대해 경고합니다. <a>자세히 보기<\/a>"
     },
     "options_site": {
         "message": "공식 웹사이트"
     },
     "options_discuss": {
-        "message": "AdGuard 의견 나눔"
+        "message": "AdZap 의견 나눔"
     },
     "options_do_you_like_question": {
-        "message": "AdGuard가 마음에 드시나요?"
+        "message": "AdZap가 마음에 드시나요?"
     },
     "options_rate_us_cta": {
         "message": "평가해 주세요"
@@ -1029,7 +1029,7 @@
         "message": "옵션 1. 브라우저에서 불필요한 광고 차단 확장 프로그램을 삭제하세요. '업데이트 전 활성화되었던 필터' 섹션에 언급된 필터를 다시 활성화하려면 <a>필터 다시 활성화<\/a>를 클릭하세요."
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "옵션 2. AdGuard 광고 차단기 앱을 설치하세요. 필터링 규칙에 제한이 없습니다. <a>AdGuard 앱 다운로드<\/a>"
+        "message": "옵션 2. AdZap 광고 차단기 앱을 설치하세요. 필터링 규칙에 제한이 없습니다. <a>AdZap 앱 다운로드<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "옵션 3. 현재 활성화된 기본 필터에 만족하는 경우 <a>이 경고를 닫습니다.<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "다른 광고 차단기 제거"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "브라우저 확장 프로그램은 동일한 규칙 제한을 공유합니다. 다른 광고 차단기를 제거하면 AdGuard 브라우저 확장 프로그램을 위한 규칙 수를 확보할 수 있습니다"
+        "message": "브라우저 확장 프로그램은 동일한 규칙 제한을 공유합니다. 다른 광고 차단기를 제거하면 AdZap 브라우저 확장 프로그램을 위한 규칙 수를 확보할 수 있습니다"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "확장 프로그램 관리"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "AdGuard 전체 버전 정보 보기"
+        "message": "AdZap 전체 버전 정보 보기"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "데이터 사용량에 대한 모든 통계가 영구적으로 삭제됩니다."
@@ -1150,13 +1150,13 @@
         "message": "설정을 초기화하는 동안 오류가 발생했습니다"
     },
     "options_collect_hit_stats_title": {
-        "message": "AdGuard 필터 개발에 도움을 주세요"
+        "message": "AdZap 필터 개발에 도움을 주세요"
     },
     "options_collect_hit_stats_desc": {
-        "message": "광고 필터 사용량에 대한 익명의 통계를 AdGuard로 전송합니다. <a>자세히 알아보기<\/a>"
+        "message": "광고 필터 사용량에 대한 익명의 통계를 AdZap로 전송합니다. <a>자세히 알아보기<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "AdGuard 항목을 브라우저 콘텍스트 메뉴에 추가"
+        "message": "AdZap 항목을 브라우저 콘텍스트 메뉴에 추가"
     },
     "options_use_optimized_filters": {
         "message": "최적화된 필터 사용하기"
@@ -1219,13 +1219,13 @@
         "message": "URL에서 추적 매개변수 제거"
     },
     "options_strip_tracking_params_description": {
-        "message": "AdGuard URL 추적 필터를 사용하여 페이지 URL에서 추적 매개변수를 제거합니다."
+        "message": "URL 추적 필터를 사용하여 페이지 URL에서 추적 매개변수를 제거합니다."
     },
     "options_block_known_trackers_title": {
         "message": "추적기 차단"
     },
     "options_block_known_trackers_description": {
-        "message": "AdGuard 추적 방지 필터를 사용하여 추적기 및 웹 분석 차단"
+        "message": "추적 방지 필터를 사용하여 추적기 및 웹 분석 차단"
     },
     "options_third_party_title": {
         "message": "타사 쿠키 삭제"
@@ -1255,7 +1255,7 @@
         "message": "익명의 확장 프로그램 사용 데이터 전송"
     },
     "options_anonymized_usage_data_description": {
-        "message": "확장 프로그램 사용량에 대한 익명의 통계를 AdGuard로 전송합니다. <button>자세히 알아보기<\/button>"
+        "message": "확장 프로그램 사용량에 대한 익명의 통계를 AdZap로 전송합니다. <button>자세히 알아보기<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "확장 프로그램 사용 데이터"
@@ -1273,7 +1273,7 @@
         "message": "세션 식별자"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "AdGuard의 기능을 분석하고 개선하기 위해 이 정보가 필요합니다."
+        "message": "AdZap의 기능을 분석하고 개선하기 위해 이 정보가 필요합니다."
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "이 데이터는 익명으로 처리되며 내부적으로만 사용됩니다. 제3자와 절대 공유하지 않습니다."
@@ -1318,10 +1318,10 @@
         "message": "브라우저에서 활성 내장 필터 목록을 수정했습니다."
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "AdGuard 확장 프로그램에서 규칙 제한이 초과되었습니다. 필터를 확인하고 필요 없는 필터를 비활성화하세요."
+        "message": "AdZap 확장 프로그램에서 규칙 제한이 초과되었습니다. 필터를 확인하고 필요 없는 필터를 비활성화하세요."
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "정보"
@@ -1354,7 +1354,7 @@
         "message": "제거"
     },
     "options_nav_better_than_extension": {
-        "message": "AdGuard 앱이 확장 프로그램보다 나은 이유는 무엇인가요?"
+        "message": "AdZap 앱이 확장 프로그램보다 나은 이유는 무엇인가요?"
     },
     "options_nav_compare": {
         "message": "차이점 비교해보기"
@@ -1369,13 +1369,13 @@
         "message": "데스크탑 앱을 이용하면 이들로부터 보호받을 수 있습니다."
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Windows용 AdGuard 설치"
+        "message": "Windows용 AdZap 설치"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Mac용 AdGuard 설치"
+        "message": "Mac용 AdZap 설치"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Linux용 AdGuard 설치"
+        "message": "Linux용 AdZap 설치"
     },
     "options_filters_search": {
         "message": "검색"
@@ -1384,7 +1384,7 @@
         "message": "필터 검색"
     },
     "options_about_title": {
-        "message": "AdGuard 브라우저 확장 프로그램"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "배너, 팝업, 동영상 광고 등을 차단하려면 여기에서 광고 차단을 설정하세요."
@@ -1402,7 +1402,7 @@
         "message": "맬웨어, 피싱 및 기타 온라인 위협으로부터 자신을 보호하세요"
     },
     "group_description_miscellaneous": {
-        "message": "더 많은 AdGuard 설정을 통해 웹 서핑을 더 잘 제어하세요."
+        "message": "더 많은 AdZap 설정을 통해 웹 서핑을 더 잘 제어하세요."
     },
     "group_description_custom": {
         "message": "자신만의 필터를 원하는 대로 만들어 세세하게 웹을 필터링하세요."
@@ -1600,13 +1600,13 @@
         "message": "접근 거부됨"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard가 이 페이지 접근을 차단하였습니다"
+        "message": "AdZap가 이 페이지 접근을 차단하였습니다"
     },
     "blocking_pages_rule_header_title": {
-        "message": "AdGuard에 의해 차단됨"
+        "message": "AdZap에 의해 차단됨"
     },
     "blocking_pages_rule_content_title": {
-        "message": "다음 필터 규칙으로 인해 AdGuard에서 이 페이지를 로드하지 못했습니다"
+        "message": "다음 필터 규칙으로 인해 AdZap에서 이 페이지를 로드하지 못했습니다"
     },
     "blocking_pages_btn_go_back": {
         "message": "뒤로가기"

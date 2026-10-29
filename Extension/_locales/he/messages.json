@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "כדי להעתיק ולהדביק כללים, יש לאפשר ל-AdGuard גישה ללוח. <a>אפשר<\/a>"
+        "message": "כדי להעתיק ולהדביק כללים, יש לאפשר ל-AdZap גישה ללוח. <a>אפשר<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "הכנס שם מסנן"
@@ -27,13 +27,13 @@
         "message": "אנא קרא בעיון לפני הפעלת מסנני מטרדים"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "אתה עומד להפעיל מסנן מטרד אחד או יותר. הם חוסמים אלמנטים שאינם קשורים לתוכן האתר או קשורים אך מעצבנים לחוויית המשתמש שלך. בעלי אתרים עשויים לשקול אלמנטים אלה כחובה: אם תחסום אותם, ייתכן שאתה מפר את התנאים שלהם; ייתכן שפונקציונליות מסוימת של אתרים לא תהיה זמינה או שלא תפעל כראוי. אתה מבין ומסכים כי אתה האחראי הבלעדי לציית לתנאי השימוש של אתרים שבהם אתה מבקר וכי AdGuard אינה אחראית לעמידתך בתנאי השימוש של אתרים שבהם אתה מבקר בשימוש במוצרינו."
+        "message": "אתה עומד להפעיל מסנן מטרד אחד או יותר. הם חוסמים אלמנטים שאינם קשורים לתוכן האתר או קשורים אך מעצבנים לחוויית המשתמש שלך. בעלי אתרים עשויים לשקול אלמנטים אלה כחובה: אם תחסום אותם, ייתכן שאתה מפר את התנאים שלהם; ייתכן שפונקציונליות מסוימת של אתרים לא תהיה זמינה או שלא תפעל כראוי. אתה מבין ומסכים כי אתה האחראי הבלעדי לציית לתנאי השימוש של אתרים שבהם אתה מבקר וכי אינה אחראית לעמידתך בתנאי השימוש של אתרים שבהם אתה מבקר בשימוש במוצרינו."
     },
     "options_filters_annoyances_consent_question": {
         "message": "הפעל מסננים אלה?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "לפרטים על מה שסינוני המטרד של AdGuard חוסמים, ראה <a>מדיניות סינון<\/a>"
+        "message": "לפרטים על מה שסינוני המטרד של חוסמים, ראה <a>מדיניות סינון<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "אפשר"
@@ -57,10 +57,10 @@
         "message": "המשך"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard עבור iOS"
+        "message": "AdZap עבור iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard עבור Android"
+        "message": "AdZap עבור Android"
     },
     "options_filters_filter_version": {
         "message": "גרסה:"
@@ -159,10 +159,10 @@
         "message": "הירשם כמנוי"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "הרחבה ללא תחרות של חסימת פרסומות נגד פרסום וחלונות קופצים. חוסמת פרסומות בפייסבוק, ביוטיוב ובכל האתרים האחרים.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "רשימת היתר"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard לא חוסם פרסומות ועוקבנים על\u0000a0אתרים מהרשימה"
+        "message": "AdZap לא חוסם פרסומות ועוקבנים על\u0000a0אתרים מהרשימה"
     },
     "options_allowlist_invert": {
         "message": "הפוך את רשימת ההיתר"
@@ -313,7 +313,7 @@
         "message": "נכשל לשמור את השינויים. נסה שוב או פנה לתמיכה"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "כדי לייבא קובץ הגדרות זה, התר אל AdGuard לשנות את ההגדרות קשורות הפרטיות שלך."
+        "message": "כדי לייבא קובץ הגדרות זה, התר אל AdZap לשנות את ההגדרות קשורות הפרטיות שלך."
     },
     "options_popup_import_success_title": {
         "message": "ההגדרות יובאו"
@@ -472,7 +472,7 @@
         "message": "עודכנו"
     },
     "options_popup_version_update_title_text": {
-        "message": "הרחבת AdGuard עודכנה אל גרסה %current_version%"
+        "message": "הרחבת AdZap עודכנה אל גרסה %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "גרסה זו מכילה בעיקר תיקוני תקלים ושיפורים זעירים"
@@ -484,7 +484,7 @@
         "message": "מה חדש בגרסה זו?"
     },
     "options_popup_version_update_offer": {
-        "message": "האם ידעת שהיכולות של AdGuard אינן מוגבלות אל דפדפן זה?"
+        "message": "האם ידעת שהיכולות של AdZap אינן מוגבלות אל דפדפן זה?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "למד עוד"
@@ -499,10 +499,10 @@
         "message": "מחק את כללי המשתמש עבור אתר זה"
     },
     "popup_open_settings": {
-        "message": "פתח הגדרות AdGuard"
+        "message": "פתח הגדרות AdZap"
     },
     "popup_protection_button": {
-        "message": "הגנת AdGuard"
+        "message": "הגנת AdZap"
     },
     "context_block_site_ads": {
         "message": "חסום מודעות ידנית"
@@ -514,19 +514,19 @@
         "message": "דווח על סוגייה"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard לא יכול לסנן את העמוד הזה"
+        "message": "AdZap לא יכול לסנן את העמוד הזה"
     },
     "context_disable_protection": {
-        "message": "השהה את הגנת AdGuard"
+        "message": "השהה את הגנת AdZap"
     },
     "context_enable_protection": {
-        "message": "המשך את הגנת AdGuard"
+        "message": "המשך את הגנת AdZap"
     },
     "context_site_protection_disabled": {
-        "message": "הגנת AdGuard מושהית"
+        "message": "הגנת AdZap מושהית"
     },
     "context_open_settings": {
-        "message": "הגדרות AdGuard"
+        "message": "הגדרות AdZap"
     },
     "context_open_log": {
         "message": "יומן סינון"
@@ -778,7 +778,7 @@
         "message": "ניווט"
     },
     "options_settings": {
-        "message": "הגדרות AdGuard"
+        "message": "הגדרות AdZap"
     },
     "options_general_settings": {
         "message": "כללי"
@@ -790,7 +790,7 @@
         "message": "חוסם פרסומות בתוצאות חיפוש וקידום עצמי של אתרים. <a>למד עוד<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "הראה את מספר הפרסומות החסומות על האיקון של הרחבת AdGuard"
+        "message": "הראה את מספר הפרסומות החסומות על האיקון של הרחבת AdZap"
     },
     "options_enable_autodetect_filter": {
         "message": "הפעל באופן אוטומטי את המסננים ההולמים ביותר"
@@ -947,16 +947,16 @@
         "message": "הגנה מפני דיוג ונוזקה"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "מזהיר מפני אתרים זדוניים ואתרי דיוג באמצעות מודול אבטחת גלישה של AdGuard. <a>קרא עוד<\/a>"
+        "message": "מזהיר מפני אתרים זדוניים ואתרי דיוג באמצעות מודול אבטחת גלישה של AdZap. <a>קרא עוד<\/a>"
     },
     "options_site": {
         "message": "האתר הרשמי"
     },
     "options_discuss": {
-        "message": "דון על AdGuard"
+        "message": "דון על AdZap"
     },
     "options_do_you_like_question": {
-        "message": "אתה אוהב את AdGuard?"
+        "message": "אתה אוהב את AdZap?"
     },
     "options_rate_us_cta": {
         "message": "דרג"
@@ -1029,7 +1029,7 @@
         "message": "אפשרות 1. מחק תוספי חסימת מודעות מיותרים מהדפדפן שלך. להפעלת המסננים המוזכרים בסעיף \"המסננים שהופעלו לפני העדכון\", לחץ על <a>הפעל מסננים מחדש.<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "אפשרות 2. התקן את אפליקציית חוסם הפרסומות של AdGuard: אין לה מגבלות על כללי הסינון. <a>קבל את אפליקציית AdGuard<\/a>"
+        "message": "אפשרות 2. התקן את אפליקציית חוסם הפרסומות של AdZap: אין לה מגבלות על כללי הסינון. <a>קבל את אפליקציית AdZap<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "אפשרות 3. אם אתה מרוצה מהמסנן המוגדר כברירת מחדל שהופעל, <a>סגור את האזהרה הזו<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "הסר חוסמי פרסומות אחרים"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "הרחבות דפדפן חולקות את אותה מגבלת כללים. הסרת חוסמי פרסומות אחרים עשויה לפנות יותר כללים עבור AdGuard Browser Extension"
+        "message": "הרחבות דפדפן חולקות את אותה מגבלת כללים. הסרת חוסמי פרסומות אחרים עשויה לפנות יותר כללים עבור AdZap Offline"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "נהל הרחבות"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "הראה מידע על הגרסה המלאה של AdGuard"
+        "message": "הראה מידע על הגרסה המלאה של AdZap"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "כל הסטטיסטיקות על שימוש בנתונים יימחקו לצמיתות"
@@ -1150,13 +1150,13 @@
         "message": "שגיאה בזמן איפוס הגדרות"
     },
     "options_collect_hit_stats_title": {
-        "message": "עזור בפיתוח מסנני AdGuard"
+        "message": "עזור בפיתוח מסנני AdZap"
     },
     "options_collect_hit_stats_desc": {
-        "message": "שולח סטטיסטיקות אלמוניות על שימוש במסנן הפרסומות ל-AdGuard. <a>למד עוד<\/a>"
+        "message": "שולח סטטיסטיקות אלמוניות על שימוש במסנן הפרסומות ל-AdZap. <a>למד עוד<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "הוסף את AdGuard אל תפריט ההקשר של הדפדפן"
+        "message": "הוסף את AdZap אל תפריט ההקשר של הדפדפן"
     },
     "options_use_optimized_filters": {
         "message": "השתמש במסננים ממוטבים"
@@ -1219,13 +1219,13 @@
         "message": "הסרת פרמטרי מעקב מכתובות URL"
     },
     "options_strip_tracking_params_description": {
-        "message": "הסרת פרמטרי מעקב מכתובות URL של דפים באמצעות מסנן מעקב כתובות URL של AdGuard"
+        "message": "הסרת פרמטרי מעקב מכתובות URL של דפים באמצעות מסנן מעקב כתובות URL של AdZap"
     },
     "options_block_known_trackers_title": {
         "message": "חסום עוקבנים"
     },
     "options_block_known_trackers_description": {
-        "message": "חוסם טראקרים וניתוחי אינטרנט באמצעות מסנן הגנת המעקב של AdGuard"
+        "message": "חוסם טראקרים וניתוחי אינטרנט באמצעות מסנן הגנת המעקב של AdZap"
     },
     "options_third_party_title": {
         "message": "מחיקת קובצי עוגיות של צד שלישי"
@@ -1255,7 +1255,7 @@
         "message": "שלח נתוני שימוש אנונימיים בהרחבה"
     },
     "options_anonymized_usage_data_description": {
-        "message": "שולח סטטיסטיקות אלמוניות על שימוש בהרחבה אל AdGuard. <button>למד עוד<\/button>"
+        "message": "שולח סטטיסטיקות אלמוניות על שימוש בהרחבה אל AdZap. <button>למד עוד<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "נתוני שימוש בהרחבה"
@@ -1273,7 +1273,7 @@
         "message": "מזהי ישיבות"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "אנחנו זקוקים למידע הזה כדי לנתח ולשפר את תפקוד AdGuard"
+        "message": "אנחנו זקוקים למידע הזה כדי לנתח ולשפר את תפקוד AdZap"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "נתונים אלה אלמוניים ונעשה בהם שימוש פנימי בלבד. אנחנו אף פעם לא חולקים את זה עם צדדים שלישיים"
@@ -1318,10 +1318,10 @@
         "message": "הדפדפן שלך שינה את רשימת המסננים המובנים הפעילים"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "מגבלת החוקים חורגת בתוסף הדפדפן של AdGuard. בדוק את המסננים שלך והשבת את אלו שאינך זקוק להם"
+        "message": "מגבלת החוקים חורגת בתוסף הדפדפן של AdZap. בדוק את המסננים שלך והשבת את אלו שאינך זקוק להם"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "אודות"
@@ -1354,7 +1354,7 @@
         "message": "הסר"
     },
     "options_nav_better_than_extension": {
-        "message": "למה היישום של AdGuard טוב יותר מההרחבה?"
+        "message": "למה היישום של AdZap טוב יותר מההרחבה?"
     },
     "options_nav_compare": {
         "message": "השווה"
@@ -1369,13 +1369,13 @@
         "message": "האפליקציה לשולחן העבודה שלנו יכולה להגן עליך מפניהם"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "קבל את AdGuard עבור Windows"
+        "message": "קבל את AdZap עבור Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "קבל את AdGuard עבור Mac"
+        "message": "קבל את AdZap עבור Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "קבל את AdGuard עבור Linux"
+        "message": "קבל את AdZap עבור Linux"
     },
     "options_filters_search": {
         "message": "חפש"
@@ -1384,7 +1384,7 @@
         "message": "חפש מסנן"
     },
     "options_about_title": {
-        "message": "הרחבת דפדפן של AdGuard"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "תצר חסימת פרסומות כאן כדי להתמודד עם מודעות מטרידות, חלונות קופצים מטרידים, פרסומות וידאו מטרידות וכולי, פעם אחת ולתמיד"
@@ -1402,7 +1402,7 @@
         "message": "הגן על עצמך מפני נוזקה, דיוג ואיומים מקוונים אחרים"
     },
     "group_description_miscellaneous": {
-        "message": "עוד הגדרות לתצר את גלישת האינטרנט שלך עם AdGuard אפילו יותר"
+        "message": "עוד הגדרות לתצר את גלישת האינטרנט שלך עם AdZap אפילו יותר"
     },
     "group_description_custom": {
         "message": "צור מסננים משלך עבור סינון רשת מכוונן על פי העדפתך."
@@ -1600,13 +1600,13 @@
         "message": "גישה נדחתה"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard חסם גישה אל דף זה"
+        "message": "AdZap חסם גישה אל דף זה"
     },
     "blocking_pages_rule_header_title": {
-        "message": "נחסם ע״י AdGuard"
+        "message": "נחסם ע״י AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard מנע מדף זה להיטען עקב הכלל הבא של מסנן"
+        "message": "AdZap מנע מדף זה להיטען עקב הכלל הבא של מסנן"
     },
     "blocking_pages_btn_go_back": {
         "message": "חזור"

@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "För att kopiera och klistra in regler, tillåt AdGuard att komma åt urklippet. <a>Tillåt<\/a>"
+        "message": "För att kopiera och klistra in regler, tillåt AdZap att komma åt urklippet. <a>Tillåt<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Skriv in ett namn på filtret"
@@ -27,13 +27,13 @@
         "message": "Läs noga innan du aktiverar irritationsfilter"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Du är på väg att aktivera ett eller flera irritationsfilter. De blockerar element som antingen inte är relaterade till webbplatsinnehållet eller relaterade men irriterande för din användarupplevelse. Webbplatsägare kan betrakta dessa element som obligatoriska: om du blockerar dem kan du bryta mot deras villkor; viss funktionalitet på webbplatser kan vara otillgänglig eller kanske inte fungerar korrekt. Du förstår och samtycker till att du är ensam ansvarig för att följa användarvillkoren för de webbplatser du besöker och att AdGuard inte ansvarar för din efterlevnad av användarvillkoren för de webbplatser du besöker med våra produkter."
+        "message": "Du är på väg att aktivera ett eller flera irritationsfilter. De blockerar element som antingen inte är relaterade till webbplatsinnehållet eller relaterade men irriterande för din användarupplevelse. Webbplatsägare kan betrakta dessa element som obligatoriska: om du blockerar dem kan du bryta mot deras villkor; viss funktionalitet på webbplatser kan vara otillgänglig eller kanske inte fungerar korrekt. Du förstår och samtycker till att du är ensam ansvarig för att följa användarvillkoren för de webbplatser du besöker och att inte ansvarar för din efterlevnad av användarvillkoren för de webbplatser du besöker med våra produkter."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Aktivera filter?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Mer information om vad AdGuards irritationsfilter blockerar finns i <a>Filterpolicy<\/a>"
+        "message": "Mer information om vad AdZaps irritationsfilter blockerar finns i <a>Filterpolicy<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Aktivera"
@@ -57,10 +57,10 @@
         "message": "Återuppta"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard för iOS"
+        "message": "AdZap för iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard för Android"
+        "message": "AdZap för Android"
     },
     "options_filters_filter_version": {
         "message": "version:"
@@ -159,10 +159,10 @@
         "message": "Prenumerera"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Oöverträffat tillägg för blockering av annonser och popups. Blockerar annonser på Facebook, YouTube och på alla andra webbplatser.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Vitlista"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard blockerar inte annonser och spårare på webbplatser från listan"
+        "message": "AdZap blockerar inte annonser och spårare på webbplatser från listan"
     },
     "options_allowlist_invert": {
         "message": "Invertera Vitlistan"
@@ -313,7 +313,7 @@
         "message": "Misslyckades att spara ändringarna. Försök igen eller kontakta support."
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "För att importera denna inställningsfil, tillåt AdGuard att ändra dina sekretessrelaterade inställningar."
+        "message": "För att importera denna inställningsfil, tillåt AdZap att ändra dina sekretessrelaterade inställningar."
     },
     "options_popup_import_success_title": {
         "message": "Inställningar importerade"
@@ -472,7 +472,7 @@
         "message": "uppdaterades."
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuard-tillägget har uppdaterats till version %current_version%"
+        "message": "AdZap-tillägget har uppdaterats till version %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "Uppdateringen innehåller mestadels buggfixar och mindre förbättringar."
@@ -484,7 +484,7 @@
         "message": "Klicka här för att se hela Ändringsloggen."
     },
     "options_popup_version_update_offer": {
-        "message": "Om du är som vi, besatt av integritet, prova AdGuards premiumversioner för Windows, Mac, iOS eller Android för att hitta ännu fler funktioner."
+        "message": "Om du är som vi, besatt av integritet, prova AdZaps premiumversioner för Windows, Mac, iOS eller Android för att hitta ännu fler funktioner."
     },
     "options_popup_version_update_offer_button_text": {
         "message": "LÄS MER"
@@ -499,10 +499,10 @@
         "message": "Ta bort användarregler för denna webbplats"
     },
     "popup_open_settings": {
-        "message": "Öppna AdGuards-inställningar"
+        "message": "Öppna AdZaps-inställningar"
     },
     "popup_protection_button": {
-        "message": "AdGuardskydd"
+        "message": "AdZapskydd"
     },
     "context_block_site_ads": {
         "message": "Blockera annonser manuellt"
@@ -514,19 +514,19 @@
         "message": "Rapportera ett problem"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard kan inte filtrera denna sida"
+        "message": "AdZap kan inte filtrera denna sida"
     },
     "context_disable_protection": {
-        "message": "Pausa AdGuardskyddet"
+        "message": "Pausa AdZapskyddet"
     },
     "context_enable_protection": {
-        "message": "Återuppta AdGuard-skydd"
+        "message": "Återuppta AdZap-skydd"
     },
     "context_site_protection_disabled": {
-        "message": "AdGuardskyddet är pausat"
+        "message": "AdZapskyddet är pausat"
     },
     "context_open_settings": {
-        "message": "AdGuard-inställningar"
+        "message": "AdZap-inställningar"
     },
     "context_open_log": {
         "message": "Filtreringslogg"
@@ -778,7 +778,7 @@
         "message": "Navigering"
     },
     "options_settings": {
-        "message": "AdGuard Inställningar"
+        "message": "AdZap Inställningar"
     },
     "options_general_settings": {
         "message": "Allmänt"
@@ -790,7 +790,7 @@
         "message": "Blockerar annonser i sökresultat och självreklam för webbplatser. <a>Läs mer<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Visa antalet blockerade annonser på ikonen för AdGuard-tillägget"
+        "message": "Visa antalet blockerade annonser på ikonen för AdZap-tillägget"
     },
     "options_enable_autodetect_filter": {
         "message": "Aktivera de mest lämpade filtren automatiskt"
@@ -947,16 +947,16 @@
         "message": "Phishing- och skadeprogramsskydd"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Varnar för skadliga och nätfiske-webbplatser med hjälp av AdGuard-modulen Surfsäkerhet. <a>Läs mer<\/a>"
+        "message": "Varnar för skadliga och nätfiske-webbplatser med hjälp av AdZap-modulen Surfsäkerhet. <a>Läs mer<\/a>"
     },
     "options_site": {
         "message": "Officiell webbplats"
     },
     "options_discuss": {
-        "message": "Diskutera AdGuard"
+        "message": "Diskutera AdZap"
     },
     "options_do_you_like_question": {
-        "message": "Gillar du AdGuard?"
+        "message": "Gillar du AdZap?"
     },
     "options_rate_us_cta": {
         "message": "Betygsätt det"
@@ -1029,7 +1029,7 @@
         "message": "Alternativ 1. Ta bort onödiga annonsblockerande tillägg från din webbläsare. För att återaktivera filtren som nämns i avsnittet \"Filter aktiverade före uppdateringen\", klicka på <a>återaktivera filter.<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Alternativ 2. Installera AdGuard Ad Blocker-appen: den har inga begränsningar för filtreringsregler. <a>Skaffa AdGuard app<\/a>"
+        "message": "Alternativ 2. Installera AdZap Ad Blocker-appen: den har inga begränsningar för filtreringsregler. <a>Skaffa AdZap app<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Alternativ 3. Om du är nöjd med det för närvarande aktiverade standardfiltret, <a>stäng denna varning.<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Ta bort andra annonsblockerare"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Webbläsartillägg delar samma regelgräns. Att ta bort andra annonsblockerare kan frigöra fler regler för AdGuard-webbläsartillägget"
+        "message": "Webbläsartillägg delar samma regelgräns. Att ta bort andra annonsblockerare kan frigöra fler regler för AdZap-webbläsartillägget"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Hantera tillägg"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Visa information om fullversionen av AdGuard"
+        "message": "Visa information om fullversionen av AdZap"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "All statistik om dataanvändning kommer att raderas permanent"
@@ -1150,13 +1150,13 @@
         "message": "Fel vid återställning av inställningar"
     },
     "options_collect_hit_stats_title": {
-        "message": "Hjälp till att förbättra AdGuards filter"
+        "message": "Hjälp till att förbättra AdZaps filter"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Skickar anonym statistik om användning av annonsfilter till AdGuard. <a>Läs mer<\/a>"
+        "message": "Skickar anonym statistik om användning av annonsfilter till AdZap. <a>Läs mer<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Lägg till AdGuard-objekt i webbläsarens snabbmeny"
+        "message": "Lägg till AdZap-objekt i webbläsarens snabbmeny"
     },
     "options_use_optimized_filters": {
         "message": "Använd optimerade filter"
@@ -1219,13 +1219,13 @@
         "message": "Ta bort spårningsparametrar från webbadresser"
     },
     "options_strip_tracking_params_description": {
-        "message": "Tar bort spårningsparametrar från sidors URL-adresser med AdGuards URL-spårningsfilter"
+        "message": "Tar bort spårningsparametrar från sidors URL-adresser med AdZaps URL-spårningsfilter"
     },
     "options_block_known_trackers_title": {
         "message": "Blockera spårare"
     },
     "options_block_known_trackers_description": {
-        "message": "Blockerar spårare och webbanalys med hjälp av AdGuards spårningsskyddsfilter"
+        "message": "Blockerar spårare och webbanalys med hjälp av AdZaps spårningsskyddsfilter"
     },
     "options_third_party_title": {
         "message": "Ta bort tredjepartscookies"
@@ -1255,7 +1255,7 @@
         "message": "Skicka anonymiserad data för användning av tillägg"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Skickar anonym statistik om extension-användning till AdGuard. <button>Läs mer<\/button>"
+        "message": "Skickar anonym statistik om extension-användning till AdZap. <button>Läs mer<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Användningsdata för tillägg"
@@ -1273,7 +1273,7 @@
         "message": "Sessionsidentifierare"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Vi behöver denna information för att analysera och förbättra funktionaliteten hos AdGuard"
+        "message": "Vi behöver denna information för att analysera och förbättra funktionaliteten hos AdZap"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Dessa uppgifter är anonyma och används endast internt. Vi delar det aldrig med tredje part"
@@ -1318,10 +1318,10 @@
         "message": "Din webbläsare har ändrat listan över aktiva inbyggda filter"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "Regelgränsen överskriden i AdGuard Webbläsartillägg. Kontrollera dina filter och inaktivera de som du inte behöver"
+        "message": "Regelgränsen överskriden i AdZap Webbläsartillägg. Kontrollera dina filter och inaktivera de som du inte behöver"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "Om"
@@ -1354,7 +1354,7 @@
         "message": "Ta bort"
     },
     "options_nav_better_than_extension": {
-        "message": "Varför är AdGuard-appen bättre än tillägget?"
+        "message": "Varför är AdZap-appen bättre än tillägget?"
     },
     "options_nav_compare": {
         "message": "Jämför"
@@ -1369,13 +1369,13 @@
         "message": "Vår desktop app kan skydda dig från dem"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Hämta AdGuard för Windows"
+        "message": "Hämta AdZap för Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Hämta AdGuard för Mac"
+        "message": "Hämta AdZap för Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Hämta AdGuard för Linux"
+        "message": "Hämta AdZap för Linux"
     },
     "options_filters_search": {
         "message": "Sök"
@@ -1384,7 +1384,7 @@
         "message": "Sök filter"
     },
     "options_about_title": {
-        "message": "AdGuard Webbläsartillägg"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Konfigurera annonsblockering här för att hantera irriterande banners, popup-fönster, videoannonser och liknande, en gång för alla"
@@ -1402,7 +1402,7 @@
         "message": "Skydda dig mot skadlig kod, nätfiske och andra hot på nätet"
     },
     "group_description_miscellaneous": {
-        "message": "Fler inställningar för att konfigurera din webbsurfning med AdGuard ännu mer"
+        "message": "Fler inställningar för att konfigurera din webbsurfning med AdZap ännu mer"
     },
     "group_description_custom": {
         "message": "Skapa dina egna filter för att finjustera webbfiltreringen efter dina önskemål."
@@ -1600,13 +1600,13 @@
         "message": "Nekad åtkomst"
     },
     "blocking_pages_safe_header_title": {
-        "message": "Sidans åtkomst har blockerats av AdGuard"
+        "message": "Sidans åtkomst har blockerats av AdZap"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Blockerad av AdGuard"
+        "message": "Blockerad av AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard har förhindrat inläsning av sidan till följd av följande filterregel:"
+        "message": "AdZap har förhindrat inläsning av sidan till följd av följande filterregel:"
     },
     "blocking_pages_btn_go_back": {
         "message": "Återgå"

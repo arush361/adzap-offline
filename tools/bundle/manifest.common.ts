@@ -29,7 +29,7 @@ export const commonManifest = {
     'manifest_version': 2,
     'name': '__MSG_name__',
     'short_name': '__MSG_short_name__',
-    'author': 'Adguard Software Ltd',
+    'author': 'Arush Sharma',
     'default_locale': 'en',
     'description': '__MSG_description__',
     'icons': {

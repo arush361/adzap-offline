@@ -16,85 +16,23 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
-import React, { useContext } from 'react';
+import React from 'react';
 import { observer } from 'mobx-react';
-
-import { translator } from '../../../../common/translators/translator';
-import { Icon } from '../../../common/components/ui/Icon';
-import { IOS_URL, ANDROID_URL } from '../../constants';
-import { popupStore } from '../../stores/PopupStore';
-import { TelemetryEventName, TelemetryScreenName } from '../../../../common/telemetry';
 
 import './footer.pcss';
 
-export const Footer = observer(() => {
-    const store = useContext(popupStore);
-    const { isAndroidBrowser } = store;
-
-    const handleAppleClick = () => {
-        store.telemetryStore.sendCustomEvent(
-            TelemetryEventName.AppleClick,
-            TelemetryScreenName.MainPage,
-        );
-    };
-
-    const handleAndroidClick = () => {
-        store.telemetryStore.sendCustomEvent(
-            TelemetryEventName.AndroidClick,
-            TelemetryScreenName.MainPage,
-        );
-    };
-
-    let footerContent = (
-        <>
-            <div
-                className="footer__text"
-                title={translator.getMessage('popup_adguard_footer_title')}
-            >
-                {translator.getMessage('popup_adguard_footer_title')}
-            </div>
-            <div className="footer__platforms">
-                <a
-                    href={IOS_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="footer__link"
-                    title={translator.getMessage('popup_adguard_for_ios')}
-                    onClick={handleAppleClick}
-                >
-                    <Icon
-                        id="#apple"
-                        className="icon--24 icon--footer"
-                        aria-hidden="true"
-                    />
-                </a>
-                <a
-                    href={ANDROID_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="footer__link"
-                    title={translator.getMessage('popup_adguard_for_android')}
-                    onClick={handleAndroidClick}
-                >
-                    <Icon
-                        id="#android"
-                        className="icon--24 icon--footer"
-                        aria-hidden="true"
-                    />
-                </a>
-            </div>
-        </>
-    );
-
-    if (store.isEdgeBrowser || isAndroidBrowser) {
-        const currentYear = new Date().getFullYear();
-        const footerText = `© 2009-${currentYear} Adguard Software Ltd`;
-        footerContent = <div className="footer__text">{footerText}</div>;
-    }
-
-    return (
-        <div className="footer">{footerContent}</div>
-    );
-});
+/**
+ * AdZap Offline footer: a short product line instead of the upstream
+ * app-store promo links.
+ */
+export const Footer = observer(() => (
+    <div className="footer">
+        <div className="footer__text" title="AdZap Offline: open source, fully offline">
+            AdZap Offline · open source, fully offline
+        </div>
+    </div>
+));

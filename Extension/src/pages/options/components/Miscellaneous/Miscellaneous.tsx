@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, { useContext, useState } from 'react';
@@ -33,6 +35,7 @@ import { userRulesEditorStore } from '../../../common/components/UserRulesEditor
 import { logger } from '../../../../common/logger';
 import { reactTranslator } from '../../../../common/translators/reactTranslator';
 import { translator } from '../../../../common/translators/translator';
+import { OFFLINE_BUILD } from '../../../../common/offline';
 import { ConfirmModal } from '../../../common/components/ConfirmModal';
 import { COLLECT_HITS_LEARN_MORE_URL } from '../../constants';
 import { type SettingHandler } from '../../types';
@@ -202,26 +205,28 @@ export const Miscellaneous = observer(() => {
                         isConsent
                     />
                 )}
-                <SettingsSetCheckbox
-                    title={translator.getMessage('options_collect_hit_stats_title')}
-                    description={reactTranslator.getMessage('options_collect_hit_stats_desc', {
-                        a: (chunks: string) => (
-                            <a
-                                href={COLLECT_HITS_LEARN_MORE_URL}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {chunks}
-                            </a>
-                        ),
-                    })}
-                    disabled={settings.values[DisableCollectHits]}
-                    id={DisableCollectHits}
-                    label={translator.getMessage('options_collect_hit_stats_title')}
-                    inverted
-                    value={settings.values[DisableCollectHits]}
-                    handler={settingChangeHandler}
-                />
+                {!OFFLINE_BUILD && (
+                    <SettingsSetCheckbox
+                        title={translator.getMessage('options_collect_hit_stats_title')}
+                        description={reactTranslator.getMessage('options_collect_hit_stats_desc', {
+                            a: (chunks: string) => (
+                                <a
+                                    href={COLLECT_HITS_LEARN_MORE_URL}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {chunks}
+                                </a>
+                            ),
+                        })}
+                        disabled={settings.values[DisableCollectHits]}
+                        id={DisableCollectHits}
+                        label={translator.getMessage('options_collect_hit_stats_title')}
+                        inverted
+                        value={settings.values[DisableCollectHits]}
+                        handler={settingChangeHandler}
+                    />
+                )}
                 <SettingsSetCheckbox
                     title={translator.getMessage('options_show_blocked_ads_count_title')}
                     disabled={settings.values[DisableShowPageStats]}
@@ -242,15 +247,17 @@ export const Miscellaneous = observer(() => {
                     handler={settingChangeHandler}
                 />
 
-                <SettingsSetCheckbox
-                    title={translator.getMessage('options_show_adguard_full_version_title')}
-                    disabled={settings.values[DisableShowAdguardPromoInfo]}
-                    id={DisableShowAdguardPromoInfo}
-                    label={translator.getMessage('options_show_adguard_full_version_title')}
-                    inverted
-                    value={settings.values[DisableShowAdguardPromoInfo]}
-                    handler={settingChangeHandler}
-                />
+                {!OFFLINE_BUILD && (
+                    <SettingsSetCheckbox
+                        title={translator.getMessage('options_show_adguard_full_version_title')}
+                        disabled={settings.values[DisableShowAdguardPromoInfo]}
+                        id={DisableShowAdguardPromoInfo}
+                        label={translator.getMessage('options_show_adguard_full_version_title')}
+                        inverted
+                        value={settings.values[DisableShowAdguardPromoInfo]}
+                        handler={settingChangeHandler}
+                    />
+                )}
 
                 <SettingsSetCheckbox
                     title={translator.getMessage('options_show_app_updated_notification')}

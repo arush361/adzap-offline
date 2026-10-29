@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Sääntöjen kopioimiseksi ja liittämiseksi salli AdGuardin käyttää leikepöytää. <a>Salli<\/a>"
+        "message": "Sääntöjen kopioimiseksi ja liittämiseksi salli AdZapin käyttää leikepöytää. <a>Salli<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Syötä suodattimelle nimi"
@@ -27,13 +27,13 @@
         "message": "Lue huolellisesti, ennen ärsykesuodattimien käyttöönottoa"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Olet ottamassa käyttöön yhden tai useamman ärsytyssuodattimen. Ne estävät elementtejä, jotka eivät joko liity verkkosivuston sisältöön tai liittyvät käyttökokemukseesi, mutta ärsyttävät sitä. Verkkosivustojen omistajat voivat pitää näitä elementtejä pakollisina: jos estät ne, saatat rikkoa heidän ehtojaan; Jotkin verkkosivustojen toiminnot eivät ehkä ole käytettävissä tai eivät välttämättä toimi oikein. Ymmärrät ja hyväksyt, että olet yksin vastuussa vierailemiesi verkkosivustojen käyttöehtojen noudattamisesta ja että AdGuard ei ole vastuussa tuotteidemme avulla vierailemiesi verkkosivustojen käyttöehtojen noudattamisesta."
+        "message": "Olet ottamassa käyttöön yhden tai useamman ärsytyssuodattimen. Ne estävät elementtejä, jotka eivät joko liity verkkosivuston sisältöön tai liittyvät käyttökokemukseesi, mutta ärsyttävät sitä. Verkkosivustojen omistajat voivat pitää näitä elementtejä pakollisina: jos estät ne, saatat rikkoa heidän ehtojaan; Jotkin verkkosivustojen toiminnot eivät ehkä ole käytettävissä tai eivät välttämättä toimi oikein. Ymmärrät ja hyväksyt, että olet yksin vastuussa vierailemiesi verkkosivustojen käyttöehtojen noudattamisesta ja että ei ole vastuussa tuotteidemme avulla vierailemiesi verkkosivustojen käyttöehtojen noudattamisesta."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Ota suodattimet käyttöön?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Lisätietoja siitä, mitä AdGuardin ärsytyssuodattimet estävät, löydät katsosta <a>Suodatinkäytäntö<\/a>"
+        "message": "Lisätietoja siitä, mitä AdZapin ärsytyssuodattimet estävät, löydät katsosta <a>Suodatinkäytäntö<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Ota käyttöön"
@@ -57,10 +57,10 @@
         "message": "Käynnistä"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard iOS:lle"
+        "message": "AdZap iOS:lle"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard Androidille"
+        "message": "AdZap Androidille"
     },
     "options_filters_filter_version": {
         "message": "versio:"
@@ -159,10 +159,10 @@
         "message": "Tilaa"
     },
     "name": {
-        "message": "AdGuard Mainosesto"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Ylivertainen mainosestolaajennus mainontaa ja ponnahduksia vastaan. Estää mainoksia Facebookissa, YouTubessa ja muilla sivustoilla.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Sallittujen lista"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard ei estä mainoksia ja seurantalaitteita listalla olevilla verkkosivustoilla"
+        "message": "AdZap ei estä mainoksia ja seurantalaitteita listalla olevilla verkkosivustoilla"
     },
     "options_allowlist_invert": {
         "message": "Käänteinen sallittujen lista"
@@ -313,7 +313,7 @@
         "message": "Muutosten tallentaminen epäonnistui. Yritä uudelleen tai ota yhteyttä tukeen"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Tuodaksesi tämän asetustiedoston, salli AdGuardin muuttaa tietosuojaan liittyviä asetuksiasi."
+        "message": "Tuodaksesi tämän asetustiedoston, salli AdZapin muuttaa tietosuojaan liittyviä asetuksiasi."
     },
     "options_popup_import_success_title": {
         "message": "Asetukset tuotu"
@@ -472,7 +472,7 @@
         "message": "päivitettiin."
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuard-laajennus päivitettiin versioon %current_version%."
+        "message": "AdZap-laajennus päivitettiin versioon %current_version%."
     },
     "options_popup_version_update_description_minor": {
         "message": "Tämä versio sisältää lähinnä virhekorjauksia ja pieniä parannuksia."
@@ -484,7 +484,7 @@
         "message": "Mitä uutta tämä versio sisältää?"
     },
     "options_popup_version_update_offer": {
-        "message": "Tiesitkö, ettei AdGuard ole vain tätä selainta varten?"
+        "message": "Tiesitkö, ettei AdZap ole vain tätä selainta varten?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "LUE LISÄÄ"
@@ -499,10 +499,10 @@
         "message": "Poista sivustolle luodut käyttäjän säännöt"
     },
     "popup_open_settings": {
-        "message": "Avaa AdGuardin asetukset"
+        "message": "Avaa AdZapin asetukset"
     },
     "popup_protection_button": {
-        "message": "AdGuardin suojaus"
+        "message": "AdZapin suojaus"
     },
     "context_block_site_ads": {
         "message": "Estä mainokset käsin"
@@ -514,19 +514,19 @@
         "message": "Ilmoita ongelmasta"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard ei voi suodattaa tätä sivua"
+        "message": "AdZap ei voi suodattaa tätä sivua"
     },
     "context_disable_protection": {
-        "message": "Pysäytä AdGuardin suojaus"
+        "message": "Pysäytä AdZapin suojaus"
     },
     "context_enable_protection": {
-        "message": "Palauta AdGuardin suojaus"
+        "message": "Palauta AdZapin suojaus"
     },
     "context_site_protection_disabled": {
-        "message": "AdGuardin suojaus on pysäytetty"
+        "message": "AdZapin suojaus on pysäytetty"
     },
     "context_open_settings": {
-        "message": "AdGuardin asetukset"
+        "message": "AdZapin asetukset"
     },
     "context_open_log": {
         "message": "Suodatushistoria"
@@ -778,7 +778,7 @@
         "message": "Navigointi"
     },
     "options_settings": {
-        "message": "AdGuardin asetukset"
+        "message": "AdZapin asetukset"
     },
     "options_general_settings": {
         "message": "Yleiset"
@@ -790,7 +790,7 @@
         "message": "Estää mainokset hakutuloksissa ja verkkosivustojen itsensä mainostamisen. <a>Lue lisää<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Näytä estettyjen mainosten määrä AdGuard-laajennuksen kuvakkeessa"
+        "message": "Näytä estettyjen mainosten määrä AdZap-laajennuksen kuvakkeessa"
     },
     "options_enable_autodetect_filter": {
         "message": "Käytä sopivimpia suodattimia automaattisesti"
@@ -947,16 +947,16 @@
         "message": "Tietojenkalastelu- ja haittaohjelmasuojaus"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Varoittaa haitallisista ja tietojenkalastelusivustoista, jotka käyttävät AdGuard Browsing Security -moduulia. <a>Lue lisää<\/a>"
+        "message": "Varoittaa haitallisista ja tietojenkalastelusivustoista, jotka käyttävät Browsing Security -moduulia. <a>Lue lisää<\/a>"
     },
     "options_site": {
         "message": "Virallinen sivusto"
     },
     "options_discuss": {
-        "message": "Keskustele AdGuardista"
+        "message": "Keskustele AdZapista"
     },
     "options_do_you_like_question": {
-        "message": "Pidätkö AdGuardista?"
+        "message": "Pidätkö AdZapista?"
     },
     "options_rate_us_cta": {
         "message": "Arvostele tämä"
@@ -1029,7 +1029,7 @@
         "message": "Vaihtoehto 1. Poista tarpeettomat mainosestolaajennukset selaimestasi. Jos haluat palauttaa \"Suodattimet, jotka olivat käytössä ennen päivitystä\" -kohdassa mainitut suodattimet käyttöön, paina <a>aktivoi suodattimet uudelleen<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Vaihtoehto 2. Asenna AdGuard Ad Blocker -sovellus: sillä ei ole rajoituksia suodatussäännöille. <a>Hanki AdGuard-sovellus<\/a>"
+        "message": "Vaihtoehto 2. Asenna AdZap Ad Blocker -sovellus: sillä ei ole rajoituksia suodatussäännöille. <a>Hanki AdZap-sovellus<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Vaihtoehto 3. Jos olet tyytyväinen tällä hetkellä käytössä oleviin oletussuodattimiin, <a>sulje tämä varoitus<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Poista muut mainosten estäjät"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Selainlaajennukset jakavat saman sääntörajan. Muiden mainosten estäjien poistaminen voi vapauttaa lisää sääntöjä AdGuard-selainlaajennukselle"
+        "message": "Selainlaajennukset jakavat saman sääntörajan. Muiden mainosten estäjien poistaminen voi vapauttaa lisää sääntöjä AdZap-selainlaajennukselle"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Hallitse laajennuksia"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Näytä tietoja AdGuardin täysversiosta"
+        "message": "Näytä tietoja AdZapin täysversiosta"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Kaikki datan käyttöä koskevat tilastot poistetaan pysyvästi"
@@ -1150,13 +1150,13 @@
         "message": "Virhe asetusten palautuksessa"
     },
     "options_collect_hit_stats_title": {
-        "message": "Auta kehittämään AdGuard-suodattimia"
+        "message": "Auta kehittämään AdZap-suodattimia"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Lähettää AdGuardille nimettömiä tilastoja mainossuodattimen käytöstä. <a>Lue lisää<\/a>"
+        "message": "Lähettää AdZapille nimettömiä tilastoja mainossuodattimen käytöstä. <a>Lue lisää<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Lisää AdGuard selaimen valikkoon"
+        "message": "Lisää AdZap selaimen valikkoon"
     },
     "options_use_optimized_filters": {
         "message": "Käytä optimoituja suodattimia"
@@ -1219,13 +1219,13 @@
         "message": "Poista seurantaparametrit URL-osoitteista"
     },
     "options_strip_tracking_params_description": {
-        "message": "Poistaa seurantaparametrit sivujen URL-osoitteista AdGuardin URL-seurannanestosuodattimella."
+        "message": "Poistaa seurantaparametrit sivujen URL-osoitteista AdZapin URL-seurannanestosuodattimella."
     },
     "options_block_known_trackers_title": {
         "message": "Estä seurannat"
     },
     "options_block_known_trackers_description": {
-        "message": "Estää verkon seuranta- ja analytiikkajärjestelmät AdGuardin seurantaestosuodattimella."
+        "message": "Estää verkon seuranta- ja analytiikkajärjestelmät AdZapin seurantaestosuodattimella."
     },
     "options_third_party_title": {
         "message": "Poista kolmannen osapuolen evästeet"
@@ -1255,7 +1255,7 @@
         "message": "Lähetä anonyymisti sovelluksen käyttödataa"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Lähettää AdGuardille nimettömiä tilastoja laajennusten käytöstä. <button>Lue lisää<\/button>"
+        "message": "Lähettää AdZapille nimettömiä tilastoja laajennusten käytöstä. <button>Lue lisää<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Laajennuksen käyttötiedot"
@@ -1273,7 +1273,7 @@
         "message": "Istuntojen tunnisteet"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Tarvitsemme näitä tietoja AdGuardin toiminnallisuuden analysointiin ja parantamiseen"
+        "message": "Tarvitsemme näitä tietoja AdZapin toiminnallisuuden analysointiin ja parantamiseen"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Nämä tiedot ovat anonyymejä ja niitä käytetään vain sisäisesti. Emme koskaan jaa sitä kolmansien osapuolten kanssa"
@@ -1318,10 +1318,10 @@
         "message": "Selain on muokannut aktiivisten sisäänrakennettujen suodattimien luetteloa"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "Sääntöraja ylitetty AdGuard-selainlaajennuksessa. Tarkista suodattimet ja poista käytöstä tarpeettomat"
+        "message": "Sääntöraja ylitetty AdZap-selainlaajennuksessa. Tarkista suodattimet ja poista käytöstä tarpeettomat"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "Tietoja"
@@ -1354,7 +1354,7 @@
         "message": "Poista"
     },
     "options_nav_better_than_extension": {
-        "message": "Mikä tekee AdGuard-sovelluksesta laajennusta paremman?"
+        "message": "Mikä tekee AdZap-sovelluksesta laajennusta paremman?"
     },
     "options_nav_compare": {
         "message": "Vertaile"
@@ -1369,13 +1369,13 @@
         "message": "Työpöytäsovelluksemme voi suojata sinua niiltä"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Hanki AdGuard Windowsille"
+        "message": "Hanki AdZap Windowsille"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Hanki AdGuard Macille"
+        "message": "Hanki AdZap Macille"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Hanki AdGuard Linuxille"
+        "message": "Hanki AdZap Linuxille"
     },
     "options_filters_search": {
         "message": "Haku"
@@ -1384,7 +1384,7 @@
         "message": "Etsi suodattimista"
     },
     "options_about_title": {
-        "message": "AdGuard Selainlaajennus"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Määritä mainosten esto täällä käsitelläksesi ärsyttäviä bannereita, ponnahdusikkunoita, videomainoksia ja vastaavia kerta kaikkiaan"
@@ -1402,7 +1402,7 @@
         "message": "Suojaudu haittaohjelmilta, tietojenkalastelulta ja muilta verkon uhkilta"
     },
     "group_description_miscellaneous": {
-        "message": "Lisää asetuksia verkkoselauksesi muokkaamiseksi AdGuardilla vielä enemmän"
+        "message": "Lisää asetuksia verkkoselauksesi muokkaamiseksi AdZapilla vielä enemmän"
     },
     "group_description_custom": {
         "message": "Luo omia suodattimia hienosäätääksesi suodatuksen haluamaksesi."
@@ -1600,13 +1600,13 @@
         "message": "Pääsy estetty"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard on estänyt pääsyn sivulle"
+        "message": "AdZap on estänyt pääsyn sivulle"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Estetty AdGuardilla"
+        "message": "Estetty AdZapilla"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard esti sivun latauksen seuraavalla suodatussäännöllä"
+        "message": "AdZap esti sivun latauksen seuraavalla suodatussäännöllä"
     },
     "blocking_pages_btn_go_back": {
         "message": "Palaa takaisin"

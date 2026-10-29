@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, { useContext } from 'react';
@@ -35,7 +37,8 @@ import styles from './rate-notification.module.pcss';
  * Notification prompting users to rate the extension.
  * Renders as a card in the options page sidebar.
  */
-export const RateNotification = observer(() => {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const UpstreamRateNotification = observer(() => {
     const { settingsStore, telemetryStore } = useContext(rootStore);
 
     if (!settingsStore.rateShowState) {
@@ -83,3 +86,8 @@ export const RateNotification = observer(() => {
         </div>
     );
 });
+
+/**
+ * AdZap Offline: upstream RateNotification promotes AdGuard products/ratings, so it renders nothing.
+ */
+export const RateNotification = () => null;

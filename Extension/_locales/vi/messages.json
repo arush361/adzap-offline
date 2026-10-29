@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Để sao chép và dán các quy tắc, hãy cho phép AdGuard truy cập vào clipboard. <a>Cho phép<\/a>"
+        "message": "Để sao chép và dán các quy tắc, hãy cho phép AdZap truy cập vào clipboard. <a>Cho phép<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Nhập tên cho bộ lọc"
@@ -27,13 +27,13 @@
         "message": "Vui lòng đọc kĩ trước khi kích hoạt các bộ lọc chống làm phiền"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Bạn đang sắp bật một hoặc nhiều bộ lọc làm phiền. Chúng sẽ chặn các yếu tố không liên quan đến nội dung trang hoặc có liên quan nhưng gây phiền toái cho trải nghiệm người dùng của bạn. Chủ sở hữu trang có thể xem các yếu tố này là bắt buộc: nếu bạn chặn chúng, bạn có thể vi phạm các điều khoản của họ; một số chức năng của các trang có thể không khả dụng hoặc không hoạt động đúng cách. Bạn hiểu và đồng ý rằng bạn hoàn toàn chịu trách nhiệm tuân thủ các điều khoản sử dụng của các trang bạn truy cập và AdGuard không chịu trách nhiệm về việc bạn tuân thủ các điều khoản sử dụng của các trang bạn truy cập bằng sản phẩm của chúng tôi."
+        "message": "Bạn đang sắp bật một hoặc nhiều bộ lọc làm phiền. Chúng sẽ chặn các yếu tố không liên quan đến nội dung trang hoặc có liên quan nhưng gây phiền toái cho trải nghiệm người dùng của bạn. Chủ sở hữu trang có thể xem các yếu tố này là bắt buộc: nếu bạn chặn chúng, bạn có thể vi phạm các điều khoản của họ; một số chức năng của các trang có thể không khả dụng hoặc không hoạt động đúng cách. Bạn hiểu và đồng ý rằng bạn hoàn toàn chịu trách nhiệm tuân thủ các điều khoản sử dụng của các trang bạn truy cập và không chịu trách nhiệm về việc bạn tuân thủ các điều khoản sử dụng của các trang bạn truy cập bằng sản phẩm của chúng tôi."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Bật các bộ lọc này?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Để biết chi tiết về những gì bộ lọc làm phiền của AdGuard chặn, xem <a>Chính sách bộ lọc<\/a>"
+        "message": "Để biết chi tiết về những gì bộ lọc làm phiền của chặn, xem <a>Chính sách bộ lọc<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Bật"
@@ -57,10 +57,10 @@
         "message": "Tiếp tục"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard dành cho IOS"
+        "message": "AdZap dành cho IOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard dành cho Android"
+        "message": "AdZap dành cho Android"
     },
     "options_filters_filter_version": {
         "message": "phiên bản:"
@@ -159,10 +159,10 @@
         "message": "Đăng kí"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Ứng dụng ngăn chặn tuyệt đối quảng cáo và cửa sổ bật lên. Loại bỏ quảng cáo trên Facebook, Youtube và tất cả các trang web khác.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Danh sách cho phép"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard không chặn quảng cáo và trình theo dõi trên\ncác trang trong danh sách"
+        "message": "AdZap không chặn quảng cáo và trình theo dõi trên\ncác trang trong danh sách"
     },
     "options_allowlist_invert": {
         "message": "Đảo ngược danh sách cho phép"
@@ -313,7 +313,7 @@
         "message": "Không thể lưu các thay đổi. Hãy thử lại hoặc liên hệ với bộ phận hỗ trợ"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Để nhập tệp cài đặt này, hãy cho phép AdGuard thay đổi cài đặt liên quan đến quyền riêng tư của bạn."
+        "message": "Để nhập tệp cài đặt này, hãy cho phép AdZap thay đổi cài đặt liên quan đến quyền riêng tư của bạn."
     },
     "options_popup_import_success_title": {
         "message": "Đã nhập cài đặt"
@@ -472,7 +472,7 @@
         "message": "đã được cập nhật"
     },
     "options_popup_version_update_title_text": {
-        "message": "Tiện ích mở rộng AdGuard đã được cập nhật lên phiên bản %current_version%"
+        "message": "Tiện ích mở rộng AdZap đã được cập nhật lên phiên bản %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "Phiên bản này chủ yếu bao gồm sửa lỗi và các cải tiến nhỏ."
@@ -484,7 +484,7 @@
         "message": "Phiên bản này có gì mới?"
     },
     "options_popup_version_update_offer": {
-        "message": "Bạn có biết rằng các khả năng của AdGuard không bị giới hạn trong trình duyệt này không?"
+        "message": "Bạn có biết rằng các khả năng của AdZap không bị giới hạn trong trình duyệt này không?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "TÌM HIỂU THÊM"
@@ -499,10 +499,10 @@
         "message": "Xóa quy tắc người dùng cho trang web này"
     },
     "popup_open_settings": {
-        "message": "Mở cài đặt AdGuard"
+        "message": "Mở cài đặt AdZap"
     },
     "popup_protection_button": {
-        "message": "Bảo vệ AdGuard"
+        "message": "Bảo vệ AdZap"
     },
     "context_block_site_ads": {
         "message": "Chặn quảng cáo thủ công"
@@ -514,19 +514,19 @@
         "message": "Báo lỗi"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard không thể lọc trang này"
+        "message": "AdZap không thể lọc trang này"
     },
     "context_disable_protection": {
-        "message": "Tạm dừng bảo vệ của AdGuard"
+        "message": "Tạm dừng bảo vệ của AdZap"
     },
     "context_enable_protection": {
-        "message": "Tiếp tục bảo vệ của AdGuard"
+        "message": "Tiếp tục bảo vệ của AdZap"
     },
     "context_site_protection_disabled": {
-        "message": "Đã tạm dừng bảo vệ của AdGuard"
+        "message": "Đã tạm dừng bảo vệ của AdZap"
     },
     "context_open_settings": {
-        "message": "Cài đặt AdGuard"
+        "message": "Cài đặt AdZap"
     },
     "context_open_log": {
         "message": "Mở nhật ký lọc"
@@ -778,7 +778,7 @@
         "message": "Điều hướng"
     },
     "options_settings": {
-        "message": "Cài đặt AdGuard"
+        "message": "Cài đặt AdZap"
     },
     "options_general_settings": {
         "message": "Cài đặt Tổng quát"
@@ -790,7 +790,7 @@
         "message": "Chặn quảng cáo trong kết quả tìm kiếm và tự quảng cáo trang web. <a>Tìm hiểu thêm<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Hiển thị số quảng cáo đã bị chặn trên biểu tượng tiện ích mở rộng AdGuard"
+        "message": "Hiển thị số quảng cáo đã bị chặn trên biểu tượng tiện ích mở rộng AdZap"
     },
     "options_enable_autodetect_filter": {
         "message": "Tự động kích hoạt những bộ lọc phù hợp nhất"
@@ -947,16 +947,16 @@
         "message": "Bảo vệ chống lừa đảo và phần mềm độc hại"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Cảnh báo về các trang web độc hại và lừa đảo sử dụng cấu phần Bảo mật duyệt web của AdGuard. <a>Đọc thêm<\/a>"
+        "message": "Cảnh báo về các trang web độc hại và lừa đảo sử dụng cấu phần Bảo mật duyệt web của AdZap. <a>Đọc thêm<\/a>"
     },
     "options_site": {
         "message": "Trang chủ chính thức"
     },
     "options_discuss": {
-        "message": "Thảo luận AdGuard"
+        "message": "Thảo luận AdZap"
     },
     "options_do_you_like_question": {
-        "message": "Bạn có thích AdGuard?"
+        "message": "Bạn có thích AdZap?"
     },
     "options_rate_us_cta": {
         "message": "Đánh giá ngay"
@@ -1029,7 +1029,7 @@
         "message": "Tùy chọn 1. Xóa các tiện ích mở rộng chặn quảng cáo không cần thiết khỏi trình duyệt của bạn. Để kích hoạt lại các bộ lọc được đề cập trong phần \"Bộ lọc được bật trước khi cập nhật\", hãy nhấp vào <a>kích hoạt lại bộ lọc.<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Tùy chọn 2. Cài đặt ứng dụng AdGuard Ad Blocker: ứng dụng này không có giới hạn về quy tắc lọc. <a>Tải ứng dụng AdGuard<\/a>"
+        "message": "Tùy chọn 2. Cài đặt ứng dụng AdZap Ad Blocker: ứng dụng này không có giới hạn về quy tắc lọc. <a>Tải ứng dụng AdZap<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Tùy chọn 3. Nếu bạn hài lòng với bộ lọc mặc định hiện đang được bật, <a>hãy đóng cảnh báo này.<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Gỡ bỏ các trình chặn quảng cáo khác"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Các tiện ích mở rộng trình duyệt dùng chung cùng một giới hạn quy tắc. Việc gỡ bỏ các trình chặn quảng cáo khác có thể giải phóng thêm quy tắc cho Tiện ích mở rộng Trình duyệt AdGuard"
+        "message": "Các tiện ích mở rộng trình duyệt dùng chung cùng một giới hạn quy tắc. Việc gỡ bỏ các trình chặn quảng cáo khác có thể giải phóng thêm quy tắc cho Tiện ích mở rộng Trình duyệt AdZap"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Quản lý tiện ích mở rộng"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Hiện thông tin trên phiên bản AdGuard đầy đủ"
+        "message": "Hiện thông tin trên phiên bản AdZap đầy đủ"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Tất cả thống kê về việc sử dụng dữ liệu sẽ bị xóa vĩnh viễn"
@@ -1150,13 +1150,13 @@
         "message": "Lỗi trong khi đặt lại cài đặt"
     },
     "options_collect_hit_stats_title": {
-        "message": "Giúp phát triển các bộ lọc của AdGuard"
+        "message": "Giúp phát triển các bộ lọc của AdZap"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Gửi thống kê ẩn danh về việc sử dụng bộ lọc quảng cáo đến AdGuard. <a>Tìm hiểu thêm<\/a>"
+        "message": "Gửi thống kê ẩn danh về việc sử dụng bộ lọc quảng cáo đến AdZap. <a>Tìm hiểu thêm<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Thêm AdGuard vào danh mục tác vụ của trình duyệt"
+        "message": "Thêm AdZap vào danh mục tác vụ của trình duyệt"
     },
     "options_use_optimized_filters": {
         "message": "Sử dụng tối ưu hoá cho bộ lọc"
@@ -1219,13 +1219,13 @@
         "message": "Xóa tham số theo dõi khỏi URL"
     },
     "options_strip_tracking_params_description": {
-        "message": "Xóa tham số theo dõi khỏi URL trang bằng bộ lọc Theo dõi URL của AdGuard"
+        "message": "Xóa tham số theo dõi khỏi URL trang bằng bộ lọc Theo dõi URL của AdZap"
     },
     "options_block_known_trackers_title": {
         "message": "Chặn trình theo dõi"
     },
     "options_block_known_trackers_description": {
-        "message": "Chặn trình theo dõi và phân tích trang web bằng bộ lọc Bảo vệ theo dõi AdGuard"
+        "message": "Chặn trình theo dõi và phân tích trang web bằng bộ lọc Bảo vệ theo dõi AdZap"
     },
     "options_third_party_title": {
         "message": "Xóa cookie của bên thứ ba"
@@ -1255,7 +1255,7 @@
         "message": "Gửi dữ liệu sử dụng phần mở rộng đã được ẩn danh"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Gửi số liệu ẩn danh về việc sử dụng tiện ích mở rộng đến AdGuard. <button>Tìm hiểu thêm<\/button>"
+        "message": "Gửi số liệu ẩn danh về việc sử dụng tiện ích mở rộng đến AdZap. <button>Tìm hiểu thêm<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Dữ liệu sử dụng phần mở rộng"
@@ -1273,7 +1273,7 @@
         "message": "Định danh phiên bản"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Chúng tôi cần thông tin này để phân tích và cải thiện chức năng của AdGuard"
+        "message": "Chúng tôi cần thông tin này để phân tích và cải thiện chức năng của AdZap"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Dữ liệu này là ẩn danh và chỉ được sử dụng nội bộ. Chúng tôi không bao giờ chia sẻ nó với bên thứ ba"
@@ -1318,10 +1318,10 @@
         "message": "Trình duyệt của bạn đã sửa đổi danh sách các bộ lọc tích hợp đang hoạt động"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "Đã vượt quá giới hạn quy tắc trong Tiện ích mở rộng trình duyệt AdGuard. Vui lòng kiểm tra bộ lọc của bạn và tắt những bộ lọc bạn không cần"
+        "message": "Đã vượt quá giới hạn quy tắc trong Tiện ích mở rộng trình duyệt AdZap. Vui lòng kiểm tra bộ lọc của bạn và tắt những bộ lọc bạn không cần"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "Giới thiệu"
@@ -1354,7 +1354,7 @@
         "message": "Xoá"
     },
     "options_nav_better_than_extension": {
-        "message": "Vì sao chương trình AdGuard chính thức tốt hơn tiện ích mở rộng?"
+        "message": "Vì sao chương trình AdZap chính thức tốt hơn tiện ích mở rộng?"
     },
     "options_nav_compare": {
         "message": "Phân biệt hai chương trình"
@@ -1369,13 +1369,13 @@
         "message": "Ứng dụng desktop của chúng tôi có thể bảo vệ bạn khỏi\nchúng"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Nhận AdGuard cho Windows"
+        "message": "Nhận AdZap cho Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Nhận AdGuard cho Mac"
+        "message": "Nhận AdZap cho Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Nhận AdGuard cho Linux"
+        "message": "Nhận AdZap cho Linux"
     },
     "options_filters_search": {
         "message": "Tìm kiếm"
@@ -1384,7 +1384,7 @@
         "message": "Tìm bộ lọc"
     },
     "options_about_title": {
-        "message": "Tiện ích mở rộng AdGuard cho trình duyệt"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Cấu hình chặn quảng cáo tại đây để giải quyết các biểu ngữ phiền phức, cửa sổ bật lên, quảng cáo video và tương tự, một lần cho tất cả"
@@ -1402,7 +1402,7 @@
         "message": "Bảo vệ bạn khỏi phần mềm độc hại, lừa đảo và các mối nguy trực tuyến khác"
     },
     "group_description_miscellaneous": {
-        "message": "Nhiều cài đặt nhiều hơn để cấu hình lướt web với AdGuard"
+        "message": "Nhiều cài đặt nhiều hơn để cấu hình lướt web với AdZap"
     },
     "group_description_custom": {
         "message": "Tạo bộ lọc của riêng bạn để tinh chỉnh bộ lọc web theo sở thích của bạn."
@@ -1600,13 +1600,13 @@
         "message": "Truy cập bị từ chối"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard đã chặn truy cập vào trang này"
+        "message": "AdZap đã chặn truy cập vào trang này"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Bị chặn bởi AdGuard"
+        "message": "Bị chặn bởi AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "Adguard đã ngăn trang này tải do tuân theo quy tắc bộ lọc sau"
+        "message": "AdZap đã ngăn trang này tải do tuân theo quy tắc bộ lọc sau"
     },
     "blocking_pages_btn_go_back": {
         "message": "Quay lại"

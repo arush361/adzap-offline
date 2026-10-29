@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 // TODO remove no-explicit-any disabling
@@ -53,6 +55,8 @@ import { type SettingHandler } from '../../types';
 import { ensurePermission } from '../../ensure-permission';
 import { reactTranslator } from '../../../../common/translators/reactTranslator';
 import { translator } from '../../../../common/translators/translator';
+import { OFFLINE_BUILD } from '../../../../common/offline';
+
 import { Unknown } from '../../../../common/unknown';
 import { AppearanceTheme, FiltersUpdateTime } from '../../../../common/constants';
 import { StaticFiltersLimitsWarning } from '../Warnings';
@@ -61,6 +65,9 @@ import { ExtensionUsageDataModal } from '../Miscellaneous/ExtensionUsageDataModa
 import { Permissions } from '../../../../common/permissions';
 
 import { DesktopAppPromo } from './DesktopAppPromo';
+
+// AdZap Offline: bug reports go to this repo's GitHub issues.
+const ADZAP_ISSUES_URL = 'https://github.com/arush361/adzap-offline/issues';
 
 const filtersUpdatePeriodOptions = [
     {
@@ -341,24 +348,26 @@ export const General = observer(() => {
                     label={translator.getMessage('options_block_acceptable_ads')}
                     handler={allowAcceptableAdsChangeHandler}
                 />
-                <SettingsSetCheckbox
-                    title={translator.getMessage('options_anonymized_usage_data_title')}
-                    description={reactTranslator.getMessage('options_anonymized_usage_data_description', {
-                        button: (chunks: string) => (
-                            <button
-                                type="button"
-                                className="button button--link button--link--underlined button--link--green"
-                                onClick={() => setIsUsageDataModalOpen(true)}
-                            >
-                                {chunks}
-                            </button>
-                        ),
-                    })}
-                    id={AllowAnonymizedUsageData}
-                    label={translator.getMessage('options_anonymized_usage_data_title')}
-                    value={settings.values[AllowAnonymizedUsageData]}
-                    handler={settingChangeHandler}
-                />
+                {!OFFLINE_BUILD && (
+                    <SettingsSetCheckbox
+                        title={translator.getMessage('options_anonymized_usage_data_title')}
+                        description={reactTranslator.getMessage('options_anonymized_usage_data_description', {
+                            button: (chunks: string) => (
+                                <button
+                                    type="button"
+                                    className="button button--link button--link--underlined button--link--green"
+                                    onClick={() => setIsUsageDataModalOpen(true)}
+                                >
+                                    {chunks}
+                                </button>
+                            ),
+                        })}
+                        id={AllowAnonymizedUsageData}
+                        label={translator.getMessage('options_anonymized_usage_data_title')}
+                        value={settings.values[AllowAnonymizedUsageData]}
+                        handler={settingChangeHandler}
+                    />
+                )}
                 {!__IS_MV3__ && (
                     <SettingsSetCheckbox
                         title={translator.getMessage('options_safebrowsing_enabled')}
@@ -423,13 +432,16 @@ export const General = observer(() => {
                 isConsent
             />
             <div className="links-menu links-menu--section">
-                <button
-                    type="button"
-                    className="links-menu__item button--link--green"
-                    onClick={handleShareSettings}
-                >
-                    {translator.getMessage('options_share_settings')}
-                </button>
+                {/* AdZap Offline: sharing builds a link on AdGuard's website, so it's hidden. */}
+                {!OFFLINE_BUILD && (
+                    <button
+                        type="button"
+                        className="links-menu__item button--link--green"
+                        onClick={handleShareSettings}
+                    >
+                        {translator.getMessage('options_share_settings')}
+                    </button>
+                )}
                 <button
                     type="button"
                     className="links-menu__item button--link--green"
@@ -454,19 +466,23 @@ export const General = observer(() => {
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={__IS_MV3__ ? BUG_REPORT_MV3_URL : BUG_REPORT_URL}
+                    // AdZap Offline: bug reports go to the AdZap Offline GitHub issues.
+                    href={OFFLINE_BUILD ? ADZAP_ISSUES_URL : (__IS_MV3__ ? BUG_REPORT_MV3_URL : BUG_REPORT_URL)}
                     className="links-menu__item button--link--green"
                 >
                     {translator.getMessage('options_report_bug')}
                 </a>
-                <button
-                    role="link"
-                    type="button"
-                    className="links-menu__item button--link--green"
-                    onClick={handleLeaveFeedback}
-                >
-                    {translator.getMessage('options_leave_feedback')}
-                </button>
+                {/* AdZap Offline: feedback goes to the upstream store listing, so it's hidden. */}
+                {!OFFLINE_BUILD && (
+                    <button
+                        role="link"
+                        type="button"
+                        className="links-menu__item button--link--green"
+                        onClick={handleLeaveFeedback}
+                    >
+                        {translator.getMessage('options_leave_feedback')}
+                    </button>
+                )}
             </div>
             <DesktopAppPromo />
         </>

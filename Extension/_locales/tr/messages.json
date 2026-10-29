@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Kuralları kopyalamak ve yapıştırmak için AdGuard'ın panoya erişmesine izin verin. <a>İzin ver<\/a>"
+        "message": "Kuralları kopyalamak ve yapıştırmak için AdZap'ın panoya erişmesine izin verin. <a>İzin ver<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Bir filtre adı girin"
@@ -27,13 +27,13 @@
         "message": "Can sıkıcı öğe filtrelerini etkinleştirmeden önce lütfen dikkatlice oku"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Bir veya daha fazla rahatsızlık filtresini etkinleştirmek üzeresiniz. Bu filtreler, ya web sitesi içeriğiyle ilgisiz olan ya da ilgili olsa bile kullanıcı deneyiminizi olumsuz etkileyen öğeleri engeller. Web sitesi sahipleri bu öğeleri zorunlu kabul edebilir: eğer bunları engellerseniz, sitenin kullanım şartlarını ihlal etmiş olabilirsiniz; bazı web sitesi işlevleri kullanılamayabilir veya düzgün çalışmayabilir. Ziyaret ettiğiniz web sitelerinin kullanım şartlarına uymaktan yalnızca sizin sorumlu olduğunuzu ve AdGuard’ın ürünlerimizi kullanarak ziyaret ettiğiniz web sitelerinin kullanım şartlarına uyumunuzdan sorumlu olmadığını anlıyor ve kabul ediyorsunuz."
+        "message": "Bir veya daha fazla rahatsızlık filtresini etkinleştirmek üzeresiniz. Bu filtreler, ya web sitesi içeriğiyle ilgisiz olan ya da ilgili olsa bile kullanıcı deneyiminizi olumsuz etkileyen öğeleri engeller. Web sitesi sahipleri bu öğeleri zorunlu kabul edebilir: eğer bunları engellerseniz, sitenin kullanım şartlarını ihlal etmiş olabilirsiniz; bazı web sitesi işlevleri kullanılamayabilir veya düzgün çalışmayabilir. Ziyaret ettiğiniz web sitelerinin kullanım şartlarına uymaktan yalnızca sizin sorumlu olduğunuzu ve AdZap’ın ürünlerimizi kullanarak ziyaret ettiğiniz web sitelerinin kullanım şartlarına uyumunuzdan sorumlu olmadığını anlıyor ve kabul ediyorsunuz."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Bu filtreler etkinleştirilsin mi?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "AdGuard'ın can sıkıcı öğe filtrelerinin neleri engellediğine ilişkin ayrıntılar için bkz. <a>Filtre politikası<\/a>"
+        "message": "AdZap'ın can sıkıcı öğe filtrelerinin neleri engellediğine ilişkin ayrıntılar için bkz. <a>Filtre politikası<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Etkinleştir"
@@ -57,10 +57,10 @@
         "message": "Sürdür"
     },
     "popup_adguard_for_ios": {
-        "message": "iOS için AdGuard"
+        "message": "iOS için AdZap"
     },
     "popup_adguard_for_android": {
-        "message": "Android için AdGuard"
+        "message": "Android için AdZap"
     },
     "options_filters_filter_version": {
         "message": "sürüm:"
@@ -159,10 +159,10 @@
         "message": "Abone ol"
     },
     "name": {
-        "message": "AdGuard Reklam Engelleyici"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Reklamları ve açılır pencereleri engelleyen eşsiz uzantı. Facebook, YouTube ve diğer tüm sitelerdeki reklamları engeller.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "İzin listesi"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard, listedeki sitelerde reklamları ve izleyicileri engellemez"
+        "message": "AdZap, listedeki sitelerde reklamları ve izleyicileri engellemez"
     },
     "options_allowlist_invert": {
         "message": "İzin listesini ters çevir"
@@ -313,7 +313,7 @@
         "message": "Değişiklikler kaydedilemedi. Tekrar deneyin veya destek ile iletişime geçin"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Bu ayarlar dosyasını içe aktarmak için AdGuard'ın gizlilikle ilgili ayarlarınızı değiştirmesine izin verin."
+        "message": "Bu ayarlar dosyasını içe aktarmak için AdZap'ın gizlilikle ilgili ayarlarınızı değiştirmesine izin verin."
     },
     "options_popup_import_success_title": {
         "message": "Ayarlar içe aktarıldı"
@@ -472,7 +472,7 @@
         "message": "güncellendi."
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuard uzantısı, %current_version% sürümüne güncellendi"
+        "message": "AdZap uzantısı, %current_version% sürümüne güncellendi"
     },
     "options_popup_version_update_description_minor": {
         "message": "Bu sürüm çoğunlukla hata düzeltmeleri ve küçük iyileştirmeler içerir."
@@ -484,7 +484,7 @@
         "message": "Bu sürümdeki yenilikler neler?"
     },
     "options_popup_version_update_offer": {
-        "message": "AdGuard'ın yeteneklerinin bu tarayıcı ile sınırlı olmadığını biliyor muydunuz?"
+        "message": "AdZap'ın yeteneklerinin bu tarayıcı ile sınırlı olmadığını biliyor muydunuz?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "DAHA FAZLA BİLGİ EDİNİN"
@@ -499,10 +499,10 @@
         "message": "Bu site için kullanıcı kurallarını sil"
     },
     "popup_open_settings": {
-        "message": "AdGuard ayarlarını aç"
+        "message": "AdZap ayarlarını aç"
     },
     "popup_protection_button": {
-        "message": "AdGuard koruması"
+        "message": "AdZap koruması"
     },
     "context_block_site_ads": {
         "message": "Reklamları elle engelle"
@@ -514,19 +514,19 @@
         "message": "Bir sorun bildir"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard bu sayfayı filtreleyemiyor"
+        "message": "AdZap bu sayfayı filtreleyemiyor"
     },
     "context_disable_protection": {
-        "message": "AdGuard korumasını duraklat"
+        "message": "AdZap korumasını duraklat"
     },
     "context_enable_protection": {
-        "message": "AdGuard korumasını sürdür"
+        "message": "AdZap korumasını sürdür"
     },
     "context_site_protection_disabled": {
-        "message": "AdGuard koruması duraklatıldı"
+        "message": "AdZap koruması duraklatıldı"
     },
     "context_open_settings": {
-        "message": "AdGuard ayarları"
+        "message": "AdZap ayarları"
     },
     "context_open_log": {
         "message": "Filtreleme günlüğü"
@@ -778,7 +778,7 @@
         "message": "Navigasyon"
     },
     "options_settings": {
-        "message": "AdGuard Ayarları"
+        "message": "AdZap Ayarları"
     },
     "options_general_settings": {
         "message": "Genel"
@@ -790,7 +790,7 @@
         "message": "Arama sonuçlarındaki reklamları ve sitelerin öz tanıtımını engeller. <a>Daha fazla bilgi edinin<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "AdGuard uzantı simgesinde engellenen reklamların sayısını göster"
+        "message": "AdZap uzantı simgesinde engellenen reklamların sayısını göster"
     },
     "options_enable_autodetect_filter": {
         "message": "En uygun filtreleri otomatik olarak etkinleştir"
@@ -947,16 +947,16 @@
         "message": "Kimlik avı ve kötü amaçlı yazılım koruması"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "AdGuard Gezinti Koruması modülünü kullanarak kötü amaçlı ve kimlik avı siteleri konusunda uyarır. <a>Daha fazla bilgi edinin<\/a>"
+        "message": "Gezinti Koruması modülünü kullanarak kötü amaçlı ve kimlik avı siteleri konusunda uyarır. <a>Daha fazla bilgi edinin<\/a>"
     },
     "options_site": {
         "message": "Resmi site"
     },
     "options_discuss": {
-        "message": "AdGuard'ı Tartışın"
+        "message": "AdZap'ı Tartışın"
     },
     "options_do_you_like_question": {
-        "message": "AdGuard'ı sevdiniz mi?"
+        "message": "AdZap'ı sevdiniz mi?"
     },
     "options_rate_us_cta": {
         "message": "Değerlendirin"
@@ -1029,7 +1029,7 @@
         "message": "1. Seçenek: Gereksiz reklam engelleme uzantılarını tarayıcınızdan silin. \"Güncellemeden önce etkin olan filtreler\" bölümünde belirtilen filtreleri yeniden etkinleştirmek için <a>filtreleri yeniden etkinleştir<\/a> öğesine tıklayın"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "2. Seçenek: AdGuard Reklam Engelleyici uygulamasını yükleyin: filtreleme kurallarında herhangi bir kısıtlama yoktur. <a>AdGuard uygulamasını edinin<\/a>"
+        "message": "2. Seçenek: AdZap Reklam Engelleyici uygulamasını yükleyin: filtreleme kurallarında herhangi bir kısıtlama yoktur. <a>AdZap uygulamasını edinin<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "3. Seçenek: Şu anda etkin olan varsayılan filtreden memnunsanız, <a>bu uyarıyı kapatın<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Diğer reklam engelleyicileri kaldır"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Tarayıcı uzantıları aynı kural sınırını paylaşır. Diğer reklam engelleyicileri kaldırmak, AdGuard Tarayıcı Uzantısı için daha fazla kural sağlayabilir"
+        "message": "Tarayıcı uzantıları aynı kural sınırını paylaşır. Diğer reklam engelleyicileri kaldırmak, AdZap Tarayıcı Uzantısı için daha fazla kural sağlayabilir"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Uzantıları yönet"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "AdGuard'ın tam sürümüyle ilgili bilgileri göster"
+        "message": "AdZap'ın tam sürümüyle ilgili bilgileri göster"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Veri kullanımına ilişkin tüm istatistikler kalıcı olarak silinecektir"
@@ -1150,13 +1150,13 @@
         "message": "Ayarlar sıfırlanırken hata oluştu"
     },
     "options_collect_hit_stats_title": {
-        "message": "AdGuard filtrelerinin geliştirilmesine yardım edin"
+        "message": "AdZap filtrelerinin geliştirilmesine yardım edin"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Reklam filtresi kullanımına ilişkin anonim istatistikleri AdGuard’a gönderir. <a>Daha fazla bilgi edinin<\/a>"
+        "message": "Reklam filtresi kullanımına ilişkin anonim istatistikleri AdZap’a gönderir. <a>Daha fazla bilgi edinin<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Tarayıcının sağ tık menüsüne AdGuard öğesini ekle"
+        "message": "Tarayıcının sağ tık menüsüne AdZap öğesini ekle"
     },
     "options_use_optimized_filters": {
         "message": "İyileştirilmiş filtreleri kullan"
@@ -1219,13 +1219,13 @@
         "message": "İzleme parametrelerini URL'lerden kaldır"
     },
     "options_strip_tracking_params_description": {
-        "message": "AdGuard URL İzleme filtresini kullanarak izleme parametrelerini sayfa URL'lerinden kaldırır"
+        "message": "URL İzleme filtresini kullanarak izleme parametrelerini sayfa URL'lerinden kaldırır"
     },
     "options_block_known_trackers_title": {
         "message": "İzleyicileri engelle"
     },
     "options_block_known_trackers_description": {
-        "message": "AdGuard İzleme Koruması filtresini kullanarak izleyicileri ve web analizlerini engeller"
+        "message": "İzleme Koruması filtresini kullanarak izleyicileri ve web analizlerini engeller"
     },
     "options_third_party_title": {
         "message": "Üçüncü taraf çerezlerini sil"
@@ -1255,7 +1255,7 @@
         "message": "Anonim uzantı kullanım verilerini gönder"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Uzantı kullanımına ilişkin anonim istatistikleri AdGuard'a gönderir. <button>Daha fazla bilgi edin<\/button>"
+        "message": "Uzantı kullanımına ilişkin anonim istatistikleri AdZap'a gönderir. <button>Daha fazla bilgi edin<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Uzantı kullanım verileri"
@@ -1273,7 +1273,7 @@
         "message": "Oturum tanımlayıcıları"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "AdGuard'ın işlevselliğini analiz etmek ve geliştirmek için bu bilgilere ihtiyacımız var"
+        "message": "AdZap'ın işlevselliğini analiz etmek ve geliştirmek için bu bilgilere ihtiyacımız var"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Bu veriler anonimdir ve yalnızca şirket içinde kullanılır. Üçüncü taraflarla asla paylaşmayız"
@@ -1318,10 +1318,10 @@
         "message": "Tarayıcınız etkin yerleşik filtrelerin listesini değiştirdi"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "AdGuard Tarayıcı Uzantısında kural limiti aşıldı. Lütfen filtrelerinizi kontrol edin ve ihtiyacınız olmayanları devre dışı bırakın"
+        "message": "AdZap Tarayıcı Uzantısında kural limiti aşıldı. Lütfen filtrelerinizi kontrol edin ve ihtiyacınız olmayanları devre dışı bırakın"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "Hakkında"
@@ -1354,7 +1354,7 @@
         "message": "Kaldır"
     },
     "options_nav_better_than_extension": {
-        "message": "AdGuard uygulaması neden uzantıdan daha iyi?"
+        "message": "AdZap uygulaması neden uzantıdan daha iyi?"
     },
     "options_nav_compare": {
         "message": "Karşılaştır"
@@ -1369,13 +1369,13 @@
         "message": "Masaüstü uygulamamız sizi bunlardan koruyabilir"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Windows için AdGuard'ı edin"
+        "message": "Windows için AdZap'ı edin"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Mac için AdGuard'ı edin"
+        "message": "Mac için AdZap'ı edin"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Linux için AdGuard'ı edin"
+        "message": "Linux için AdZap'ı edin"
     },
     "options_filters_search": {
         "message": "Ara"
@@ -1384,7 +1384,7 @@
         "message": "Filtre ara"
     },
     "options_about_title": {
-        "message": "AdGuard Tarayıcı uzantısı"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Can sıkıcı afişler, açılır pencereler, video reklamları ve benzerleriyle tek seferde hepsiyle başa çıkmak için reklam engellemeyi yapılandırın"
@@ -1402,7 +1402,7 @@
         "message": "Kötü amaçlı yazılımlar, kimlik avı ve diğer çevrimiçi tehditlere karşı kendinizi koruyun"
     },
     "group_description_miscellaneous": {
-        "message": "AdGuard ile internette gezinmenizi ayrıntılı yapılandırmak için daha fazla ayar"
+        "message": "AdZap ile internette gezinmenizi ayrıntılı yapılandırmak için daha fazla ayar"
     },
     "group_description_custom": {
         "message": "İnternet filtrelemesini tercihinize göre ayarlamak için kendi filtrelerinizi oluşturun."
@@ -1600,13 +1600,13 @@
         "message": "Erişim reddedildi"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard bu sayfaya erişimi engelledi"
+        "message": "AdZap bu sayfaya erişimi engelledi"
     },
     "blocking_pages_rule_header_title": {
-        "message": "AdGuard tarafından engellendi"
+        "message": "AdZap tarafından engellendi"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard, aşağıdaki filtre kuralı nedeniyle bu sayfanın açılmasını önledi"
+        "message": "AdZap, aşağıdaki filtre kuralı nedeniyle bu sayfanın açılmasını önledi"
     },
     "blocking_pages_btn_go_back": {
         "message": "Geri dön"

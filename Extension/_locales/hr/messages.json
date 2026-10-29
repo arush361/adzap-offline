@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Da biste kopirali i zalijepili pravila, dopustite AdGuardu pristup međuspremniku. <a>Dopusti<\/a>"
+        "message": "Da biste kopirali i zalijepili pravila, dopustite AdZapu pristup međuspremniku. <a>Dopusti<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Unesite naziv filtra"
@@ -27,13 +27,13 @@
         "message": "Pažljivo pročitajte prije nego omogućite filtre za smetnje"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Spremate se omogućiti jedan ili više filtara za smetnje. Oni blokiraju elemente koji ili nisu povezani sa sadržajem web stranice ili su povezani, ali smetaju vašem korisničkom iskustvu. Vlasnici web stranica ove elemente mogu smatrati obveznima: ako ih blokirate, možda kršite njihove uvjete; neka funkcionalnost web stranica možda neće biti dostupna ili možda neće ispravno raditi. Razumijete i slažete se da ste isključivo vi odgovorni za pridržavanje uvjeta korištenja web stranica koje posjećujete i da AdGuard nije odgovoran za vaše pridržavanje uvjeta korištenja web stranica koje posjećujete koristeći naše proizvode."
+        "message": "Spremate se omogućiti jedan ili više filtara za smetnje. Oni blokiraju elemente koji ili nisu povezani sa sadržajem web stranice ili su povezani, ali smetaju vašem korisničkom iskustvu. Vlasnici web stranica ove elemente mogu smatrati obveznima: ako ih blokirate, možda kršite njihove uvjete; neka funkcionalnost web stranica možda neće biti dostupna ili možda neće ispravno raditi. Razumijete i slažete se da ste isključivo vi odgovorni za pridržavanje uvjeta korištenja web stranica koje posjećujete i da nije odgovoran za vaše pridržavanje uvjeta korištenja web stranica koje posjećujete koristeći naše proizvode."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Omogućiti filtre?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Za detalje o tome što AdGuardovi filtri za smetnje blokiraju, pogledajte <a>Pravila filtriranja<\/a>"
+        "message": "Za detalje o tome što AdZapovi filtri za smetnje blokiraju, pogledajte <a>Pravila filtriranja<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Omogućiti"
@@ -57,10 +57,10 @@
         "message": "Nastavi"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard za iOS"
+        "message": "AdZap za iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard za Android"
+        "message": "AdZap za Android"
     },
     "options_filters_filter_version": {
         "message": "verzija:"
@@ -159,10 +159,10 @@
         "message": "Pretplatite se"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Najbolje proširenje za blokadu oglasa i skočnih prozora. Blokira oglase na Facebook-u, YouTube-u i drugim web stranicama.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Bijela lista"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard ne blokira oglase i praćenike na web-stranicama s popisa"
+        "message": "AdZap ne blokira oglase i praćenike na web-stranicama s popisa"
     },
     "options_allowlist_invert": {
         "message": "Preokreni bijelu listu"
@@ -313,7 +313,7 @@
         "message": "Nije uspjelo spremanje promjena. Pokušajte ponovno ili kontaktirajte podršku"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Za uvoz ove datoteke s postavkama dopustite AdGuardu da promijeni vaše postavke vezane uz privatnost."
+        "message": "Za uvoz ove datoteke s postavkama dopustite AdZapu da promijeni vaše postavke vezane uz privatnost."
     },
     "options_popup_import_success_title": {
         "message": "Postavke uvezene"
@@ -472,7 +472,7 @@
         "message": "su ažurirani."
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuard proširenje je ažuriran na inačicu %current_version%"
+        "message": "AdZap proširenje je ažuriran na inačicu %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "Ova verzija uglavnom sadrži ispravke pogrešaka i manja poboljšanja."
@@ -484,7 +484,7 @@
         "message": "Što je novo u ovoj verziji?"
     },
     "options_popup_version_update_offer": {
-        "message": "Jeste li znali da mogućnosti AdGuarda nisu ograničene samo na ovaj preglednik?"
+        "message": "Jeste li znali da mogućnosti AdZapa nisu ograničene samo na ovaj preglednik?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "SAZNAJTE VIŠE"
@@ -499,10 +499,10 @@
         "message": "Ukloni korisnička pravila za ovo web-mjesto"
     },
     "popup_open_settings": {
-        "message": "Otvorite AdGuard postavke"
+        "message": "Otvorite AdZap postavke"
     },
     "popup_protection_button": {
-        "message": "AdGuard zaštita"
+        "message": "AdZap zaštita"
     },
     "context_block_site_ads": {
         "message": "Ručno blokirajte oglase"
@@ -514,19 +514,19 @@
         "message": "Prijavite problem"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard ne može filtrirati ovu stranicu"
+        "message": "AdZap ne može filtrirati ovu stranicu"
     },
     "context_disable_protection": {
-        "message": "Pauziraj AdGuard zaštitu"
+        "message": "Pauziraj AdZap zaštitu"
     },
     "context_enable_protection": {
-        "message": "Uključi AdGuard zaštitu"
+        "message": "Uključi AdZap zaštitu"
     },
     "context_site_protection_disabled": {
-        "message": "AdGuard zaštita je pauzirana"
+        "message": "AdZap zaštita je pauzirana"
     },
     "context_open_settings": {
-        "message": "AdGuard postavke"
+        "message": "AdZap postavke"
     },
     "context_open_log": {
         "message": "Zapisnik filtriranja"
@@ -778,7 +778,7 @@
         "message": "Navigacija"
     },
     "options_settings": {
-        "message": "AdGuard Postavke"
+        "message": "AdZap Postavke"
     },
     "options_general_settings": {
         "message": "Općenito"
@@ -790,7 +790,7 @@
         "message": "Blokira oglase u rezultatima pretraživanja i samopromociju web stranica. <a>Saznajte više<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Prikaži broj blokiranih oglasa na ikoni AdGuard proširenja"
+        "message": "Prikaži broj blokiranih oglasa na ikoni AdZap proširenja"
     },
     "options_enable_autodetect_filter": {
         "message": "Automatski aktiviraj najprikladnije filtre"
@@ -947,16 +947,16 @@
         "message": "Zaštita od krađe identiteta i zločudnih programa"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Upozorava na zlonamjerne i phishing web stranice koristeći AdGuard modul Zaštita pregledavanja Interneta. <a>Pročitajte više<\/a>"
+        "message": "Upozorava na zlonamjerne i phishing web stranice koristeći modul Zaštita pregledavanja Interneta. <a>Pročitajte više<\/a>"
     },
     "options_site": {
         "message": "Službena stranica"
     },
     "options_discuss": {
-        "message": "Raspravite o AdGuardu"
+        "message": "Raspravite o AdZapu"
     },
     "options_do_you_like_question": {
-        "message": "Sviđa li vam se AdGuard?"
+        "message": "Sviđa li vam se AdZap?"
     },
     "options_rate_us_cta": {
         "message": "Ocijenite ga"
@@ -1029,7 +1029,7 @@
         "message": "Opcija 1. Uklonite nepotrebna proširenja za blokiranje oglasa iz svog preglednika. Da biste ponovno aktivirali filtru navedenu u odjeljku \"Filtri omogućeni prije ažuriranja\", kliknite <a>reaktivirajte filtre.<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Opcija 2. Instalirajte AdGuard Ad Blocker aplikaciju: nema ograničenja za pravila filtriranja. <a>Nabavite aplikaciju AdGuard<\/a>"
+        "message": "Opcija 2. Instalirajte AdZap Ad Blocker aplikaciju: nema ograničenja za pravila filtriranja. <a>Nabavite aplikaciju AdZap<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Opcija 3. Ako ste zadovoljni s trenutno omogućenim zadanim filtrima, <a>Zatvorite ovo upozorenje.<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Ukloni druge blokere oglasa"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Proširenja preglednika dijele isto ograničenje pravila. Uklanjanje drugih blokera oglasa može osloboditi više pravila za AdGuard Browser Extension"
+        "message": "Proširenja preglednika dijele isto ograničenje pravila. Uklanjanje drugih blokera oglasa može osloboditi više pravila za AdZap Offline"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Upravljanje proširenjima"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Prikaži informacije o punoj verziji AdGuarda"
+        "message": "Prikaži informacije o punoj verziji AdZapa"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Sve statistike o korištenju podataka bit će trajno uklonjene"
@@ -1150,13 +1150,13 @@
         "message": "Pogreška prilikom vraćanja postavki u izvorno stanje"
     },
     "options_collect_hit_stats_title": {
-        "message": "Pomoći razvijanju AdGuard filtera"
+        "message": "Pomoći razvijanju AdZap filtera"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Šalje anonimne statistike o korištenju filtara oglasa AdGuardu. <a>Saznajte više<\/a>"
+        "message": "Šalje anonimne statistike o korištenju filtara oglasa AdZapu. <a>Saznajte više<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Dodaj AdGuard u kontekstni izbornik preglednika"
+        "message": "Dodaj AdZap u kontekstni izbornik preglednika"
     },
     "options_use_optimized_filters": {
         "message": "Koristi optimizirane filtre"
@@ -1219,13 +1219,13 @@
         "message": "Uklanjanje parametara praćenja iz URL-ova"
     },
     "options_strip_tracking_params_description": {
-        "message": "Uklanja parametre praćenja iz URL-ova stranica pomoću AdGuard filtra za praćenje URL-ova"
+        "message": "Uklanja parametre praćenja iz URL-ova stranica pomoću filtra za praćenje URL-ova"
     },
     "options_block_known_trackers_title": {
         "message": "Blokiranje poznatih alata za praćenje"
     },
     "options_block_known_trackers_description": {
-        "message": "Blokira trackere i web analitiku pomoću AdGuard filtra za zaštitu od praćenja"
+        "message": "Blokira trackere i web analitiku pomoću filtra za zaštitu od praćenja"
     },
     "options_third_party_title": {
         "message": "Izbrišiti kolačiće treće strane"
@@ -1255,7 +1255,7 @@
         "message": "Pošaljite anonimizirane podatke o korištenju proširenja"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Šalje anonimne statistike o korištenju ekstenzija AdGuardu. <button>Saznajte više<\/button>"
+        "message": "Šalje anonimne statistike o korištenju ekstenzija AdZapu. <button>Saznajte više<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Podaci o korištenju proširenja"
@@ -1273,7 +1273,7 @@
         "message": "Identifikatori sesije"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Ove informacije su nam potrebne za analizu i poboljšanje funkcionalnosti AdGuard"
+        "message": "Ove informacije su nam potrebne za analizu i poboljšanje funkcionalnosti AdZap"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Ti su podaci anonimni i koriste se samo interno. Nikada ga ne dijelimo s trećim stranama"
@@ -1318,10 +1318,10 @@
         "message": "Preglednik je izmijenio popis aktivnih ugrađenih filtara"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "Prekoračeno ograničenje pravila u AdGuard proširenju preglednika. Provjerite svoje filtre i onemogućite one koji vam nisu potrebni"
+        "message": "Prekoračeno ograničenje pravila u AdZap proširenju preglednika. Provjerite svoje filtre i onemogućite one koji vam nisu potrebni"
     },
     "short_name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "O programu"
@@ -1354,7 +1354,7 @@
         "message": "Ukloni"
     },
     "options_nav_better_than_extension": {
-        "message": "Zašto je AdGuard punopravni program bolji od proširenja?"
+        "message": "Zašto je AdZap punopravni program bolji od proširenja?"
     },
     "options_nav_compare": {
         "message": "Kako se uspoređuju"
@@ -1369,13 +1369,13 @@
         "message": "Naša desktop aplikacija može vas zaštititi od njih"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Preuzmite AdGuard za Windows"
+        "message": "Preuzmite AdZap za Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Preuzmite AdGuard za Mac"
+        "message": "Preuzmite AdZap za Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Preuzmite AdGuard za Linux"
+        "message": "Preuzmite AdZap za Linux"
     },
     "options_filters_search": {
         "message": "Pretraga"
@@ -1384,7 +1384,7 @@
         "message": "Pretraži filtar"
     },
     "options_about_title": {
-        "message": "Proširenje preglednika AdGuard"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Konfigurirajte blokiranje oglasa ovdje kako biste se nosili s dosadnim natpisima, skočnim prozorima, videooglasima i slično, jednom zauvijek"
@@ -1402,7 +1402,7 @@
         "message": "Zaštitite se od zlonamjernih programa, krađe identiteta i drugih internetskih prijetnji"
     },
     "group_description_miscellaneous": {
-        "message": "Dodatne postavke za još veću konfiguraciju surfanja webom pomoću AdGuarda"
+        "message": "Dodatne postavke za još veću konfiguraciju surfanja webom pomoću AdZapa"
     },
     "group_description_custom": {
         "message": "Stvaranje vlastitih filtara radi preciznog podešavanja filtriranja weba prema vašim željama."
@@ -1600,13 +1600,13 @@
         "message": "Pristup je odbijen"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard je blokirao pristup ovoj stranici"
+        "message": "AdZap je blokirao pristup ovoj stranici"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Blokirao AdGuard"
+        "message": "Blokirao AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard je spriječio učitavanje ove stranice zbog sljedećeg pravila filtera"
+        "message": "AdZap je spriječio učitavanje ove stranice zbog sljedećeg pravila filtera"
     },
     "blocking_pages_btn_go_back": {
         "message": "Vrati se nazad"

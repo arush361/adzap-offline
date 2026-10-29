@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "لنسخ القواعد ولصقها، اسمح لـ AdGuard بالوصول إلى الحافظة. <a>سماح<\/a>"
+        "message": "لنسخ القواعد ولصقها، اسمح لـ AdZap بالوصول إلى الحافظة. <a>سماح<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "أدخل اسم التصفية"
@@ -27,13 +27,13 @@
         "message": "يرجى القراءة بعناية قبل تفعيل تصفية اللافتات"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "أنت على وشك تفعيل واحدة أو أكثر من تصفية اللافتات. فهي تقوم بحظر العناصر التي ليس لها علاقة بمحتوى الموقع أو ذات الصلة ولكنها مزعجة لتجربة المستخدم. قد يعتبر اصاحب المواقع أن هذه العناصر إلزامية: إذا قمت بحظرها، فقد تنتهك شروطهم؛ وقد لا تتوفر بعض وظائف المواقع أو قد لا تعمل بشكل صحيح. أنت تدرك وتوافق على أنك وحدك المسؤول عن الامتثال لشروط استخدام المواقع التي تزورها وأن AdGuard ليس مسؤولاً عن امتثالك لشروط استخدام المواقع التي تزورها باستخدام منتجاتنا."
+        "message": "أنت على وشك تفعيل واحدة أو أكثر من تصفية اللافتات. فهي تقوم بحظر العناصر التي ليس لها علاقة بمحتوى الموقع أو ذات الصلة ولكنها مزعجة لتجربة المستخدم. قد يعتبر اصاحب المواقع أن هذه العناصر إلزامية: إذا قمت بحظرها، فقد تنتهك شروطهم؛ وقد لا تتوفر بعض وظائف المواقع أو قد لا تعمل بشكل صحيح. أنت تدرك وتوافق على أنك وحدك المسؤول عن الامتثال لشروط استخدام المواقع التي تزورها وأن ليس مسؤولاً عن امتثالك لشروط استخدام المواقع التي تزورها باستخدام منتجاتنا."
     },
     "options_filters_annoyances_consent_question": {
         "message": "تفعيل هذه التصفية؟"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "للاطلاع على تفاصيل حول ما تحظره تصفية اللافتات في AdGuard، راجع <a>سياسة التصفية<\/a>"
+        "message": "للاطلاع على تفاصيل حول ما تحظره تصفية اللافتات في AdZap، راجع <a>سياسة التصفية<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "تفعيل"
@@ -57,10 +57,10 @@
         "message": "استئناف"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard لنظام iOS"
+        "message": "AdZap لنظام iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard لنظام Android"
+        "message": "AdZap لنظام Android"
     },
     "options_filters_filter_version": {
         "message": "الإصدار:"
@@ -159,10 +159,10 @@
         "message": "اشترك"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "ملحق لحظر الإعلانات لا مثيل له ضد الإعلانات والنوافذ المنبثقة. يحظر الإعلانات على Facebook و YouTube وجميع المواقع الأخرى.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "القائمة البيضاء"
     },
     "options_allowlist_desc": {
-        "message": "لا يقوم AdGuard بحظر الإعلانات والمتعقبين على مواقع من القائمة"
+        "message": "لا يقوم AdZap بحظر الإعلانات والمتعقبين على مواقع من القائمة"
     },
     "options_allowlist_invert": {
         "message": "عكس القائمة البيضاء"
@@ -313,7 +313,7 @@
         "message": "فشل في حفظ التغييرات. حاول مرة أخرى أو اتصل بالدعم"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "لاستيراد ملف الإعدادات هذا، اسمح لـ AdGuard بتغيير الإعدادات المتعلقة بالخصوصية."
+        "message": "لاستيراد ملف الإعدادات هذا، اسمح لـ AdZap بتغيير الإعدادات المتعلقة بالخصوصية."
     },
     "options_popup_import_success_title": {
         "message": "تم استيراد الإعدادات"
@@ -472,7 +472,7 @@
         "message": "تم تحديثها."
     },
     "options_popup_version_update_title_text": {
-        "message": "تم تحديث ملحق AdGuard إلى الإصدار %current_version%"
+        "message": "تم تحديث ملحق AdZap إلى الإصدار %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "يحتوي هذا الإصدار في الغالب على إصلاحات للأخطاء وتحسينات طفيفة."
@@ -484,7 +484,7 @@
         "message": "ما الجديد في هذا الإصدار؟"
     },
     "options_popup_version_update_offer": {
-        "message": "هل تعلم أن إمكانيات AdGuard لا تقتصر على هذا المتصفح؟"
+        "message": "هل تعلم أن إمكانيات AdZap لا تقتصر على هذا المتصفح؟"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "تعرف على المزيد"
@@ -499,10 +499,10 @@
         "message": "مسح كل قواعد المستخدم لهذا الموقع"
     },
     "popup_open_settings": {
-        "message": "إعدادات AdGuard"
+        "message": "إعدادات AdZap"
     },
     "popup_protection_button": {
-        "message": "حماية AdGuard"
+        "message": "حماية AdZap"
     },
     "context_block_site_ads": {
         "message": "حظر الإعلانات يدويًا"
@@ -514,19 +514,19 @@
         "message": "الإبلاغ عن مشكلة"
     },
     "context_site_filtering_disabled": {
-        "message": "يتعذر على AdGuard تصفية هذه الصفحة"
+        "message": "يتعذر على AdZap تصفية هذه الصفحة"
     },
     "context_disable_protection": {
-        "message": "إيقاف حماية AdGuard"
+        "message": "إيقاف حماية AdZap"
     },
     "context_enable_protection": {
-        "message": "استئناف حماية AdGuard"
+        "message": "استئناف حماية AdZap"
     },
     "context_site_protection_disabled": {
-        "message": "تم إيقاف حماية AdGuard"
+        "message": "تم إيقاف حماية AdZap"
     },
     "context_open_settings": {
-        "message": "إعدادات AdGuard"
+        "message": "إعدادات AdZap"
     },
     "context_open_log": {
         "message": "سجل التصفية"
@@ -778,7 +778,7 @@
         "message": "التنقل"
     },
     "options_settings": {
-        "message": "إعدادات AdGuard"
+        "message": "إعدادات AdZap"
     },
     "options_general_settings": {
         "message": "عام"
@@ -790,7 +790,7 @@
         "message": "إزالة الروابط الدعائية من نتائج البحث واللافتات التي تضعها المواقع للتسويق لمحتواها. <a>لمزيد من المعلومات<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "إظهار عدد الإعلانات المحظورة على أيقونة AdGuard"
+        "message": "إظهار عدد الإعلانات المحظورة على أيقونة AdZap"
     },
     "options_enable_autodetect_filter": {
         "message": "تفعيل التصفية الأكثر ملائمة تلقائياً"
@@ -947,16 +947,16 @@
         "message": "الحماية من التصيد الاحتيالي والبرامج الضارة"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "يحذر من المواقع الخبيثة ومواقع التصيد الاحتيالي باستخدام وحدة أمان تصفح AdGuard. <a>اقرأ المزيد<\/a>"
+        "message": "يحذر من المواقع الخبيثة ومواقع التصيد الاحتيالي باستخدام وحدة أمان تصفح AdZap. <a>اقرأ المزيد<\/a>"
     },
     "options_site": {
         "message": "الموقع الرسمي"
     },
     "options_discuss": {
-        "message": "ناقش AdGuard"
+        "message": "ناقش AdZap"
     },
     "options_do_you_like_question": {
-        "message": "هل يعجبك AdGuard؟"
+        "message": "هل يعجبك AdZap؟"
     },
     "options_rate_us_cta": {
         "message": "قيمنا"
@@ -1029,7 +1029,7 @@
         "message": "الخيار 1. حذف ملحقات حظر الإعلانات غير الضرورية من متصفحك. لإعادة تنشيط التصفية المذكورة في قسم \"تمكين عوامل التصفية قبل التحديث\"، انقر فوق <a>إعادة تنشيط التصفية.<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "الخيار 2. تثبيت تطبيق AdGuard Ad Blocker: لا توجد قيود على قواعد التصفية. <a>احصل على تطبيق AdGuard<\/a>"
+        "message": "الخيار 2. تثبيت تطبيق AdZap Ad Blocker: لا توجد قيود على قواعد التصفية. <a>احصل على تطبيق AdZap<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "الخيار 3. إذا كنت راضيًا عن التصفية الافتراضية المفعلة الان، <a>أغلق هذا التحذير.<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "إزالة مانعات الإعلانات الأخرى"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "تشارك إضافات المتصفح نفس حد القواعد. قد يؤدي إزالة مانعات الإعلانات الأخرى إلى إتاحة المزيد من القواعد لـ AdGuard Browser Extension"
+        "message": "تشارك إضافات المتصفح نفس حد القواعد. قد يؤدي إزالة مانعات الإعلانات الأخرى إلى إتاحة المزيد من القواعد لـ AdZap Offline"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "إدارة الإضافات"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "عرض المعلومات عن الإصدار الكامل من AdGuard"
+        "message": "عرض المعلومات عن الإصدار الكامل من AdZap"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "سيتم حذف جميع الإحصائيات المتعلقة باستخدام البيانات بشكل دائم"
@@ -1150,13 +1150,13 @@
         "message": "خطأ أثناء إعادة تعيين الإعدادات"
     },
     "options_collect_hit_stats_title": {
-        "message": "المساعدة في تطوير تصفية AdGuard"
+        "message": "المساعدة في تطوير تصفية AdZap"
     },
     "options_collect_hit_stats_desc": {
-        "message": "يرسل إحصائيات مجهولة المصدر حول استخدام تصفية الإعلانات إلى AdGuard. <a>معرفة المزيد<\/a>"
+        "message": "يرسل إحصائيات مجهولة المصدر حول استخدام تصفية الإعلانات إلى AdZap. <a>معرفة المزيد<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "أضف عنصر AdGuard إلى قائمة سياق المتصفح"
+        "message": "أضف عنصر AdZap إلى قائمة سياق المتصفح"
     },
     "options_use_optimized_filters": {
         "message": "استخدام التصفية المحسنة"
@@ -1219,13 +1219,13 @@
         "message": "إزالة معلمات التتبع من روابط المواقع (URL)"
     },
     "options_strip_tracking_params_description": {
-        "message": "يُزيل معلمات التتبع من عناوين URL للصفحات باستخدام تصفية AdGuard لتتبع عناوين URL"
+        "message": "يُزيل معلمات التتبع من عناوين URL للصفحات باستخدام تصفية لتتبع عناوين URL"
     },
     "options_block_known_trackers_title": {
         "message": "حظر أدوات التتبع"
     },
     "options_block_known_trackers_description": {
-        "message": "حظر أدوات التتبع وتحليلات الويب باستخدام تصفية AdGuard للحماية من التتبع"
+        "message": "حظر أدوات التتبع وتحليلات الويب باستخدام تصفية للحماية من التتبع"
     },
     "options_third_party_title": {
         "message": "حذف ملفات تعريف ارتباط الطرف الثالث"
@@ -1255,7 +1255,7 @@
         "message": "إرسال بيانات استخدام الملحق بشكل مجهول"
     },
     "options_anonymized_usage_data_description": {
-        "message": "إرسال إحصائيات مجهولة المصدر حول استخدامك للملحق إلى AdGuard. <button>معرفة المزيد<\/button>"
+        "message": "إرسال إحصائيات مجهولة المصدر حول استخدامك للملحق إلى AdZap. <button>معرفة المزيد<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "بيانات استخدام الملحق"
@@ -1273,7 +1273,7 @@
         "message": "معرفات الجلسات"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "نحن بحاجة إلى هذه المعلومات لتحليل وظائف AdGuard وتحسينها"
+        "message": "نحن بحاجة إلى هذه المعلومات لتحليل وظائف AdZap وتحسينها"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "هذه البيانات مجهولة المصدر وتُستخدم داخلياً فقط. لا نشاركها أبداً مع أطراف خارجية"
@@ -1318,10 +1318,10 @@
         "message": "قام المتصفح بتعديل قائمة التصفية المدمجة النشطة"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "تم تجاوز حد القاعدة في ملحق AdGuard الخاص بالمتصفح. يرجى التحقق من التصفية وقم بتعطيل التي لا تحتاجها"
+        "message": "تم تجاوز حد القاعدة في ملحق AdZap الخاص بالمتصفح. يرجى التحقق من التصفية وقم بتعطيل التي لا تحتاجها"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "حول"
@@ -1354,7 +1354,7 @@
         "message": "إزالة"
     },
     "options_nav_better_than_extension": {
-        "message": "لماذا يعتبر تطبيق AdGuard أفضل من الملحق؟"
+        "message": "لماذا يعتبر تطبيق AdZap أفضل من الملحق؟"
     },
     "options_nav_compare": {
         "message": "قارن"
@@ -1369,13 +1369,13 @@
         "message": "يمكن لتطبيق سطح المكتب الخاص بنا حمايتك من ذلك"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "احصل على AdGuard لـ Windows"
+        "message": "احصل على AdZap لـ Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "احصل على AdGuard لـ Mac"
+        "message": "احصل على AdZap لـ Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "احصل على AdGuard لـ Linux"
+        "message": "احصل على AdZap لـ Linux"
     },
     "options_filters_search": {
         "message": "البحث"
@@ -1384,7 +1384,7 @@
         "message": "تصفية البحث"
     },
     "options_about_title": {
-        "message": "ملحق AdGuard الخاص بالمتصفح"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "قم بضبط حظر الإعلانات لتعامل مع اللافتات والنوافذ المنبثقة والإعلانات التي تكون في شكل فيديو وأنواع أخرى بشكل نهائي"
@@ -1402,7 +1402,7 @@
         "message": "احم نفسك من البرامج الضارة والتصيد الاحتيالي والتهديدات الأخرى عبر الإنترنت"
     },
     "group_description_miscellaneous": {
-        "message": "إعدادات إضافية لتخصيص تجربة تصفحك للإنترنت باستخدام AdGuard بشكل أكبر"
+        "message": "إعدادات إضافية لتخصيص تجربة تصفحك للإنترنت باستخدام AdZap بشكل أكبر"
     },
     "group_description_custom": {
         "message": "قم بإنشاء التصفية الخاصة بك لضبط تصفية الويب حسب تفضيلاتك."
@@ -1600,13 +1600,13 @@
         "message": "تم رفض الوصول"
     },
     "blocking_pages_safe_header_title": {
-        "message": "قام AdGuard بحظر الوصول إلى هذه الصفحة"
+        "message": "قام AdZap بحظر الوصول إلى هذه الصفحة"
     },
     "blocking_pages_rule_header_title": {
-        "message": "تم حظره بواسطة AdGuard"
+        "message": "تم حظره بواسطة AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "منع AdGuard تحميل هذه الصفحة بسبب قاعدة التصفية التالية"
+        "message": "منع AdZap تحميل هذه الصفحة بسبب قاعدة التصفية التالية"
     },
     "blocking_pages_btn_go_back": {
         "message": "الرجوع للخلف"

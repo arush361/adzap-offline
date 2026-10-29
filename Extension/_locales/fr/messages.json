@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Pour copier et coller les règles, autorisez AdGuard à accéder au presse-papiers. <a>Autoriser<\/a>"
+        "message": "Pour copier et coller les règles, autorisez AdZap à accéder au presse-papiers. <a>Autoriser<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Entrez un nom de filtre"
@@ -27,13 +27,13 @@
         "message": "Veuillez lire attentivement avant d'activer les filtres anti-nuisances"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Vous êtes sur le point d'activer un ou plusieurs filtres anti-nuisances. Ceux-ci bloquent les éléments qui ne sont pas liés au contenu du site web ou qui, bien que liés, nuisent à votre expérience utilisateur. Les propriétaires de sites Web peuvent considérer ces éléments comme obligatoires : si vous les bloquez, vous risquez d'enfreindre leurs conditions d'utilisation ; certaines fonctionnalités des sites Web peuvent ne pas être disponibles ou ne pas fonctionner correctement. Vous comprenez et acceptez que vous êtes seul responsable du respect des conditions d'utilisation des sites Web que vous visitez et qu'AdGuard n'est pas responsable de votre respect des conditions d'utilisation des sites Web que vous visitez à l'aide de nos produits."
+        "message": "Vous êtes sur le point d'activer un ou plusieurs filtres anti-nuisances. Ceux-ci bloquent les éléments qui ne sont pas liés au contenu du site web ou qui, bien que liés, nuisent à votre expérience utilisateur. Les propriétaires de sites Web peuvent considérer ces éléments comme obligatoires : si vous les bloquez, vous risquez d'enfreindre leurs conditions d'utilisation ; certaines fonctionnalités des sites Web peuvent ne pas être disponibles ou ne pas fonctionner correctement. Vous comprenez et acceptez que vous êtes seul responsable du respect des conditions d'utilisation des sites Web que vous visitez et qu'n'est pas responsable de votre respect des conditions d'utilisation des sites Web que vous visitez à l'aide de nos produits."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Activer ces filtres ?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Pour plus de détails sur ce que bloquent les filtres anti-nuisances d'AdGuard, consultez la <a>Politique de filtrage<\/a>"
+        "message": "Pour plus de détails sur ce que bloquent les filtres anti-nuisances d'AdZap, consultez la <a>Politique de filtrage<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Activer"
@@ -57,10 +57,10 @@
         "message": "Réactiver"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard pour iOS"
+        "message": "AdZap pour iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard pour Android"
+        "message": "AdZap pour Android"
     },
     "options_filters_filter_version": {
         "message": "version :"
@@ -159,10 +159,10 @@
         "message": "S'abonner"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Extension sans égal contre la publicité et les pop-ups. Bloque les publicités sur Facebook, YouTube et tous les autres sites web.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Liste blanche"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard ne bloque pas les publicités et les traqueurs sur les sites web figurant sur la liste"
+        "message": "AdZap ne bloque pas les publicités et les traqueurs sur les sites web figurant sur la liste"
     },
     "options_allowlist_invert": {
         "message": "Inverser la Liste blanche"
@@ -313,7 +313,7 @@
         "message": "Échec de l'enregistrement des modifications. Réessayez ou contactez l'assistance"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Pour importer ce fichier de paramètres, autorisez AdGuard à modifier vos paramètres de confidentialité."
+        "message": "Pour importer ce fichier de paramètres, autorisez AdZap à modifier vos paramètres de confidentialité."
     },
     "options_popup_import_success_title": {
         "message": "Paramètres importés"
@@ -472,7 +472,7 @@
         "message": "ont été mis à jour."
     },
     "options_popup_version_update_title_text": {
-        "message": "L'extension AdGuard vient d'être mise à jours à la version %current_version%"
+        "message": "L'extension AdZap vient d'être mise à jours à la version %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "Cette version contient des corrections des bogues et améliorations mineures."
@@ -484,7 +484,7 @@
         "message": "Cliquez ici pour voir le journal complet des modifications."
     },
     "options_popup_version_update_offer": {
-        "message": "Si vous êtes aussi obsédé par la confidentialité que nous, essayez les produits AdGuard prémium pour Windows, Mac, iOS ou Android pour trouver encore plus de fonctionnalités."
+        "message": "Si vous êtes aussi obsédé par la confidentialité que nous, essayez les produits AdZap prémium pour Windows, Mac, iOS ou Android pour trouver encore plus de fonctionnalités."
     },
     "options_popup_version_update_offer_button_text": {
         "message": "En savoir plus"
@@ -499,10 +499,10 @@
         "message": "Supprimer les règles de l'utilisateur pour ce site web"
     },
     "popup_open_settings": {
-        "message": "Ouvrir les paramètres d'AdGuard"
+        "message": "Ouvrir les paramètres d'AdZap"
     },
     "popup_protection_button": {
-        "message": "Protection AdGuard"
+        "message": "Protection AdZap"
     },
     "context_block_site_ads": {
         "message": "Bloquer les annonces manuellement"
@@ -514,19 +514,19 @@
         "message": "Signaler un problème"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard ne peut pas filtrer cette page"
+        "message": "AdZap ne peut pas filtrer cette page"
     },
     "context_disable_protection": {
-        "message": "Mettre en pause la protection d'AdGuard"
+        "message": "Mettre en pause la protection d'AdZap"
     },
     "context_enable_protection": {
-        "message": "Réactiver la protection AdGuard"
+        "message": "Réactiver la protection AdZap"
     },
     "context_site_protection_disabled": {
-        "message": "La protection d'AdGuard est en pause"
+        "message": "La protection d'AdZap est en pause"
     },
     "context_open_settings": {
-        "message": "Paramètres d'AdGuard"
+        "message": "Paramètres d'AdZap"
     },
     "context_open_log": {
         "message": "Journal de filtrage"
@@ -778,7 +778,7 @@
         "message": "Navigation"
     },
     "options_settings": {
-        "message": "Paramètres d'AdGuard"
+        "message": "Paramètres d'AdZap"
     },
     "options_general_settings": {
         "message": "Paramètres généraux"
@@ -790,7 +790,7 @@
         "message": "Bloque les publicités dans les résultats de recherche et l'autopromotion des sites Web. <a>En savoir plus<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Indiquer le nombre d'annonces bloquées sur l'icône de l'extension AdGuard"
+        "message": "Indiquer le nombre d'annonces bloquées sur l'icône de l'extension AdZap"
     },
     "options_enable_autodetect_filter": {
         "message": "Activer automatiquement les filtres les plus appropriés"
@@ -947,7 +947,7 @@
         "message": "Protection contre l'hameçonnage et les maliciels"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Avertit des sites web malveillants et d'hameçonnage grâce au module de navigation sécurisée AdGuard. <a>En savoir plus<\/a>"
+        "message": "Avertit des sites web malveillants et d'hameçonnage grâce au module de navigation sécurisée AdZap. <a>En savoir plus<\/a>"
     },
     "options_site": {
         "message": "Site Web officiel"
@@ -956,7 +956,7 @@
         "message": "Discuter"
     },
     "options_do_you_like_question": {
-        "message": "Avez-vous apprécié AdGuard ?"
+        "message": "Avez-vous apprécié AdZap ?"
     },
     "options_rate_us_cta": {
         "message": "Évaluez-nous"
@@ -1029,7 +1029,7 @@
         "message": "Option 1. Supprimez les extensions de blocage de publicités de votre navigateur. Pour réactiver les filtres mentionnés dans la section \"Filtres activés avant la mise à jour\", cliquez sur <a>, réactiver les filtres.<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Option 2. Installez l'application Bloqueur d'annonces AdGuard : elle n'a pas de restriction sur les règles de filtrage.<a> Obtenez l'application AdGuard<\/a>"
+        "message": "Option 2. Installez l'application Bloqueur d'annonces AdZap : elle n'a pas de restriction sur les règles de filtrage.<a> Obtenez l'application AdZap<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Option 3. Si vous êtes satisfait des filtres par défaut actuellement activés, <a>fermez cet avertissement <\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Supprimer les autres bloqueurs d'annonces"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Les extensions de navigateur sont soumises à la même limite de règles. La désinstallation d'autres bloqueurs de publicités peut libérer davantage de règles pour l'Extension de navigateur AdGuard"
+        "message": "Les extensions de navigateur sont soumises à la même limite de règles. La désinstallation d'autres bloqueurs de publicités peut libérer davantage de règles pour l'Extension de navigateur AdZap"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Gérer les extensions"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Afficher les informations sur la version complète d'AdGuard"
+        "message": "Afficher les informations sur la version complète d'AdZap"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Toutes les statistiques sur l'utilisation des données seront définitivement supprimées"
@@ -1150,13 +1150,13 @@
         "message": "Erreur lors de la réinitialisation des paramètres"
     },
     "options_collect_hit_stats_title": {
-        "message": "Aidez-nous à développer les filtres AdGuard"
+        "message": "Aidez-nous à développer les filtres AdZap"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Envoie des statistiques anonymes sur l'utilisation du filtre publicitaire à AdGuard. <a>En savoir plus<\/a>"
+        "message": "Envoie des statistiques anonymes sur l'utilisation du filtre publicitaire à AdZap. <a>En savoir plus<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Ajouter AdGuard au menu contextuel du navigateur"
+        "message": "Ajouter AdZap au menu contextuel du navigateur"
     },
     "options_use_optimized_filters": {
         "message": "Utiliser les filtres optimisés"
@@ -1219,13 +1219,13 @@
         "message": "Supprimer les paramètres de suivi des URL"
     },
     "options_strip_tracking_params_description": {
-        "message": "Supprime les paramètres de suivi des pages URL à l\\'aide du filtre AdGuard URL Tracking"
+        "message": "Supprime les paramètres de suivi des pages URL à l\\'aide du filtre URL Tracking"
     },
     "options_block_known_trackers_title": {
         "message": "Bloquez les traqueurs"
     },
     "options_block_known_trackers_description": {
-        "message": "Bloque les traqueurs et les analyses web à l'aide du filtre AdGuard Tracking Protection"
+        "message": "Bloque les traqueurs et les analyses web à l'aide du filtre Tracking Protection"
     },
     "options_third_party_title": {
         "message": "Supprimer les cookies tiers"
@@ -1255,7 +1255,7 @@
         "message": "Envoyer des données d'utilisation d'extension anonymisées"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Envoie des statistiques anonymes sur l'utilisation de l'extension à AdGuard. <button>Apprendre plus<\/button>"
+        "message": "Envoie des statistiques anonymes sur l'utilisation de l'extension à AdZap. <button>Apprendre plus<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Données d'utilisation des extensions"
@@ -1273,7 +1273,7 @@
         "message": "Identifiants de session"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Nous avons besoin de ces informations pour analyser et améliorer les fonctionnalités d'AdGuard"
+        "message": "Nous avons besoin de ces informations pour analyser et améliorer les fonctionnalités d'AdZap"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Ces données sont anonymes et utilisées uniquement en interne. Nous ne les partageons jamais avec des tiers"
@@ -1318,10 +1318,10 @@
         "message": "Votre navigateur a modifié la liste des filtres intégrés actifs"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "La limite des règles a été dépassée dans l'Extension de navigateur AdGuard. Veuillez vérifier vos filtres et désactiver ceux dont vous n'avez pas besoin"
+        "message": "La limite des règles a été dépassée dans l'Extension de navigateur AdZap. Veuillez vérifier vos filtres et désactiver ceux dont vous n'avez pas besoin"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "À propos"
@@ -1354,7 +1354,7 @@
         "message": "Supprimer"
     },
     "options_nav_better_than_extension": {
-        "message": "Pourquoi l'application AdGuard est-elle meilleure que l'extension ?"
+        "message": "Pourquoi l'application AdZap est-elle meilleure que l'extension ?"
     },
     "options_nav_compare": {
         "message": "Comparer"
@@ -1369,13 +1369,13 @@
         "message": "Notre application pour ordinateur de bureau peut vous en protéger"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Obtenir AdGuard pour Windows"
+        "message": "Obtenir AdZap pour Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Obtenir AdGuard pour Mac"
+        "message": "Obtenir AdZap pour Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Obtenir AdGuard pour Linux"
+        "message": "Obtenir AdZap pour Linux"
     },
     "options_filters_search": {
         "message": "Rechercher"
@@ -1384,7 +1384,7 @@
         "message": "Rechercher un filtre"
     },
     "options_about_title": {
-        "message": "Extension de navigateur AdGuard"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Configurez le blocage des publicités ici pour gérer une fois pour toutes les bannières, les pop-ups, les publicités vidéo et autres nuisances"
@@ -1402,7 +1402,7 @@
         "message": "Protégez-vous contre les logiciels malveillants, l’hameçonnage et autres menaces en ligne"
     },
     "group_description_miscellaneous": {
-        "message": "Plus de paramètres pour configurer encore plus votre navigation sur le Web avec AdGuard"
+        "message": "Plus de paramètres pour configurer encore plus votre navigation sur le Web avec AdZap"
     },
     "group_description_custom": {
         "message": "Créez vos propres filtres pour affiner le filtrage web selon vos préférences."
@@ -1600,13 +1600,13 @@
         "message": "Accès refusé"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard a bloqué l'accès à cette page"
+        "message": "AdZap a bloqué l'accès à cette page"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Bloqué par AdGuard"
+        "message": "Bloqué par AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard n'a pas autorisé le chargement de cette page en raison de la régle de filtrage suivante"
+        "message": "AdZap n'a pas autorisé le chargement de cette page en raison de la régle de filtrage suivante"
     },
     "blocking_pages_btn_go_back": {
         "message": "Retour"

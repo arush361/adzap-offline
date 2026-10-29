@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, { useContext } from 'react';
@@ -34,6 +36,7 @@ import {
 } from './SingleActions';
 
 import './actions.pcss';
+import { OFFLINE_BUILD } from '../../../../common/offline';
 
 const ACTIONS_TAB_ID = 'actions-tab';
 const ACTIONS_PANEL_ID = 'actions-panel';
@@ -56,16 +59,22 @@ const Actions = observer(() => {
         >
             <BlockAdsAction isFilteringPossible={isFilteringPossible} className={actionChangingClassname} />
             <OpenFilteringLogAction className="action" />
-            <ReportIssueAction
-                className={actionChangingClassname}
-                isFilteringPossible={isFilteringPossible}
-                url={url}
-            />
-            <CheckSiteSecurityAction
-                className={actionChangingClassname}
-                isFilteringPossible={isFilteringPossible}
-                url={url}
-            />
+            {/* AdZap Offline: "Report an issue" and "Check website security" open
+                AdGuard's website with the page URL, so they are not shown. */}
+            {!OFFLINE_BUILD && (
+                <>
+                    <ReportIssueAction
+                        className={actionChangingClassname}
+                        isFilteringPossible={isFilteringPossible}
+                        url={url}
+                    />
+                    <CheckSiteSecurityAction
+                        className={actionChangingClassname}
+                        isFilteringPossible={isFilteringPossible}
+                        url={url}
+                    />
+                </>
+            )}
             {
                 store.hasUserRulesToReset && (
                     <ResetPageUserRulesAction

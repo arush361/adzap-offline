@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Pentru a copia și lipi regulile, permiteți AdGuard să acceseze clipboard-ul. <a>Permite<\/a>"
+        "message": "Pentru a copia și lipi regulile, permiteți AdZap să acceseze clipboard-ul. <a>Permite<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Introduceți numele filtrului"
@@ -27,13 +27,13 @@
         "message": "Vă rugăm să citiți cu atenție înainte de a activa filtrele deranjare"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Veți să permiteți unul sau mai multe filtre de deranjare. Acestea blochează elemente care fie nu au legătură cu conținutul site-ului web, fie au legătură, dar deranjează experiența utilizatorului. Proprietarii site-urilor web pot considera aceste elemente obligatorii: dacă le blocați, puteți încălca termenii lor; unele funcționalități ale site-urilor web pot fi indisponibile sau pot funcționa incorect. Înțelegeți și sunteți de acord că sunteți singurul responsabil să respectați termenii de utilizare ai site-urilor web pe care le vizitați și că AdGuard nu este responsabil pentru respectarea de către dvs. a termenilor de utilizare ai site-urilor web pe care le vizitați folosind produsele noastre."
+        "message": "Veți să permiteți unul sau mai multe filtre de deranjare. Acestea blochează elemente care fie nu au legătură cu conținutul site-ului web, fie au legătură, dar deranjează experiența utilizatorului. Proprietarii site-urilor web pot considera aceste elemente obligatorii: dacă le blocați, puteți încălca termenii lor; unele funcționalități ale site-urilor web pot fi indisponibile sau pot funcționa incorect. Înțelegeți și sunteți de acord că sunteți singurul responsabil să respectați termenii de utilizare ai site-urilor web pe care le vizitați și că nu este responsabil pentru respectarea de către dvs. a termenilor de utilizare ai site-urilor web pe care le vizitați folosind produsele noastre."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Activați aceste filtre?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Pentru detalii despre ce blochează filtrele de deranjare AdGuard, consultați <a>Politica de filtrare<\/a>"
+        "message": "Pentru detalii despre ce blochează filtrele de deranjare AdZap, consultați <a>Politica de filtrare<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Activare"
@@ -57,10 +57,10 @@
         "message": "Reluați"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard pentru iOS"
+        "message": "AdZap pentru iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard pentru Android"
+        "message": "AdZap pentru Android"
     },
     "options_filters_filter_version": {
         "message": "versiune:"
@@ -159,10 +159,10 @@
         "message": "Abonează-te"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Extensie fără egal de blocare reclame și pop-up-uri. Blochează reclame pe Facebook, YouTube și toate celelalte site-uri.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Listă autorizări"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard nu blochează reclame și trackere pe site-uri web din listă"
+        "message": "AdZap nu blochează reclame și trackere pe site-uri web din listă"
     },
     "options_allowlist_invert": {
         "message": "Listă de autorizări inversată"
@@ -313,7 +313,7 @@
         "message": "Nu s-au putut salva modificările. Încercați din nou sau contactați suportul"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Pentru a importa acest fișier de setări, permiteți-i lui AdGuard să vă modifice setările legate de confidențialitate."
+        "message": "Pentru a importa acest fișier de setări, permiteți-i lui AdZap să vă modifice setările legate de confidențialitate."
     },
     "options_popup_import_success_title": {
         "message": "Setări importate"
@@ -472,7 +472,7 @@
         "message": "s-au actualizat."
     },
     "options_popup_version_update_title_text": {
-        "message": "Extensia AdGuard a fost actualizată la versiunea %current_version%"
+        "message": "Extensia AdZap a fost actualizată la versiunea %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "Această versiune conține corecții de erori și îmbunătățiri minore."
@@ -484,7 +484,7 @@
         "message": "Ce este nou în această versiune?"
     },
     "options_popup_version_update_offer": {
-        "message": "Știați că funcțiile AdGuard nu sunt limitate numai la acest navigator?"
+        "message": "Știați că funcțiile AdZap nu sunt limitate numai la acest navigator?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "AFLAȚI MAI MULT"
@@ -499,10 +499,10 @@
         "message": "Șterge regulile utilizatorului pe acest site"
     },
     "popup_open_settings": {
-        "message": "Deschideți setările AdGuard"
+        "message": "Deschideți setările AdZap"
     },
     "popup_protection_button": {
-        "message": "Protecție AdGuard"
+        "message": "Protecție AdZap"
     },
     "context_block_site_ads": {
         "message": "Blochează reclame manual"
@@ -514,19 +514,19 @@
         "message": "Raportați o problemă"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard nu poate filtra această pagină"
+        "message": "AdZap nu poate filtra această pagină"
     },
     "context_disable_protection": {
-        "message": "Întrerupeți protecția AdGuard"
+        "message": "Întrerupeți protecția AdZap"
     },
     "context_enable_protection": {
-        "message": "Reporniți protecția AdGuard"
+        "message": "Reporniți protecția AdZap"
     },
     "context_site_protection_disabled": {
-        "message": "Protecția AdGuard este în pauză"
+        "message": "Protecția AdZap este în pauză"
     },
     "context_open_settings": {
-        "message": "Setări AdGuard"
+        "message": "Setări AdZap"
     },
     "context_open_log": {
         "message": "Jurnal de filtrare"
@@ -778,7 +778,7 @@
         "message": "Navigație"
     },
     "options_settings": {
-        "message": "Setări AdGuard"
+        "message": "Setări AdZap"
     },
     "options_general_settings": {
         "message": "Setări Generale"
@@ -790,7 +790,7 @@
         "message": "Blochează reclamele în rezultatele căutării și auto-promovarea site-urilor web. <a>Aflați mai multe<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Indicați numărul de reclame blocate pe iconul extensia AdGuard"
+        "message": "Indicați numărul de reclame blocate pe iconul extensia AdZap"
     },
     "options_enable_autodetect_filter": {
         "message": "Activează cele mai adecvate filtre în mod automat"
@@ -947,16 +947,16 @@
         "message": "Protecția împotriva phishing-ului și a malware-ului"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Avertizează despre site-uri web dăunătoare și de phishing folosind modulul Securitate la navigare AdGuard. <a>Aflați mai multe<\/a>"
+        "message": "Avertizează despre site-uri web dăunătoare și de phishing folosind modulul Securitate la navigare AdZap. <a>Aflați mai multe<\/a>"
     },
     "options_site": {
         "message": "Pagină oficială"
     },
     "options_discuss": {
-        "message": "Discutați AdGuard"
+        "message": "Discutați AdZap"
     },
     "options_do_you_like_question": {
-        "message": "Vă place AdGuard?"
+        "message": "Vă place AdZap?"
     },
     "options_rate_us_cta": {
         "message": "Cotați-ne"
@@ -1029,7 +1029,7 @@
         "message": "Opțiunea 1. Ștergeți extensiile în plus de blocare a reclamelor din browser. Pentru a reactiva filtrele menționate în secțiunea „Filtre activate înainte de actualizare”, faceți clic pe <a>reactivați filtrele<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Opțiunea 2. Instalați aplicația AdGuard Ad Blocker: aceasta nu are restricții în ceea ce privește regulile de filtrare. <a>Obțineți AdGuard Ad Blocker<\/a>"
+        "message": "Opțiunea 2. Instalați aplicația AdZap Ad Blocker: aceasta nu are restricții în ceea ce privește regulile de filtrare. <a>Obțineți AdZap Ad Blocker<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Opțiunea 3. Dacă sunteți mulțumit de filtrul implicit activat curent, <a>închideți acest avertisment<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Eliminați alte blocante de reclame"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Extensiile de browser partajează aceeași limită de reguli. Eliminarea altor blocante de reclame poate elibera mai multe reguli pentru AdGuard Browser Extension"
+        "message": "Extensiile de browser partajează aceeași limită de reguli. Eliminarea altor blocante de reclame poate elibera mai multe reguli pentru AdZap Offline"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Gestiona extensiile"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Afișați informații despre versiunea completă AdGuard"
+        "message": "Afișați informații despre versiunea completă AdZap"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Toate statisticile privind utilizarea datelor vor fi șterse permanent"
@@ -1150,13 +1150,13 @@
         "message": "Eroare la resetarea setărilor"
     },
     "options_collect_hit_stats_title": {
-        "message": "Ajută la dezvoltarea filtrelor AdGuard"
+        "message": "Ajută la dezvoltarea filtrelor AdZap"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Trimite statistici anonime despre utilizarea filtrelor de reclame către AdGuard. <a>Aflați mai multe<\/a>"
+        "message": "Trimite statistici anonime despre utilizarea filtrelor de reclame către AdZap. <a>Aflați mai multe<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Adăugați AdGuard în meniul contextual al browserului"
+        "message": "Adăugați AdZap în meniul contextual al browserului"
     },
     "options_use_optimized_filters": {
         "message": "Folosiți filtre optimizate"
@@ -1219,13 +1219,13 @@
         "message": "Eliminați parametrii de urmărire din adresele URL"
     },
     "options_strip_tracking_params_description": {
-        "message": "Elimină parametrii de urmărire din adresele URL ale paginilor utilizând filtrul de urmărire URL AdGuard"
+        "message": "Elimină parametrii de urmărire din adresele URL ale paginilor utilizând filtrul de urmărire URL AdZap"
     },
     "options_block_known_trackers_title": {
         "message": "Blocați trackerele"
     },
     "options_block_known_trackers_description": {
-        "message": "Blochează instrumentele de urmărire și analizele web folosind filtrul AdGuard Tracking Protection"
+        "message": "Blochează instrumentele de urmărire și analizele web folosind filtrul Tracking Protection"
     },
     "options_third_party_title": {
         "message": "Ștergeți cookie-urile de la terți"
@@ -1255,7 +1255,7 @@
         "message": "Trimite date anonimizate despre utilizarea extensiei"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Trimite statistici anonime despre utilizarea extensiilor către AdGuard. <button>Află mai multe<\/button>"
+        "message": "Trimite statistici anonime despre utilizarea extensiilor către AdZap. <button>Află mai multe<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Date de utilizare a extensiei"
@@ -1273,7 +1273,7 @@
         "message": "Identificatori de sesiune"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Avem nevoie de aceste informații pentru a analiza și îmbunătăți funcționalitatea AdGuard"
+        "message": "Avem nevoie de aceste informații pentru a analiza și îmbunătăți funcționalitatea AdZap"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Aceste date sunt anonime și sunt folosite doar intern. Nu îl împărtășim niciodată cu alte site-uri"
@@ -1318,10 +1318,10 @@
         "message": "Browserul a modificat lista de filtre încorporate active"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "Limita regulei întrecută în Extensie de browser AdGuard. Vă rugăm să vă verificați filtrele și să le dezactivați pe cele de care nu aveți nevoie"
+        "message": "Limita regulei întrecută în Extensie de browser AdZap. Vă rugăm să vă verificați filtrele și să le dezactivați pe cele de care nu aveți nevoie"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "Despre"
@@ -1354,7 +1354,7 @@
         "message": "Elimină"
     },
     "options_nav_better_than_extension": {
-        "message": "De ce este aplicația AdGuard mai bună decât extensia?"
+        "message": "De ce este aplicația AdZap mai bună decât extensia?"
     },
     "options_nav_compare": {
         "message": "Comparați"
@@ -1369,13 +1369,13 @@
         "message": "Aplicația desktop vă poate proteja de acestea"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Obțineți AdGuard pentru Windows"
+        "message": "Obțineți AdZap pentru Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Obțineți AdGuard pentru Mac"
+        "message": "Obțineți AdZap pentru Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Obțineți AdGuard pentru Linux"
+        "message": "Obțineți AdZap pentru Linux"
     },
     "options_filters_search": {
         "message": "Caută"
@@ -1384,7 +1384,7 @@
         "message": "Caută filtrul"
     },
     "options_about_title": {
-        "message": "Extensie de browser AdGuard"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Configurați aici blocarea anunțurilor pentru a vă ocupa o dată pentru totdeauna de bannerele enervante, ferestrele pop-up, anunțurile video și altele asemenea"
@@ -1402,7 +1402,7 @@
         "message": "Protejează-te de malware, phishing si alte amenințări online"
     },
     "group_description_miscellaneous": {
-        "message": "Mai multe setări pentru configurarea navigarea web cu AdGuard chiar mai departe"
+        "message": "Mai multe setări pentru configurarea navigarea web cu AdZap chiar mai departe"
     },
     "group_description_custom": {
         "message": "Creați-vă propriile filtre pentru a ajusta filtrarea web după preferințele dumneavoastră"
@@ -1600,13 +1600,13 @@
         "message": "Acces refuzat"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard a blocat accesul la această pagină"
+        "message": "AdZap a blocat accesul la această pagină"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Blocat de AdGuard"
+        "message": "Blocat de AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard a oprit încărcarea acestei pagini datorită următoarei reguli de filtrare"
+        "message": "AdZap a oprit încărcarea acestei pagini datorită următoarei reguli de filtrare"
     },
     "blocking_pages_btn_go_back": {
         "message": "Înapoi"

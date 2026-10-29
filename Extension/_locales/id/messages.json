@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Untuk menyalin dan menempel aturan, izinkan AdGuard mengakses papan klip. <a>Izinkan<\/a>"
+        "message": "Untuk menyalin dan menempel aturan, izinkan AdZap mengakses papan klip. <a>Izinkan<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Masukkan nama filter"
@@ -27,13 +27,13 @@
         "message": "Silakan baca dengan seksama sebelum mengaktifkan filter gangguan"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Anda akan mengaktifkan satu atau beberapa filter gangguan. Filter ini memblokir elemen yang tidak terkait dengan konten situs web, atau terkait namun mengganggu pengalaman penggunaan Anda. Pemilik situs web dapat menganggap elemen-elemen ini wajib: jika Anda memblokirnya, Anda mungkin melanggar ketentuan mereka; beberapa kegunaan situs web mungkin tidak tersedia atau tidak berfungsi dengan baik. Anda memahami dan menyetujui bahwa Anda sepenuhnya bertanggung jawab untuk menaati persyaratan penggunaan situs web yang Anda kunjungi dan bahwa AdGuard tidak bertanggung jawab atas kepatuhan Anda terhadap persyaratan penggunaan situs web yang Anda kunjungi dengan menggunakan produk kami."
+        "message": "Anda akan mengaktifkan satu atau beberapa filter gangguan. Filter ini memblokir elemen yang tidak terkait dengan konten situs web, atau terkait namun mengganggu pengalaman penggunaan Anda. Pemilik situs web dapat menganggap elemen-elemen ini wajib: jika Anda memblokirnya, Anda mungkin melanggar ketentuan mereka; beberapa kegunaan situs web mungkin tidak tersedia atau tidak berfungsi dengan baik. Anda memahami dan menyetujui bahwa Anda sepenuhnya bertanggung jawab untuk menaati persyaratan penggunaan situs web yang Anda kunjungi dan bahwa tidak bertanggung jawab atas kepatuhan Anda terhadap persyaratan penggunaan situs web yang Anda kunjungi dengan menggunakan produk kami."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Aktifkan filter ini?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Untuk detail tentang apa yang diblokir filter gangguan AdGuard, lihat <a>Kebijakan filter<\/a>"
+        "message": "Untuk detail tentang apa yang diblokir filter gangguan AdZap, lihat <a>Kebijakan filter<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Aktifkan"
@@ -57,10 +57,10 @@
         "message": "Perbaiki"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard untuk iOS"
+        "message": "AdZap untuk iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard untuk Android"
+        "message": "AdZap untuk Android"
     },
     "options_filters_filter_version": {
         "message": "versi:"
@@ -159,10 +159,10 @@
         "message": "Berlangganan"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Ekstensi adblock tidak cocok melawan iklan dan pop-ups. Blokir iklan pada Facebook, YouTube dan semua situs lainnya.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Daftar Putih"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard tidak memblokir iklan dan pelacak di situs web dari daftar"
+        "message": "AdZap tidak memblokir iklan dan pelacak di situs web dari daftar"
     },
     "options_allowlist_invert": {
         "message": "Balikkan daftar Putih"
@@ -313,7 +313,7 @@
         "message": "Gagal menyimpan perubahan. Silakan coba lagi atau hubungi dukungan"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Untuk mengimpor berkas pengaturan ini, izinkan AdGuard untuk mengubah pengaturan terkait privasi Anda."
+        "message": "Untuk mengimpor berkas pengaturan ini, izinkan AdZap untuk mengubah pengaturan terkait privasi Anda."
     },
     "options_popup_import_success_title": {
         "message": "Pengaturan diimpor"
@@ -472,7 +472,7 @@
         "message": "telah diperbarui."
     },
     "options_popup_version_update_title_text": {
-        "message": "Ekstensi AdGuard telah diperbarui ke versi %current_version%"
+        "message": "Ekstensi AdZap telah diperbarui ke versi %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "Versi ini sebagian besar berisi perbaikan bug dan peningkatan kecil."
@@ -484,7 +484,7 @@
         "message": "Apa yang baru pada versi ini?"
     },
     "options_popup_version_update_offer": {
-        "message": "Apakah Anda tahu bahwa kemampuan AdGuard tidak hanya sebatas pada peramban ini?"
+        "message": "Apakah Anda tahu bahwa kemampuan AdZap tidak hanya sebatas pada peramban ini?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "PELAJARI LEBIH LANJUT"
@@ -499,10 +499,10 @@
         "message": "Hapus aturan pengguna untuk situs web ini"
     },
     "popup_open_settings": {
-        "message": "Buka pengaturan AdGuard"
+        "message": "Buka pengaturan AdZap"
     },
     "popup_protection_button": {
-        "message": "Perlindungan AdGuard"
+        "message": "Perlindungan AdZap"
     },
     "context_block_site_ads": {
         "message": "Blokir iklan secara manual"
@@ -514,19 +514,19 @@
         "message": "Lapor masalah"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard tidak dapat memfilter halaman ini"
+        "message": "AdZap tidak dapat memfilter halaman ini"
     },
     "context_disable_protection": {
-        "message": "Jeda perlindungan AdGuard"
+        "message": "Jeda perlindungan AdZap"
     },
     "context_enable_protection": {
-        "message": "Lanjutkan perlindungan AdGuard"
+        "message": "Lanjutkan perlindungan AdZap"
     },
     "context_site_protection_disabled": {
-        "message": "Perlindungan AdGuard sedang dijeda"
+        "message": "Perlindungan AdZap sedang dijeda"
     },
     "context_open_settings": {
-        "message": "Pengaturan AdGuard"
+        "message": "Pengaturan AdZap"
     },
     "context_open_log": {
         "message": "Catatan pemfilteran"
@@ -778,7 +778,7 @@
         "message": "Navigasi"
     },
     "options_settings": {
-        "message": "Pengaturan AdGuard"
+        "message": "Pengaturan AdZap"
     },
     "options_general_settings": {
         "message": "Umum"
@@ -790,7 +790,7 @@
         "message": "Memblokir iklan di hasil pencarian dan promosi mandiri dari situs web. <a>Pelajari lebih lanjut<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Tunjukkan jumlah iklan yang diblokir pada ikon ekstensi AdGuard"
+        "message": "Tunjukkan jumlah iklan yang diblokir pada ikon ekstensi AdZap"
     },
     "options_enable_autodetect_filter": {
         "message": "Aktifkan filter yang paling sesuai secara otomatis"
@@ -947,16 +947,16 @@
         "message": "Perlindungan dari phishing dan malware"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Memberi peringatan tentang situs web berbahaya dan phishing menggunakan modul Keamanan Penjelajahan AdGuard. <a>Baca lebih lanjut<\/a>"
+        "message": "Memberi peringatan tentang situs web berbahaya dan phishing menggunakan modul Keamanan Penjelajahan AdZap. <a>Baca lebih lanjut<\/a>"
     },
     "options_site": {
         "message": "Situs resmi"
     },
     "options_discuss": {
-        "message": "Diskusikan AdGuard"
+        "message": "Diskusikan AdZap"
     },
     "options_do_you_like_question": {
-        "message": "Anda menyukai AdGuard?"
+        "message": "Anda menyukai AdZap?"
     },
     "options_rate_us_cta": {
         "message": "Berikan nilai"
@@ -1029,7 +1029,7 @@
         "message": "Opsi 1. Hapus ekstensi pemblokiran iklan yang tidak perlu dari peramban Anda. Untuk mengaktifkan kembali filter yang disebutkan di bagian \"Filter diaktifkan sebelum pembaruan\", klik <a>aktifkan kembali filter.<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Opsi 2. Pasang aplikasi Pemblokir Iklan AdGuard: aplikasi ini tidak memiliki batasan pada aturan pemfilteran. <a>Dapatkan aplikasi AdGuard<\/a>"
+        "message": "Opsi 2. Pasang aplikasi Pemblokir Iklan AdZap: aplikasi ini tidak memiliki batasan pada aturan pemfilteran. <a>Dapatkan aplikasi AdZap<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Opsi 3. Jika Anda puas dengan filter standar yang aktif saat ini, <a>tutup peringatan ini.<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Hapus pemblokir iklan lainnya"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Ekstensi peramban berbagi batas aturan yang sama. Menghapus pemblokir iklan lain dapat membebaskan lebih banyak aturan untuk AdGuard Browser Extension"
+        "message": "Ekstensi peramban berbagi batas aturan yang sama. Menghapus pemblokir iklan lain dapat membebaskan lebih banyak aturan untuk AdZap Offline"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Mengelola ekstensi"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Tampilkan informasi pada versi penuh AdGuard"
+        "message": "Tampilkan informasi pada versi penuh AdZap"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Semua statistik penggunaan data akan dihapus secara permanen"
@@ -1150,13 +1150,13 @@
         "message": "Kesalahan saat mengatur ulang pengaturan"
     },
     "options_collect_hit_stats_title": {
-        "message": "Bantu mengembangkan filter AdGuard"
+        "message": "Bantu mengembangkan filter AdZap"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Mengirim statistik anonim tentang penggunaan filter iklan ke AdGuard. <a>Pelajari lebih lanjut<\/a>"
+        "message": "Mengirim statistik anonim tentang penggunaan filter iklan ke AdZap. <a>Pelajari lebih lanjut<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Tambahkan item AdGuard ke konteks menu peramban"
+        "message": "Tambahkan item AdZap ke konteks menu peramban"
     },
     "options_use_optimized_filters": {
         "message": "Gunakan filter yang dioptimalkan"
@@ -1219,13 +1219,13 @@
         "message": "Hapus parameter pelacakan dari URL"
     },
     "options_strip_tracking_params_description": {
-        "message": "Menghapus parameter pelacakan dari halaman URL menggunakan filter Pelacakan URL AdGuard"
+        "message": "Menghapus parameter pelacakan dari halaman URL menggunakan filter Pelacakan URL AdZap"
     },
     "options_block_known_trackers_title": {
         "message": "Blokir pelacak"
     },
     "options_block_known_trackers_description": {
-        "message": "Memblokir pelacak dan analitik web menggunakan filter Perlindungan Pelacakan AdGuard"
+        "message": "Memblokir pelacak dan analitik web menggunakan filter Perlindungan Pelacakan AdZap"
     },
     "options_third_party_title": {
         "message": "Menghapus cookie pihak ketiga"
@@ -1255,7 +1255,7 @@
         "message": "Kirim data penggunaan ekstensi yang dianonimkan"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Mengirim statistik anonim tentang penggunaan ekstensi ke AdGuard. <button>Pelajari lebih lanjut<\/button>"
+        "message": "Mengirim statistik anonim tentang penggunaan ekstensi ke AdZap. <button>Pelajari lebih lanjut<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Data penggunaan ekstensi"
@@ -1273,7 +1273,7 @@
         "message": "Sesi ID"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Kami membutuhkan informasi ini untuk menganalisis dan meningkatkan kegunaan AdGuard"
+        "message": "Kami membutuhkan informasi ini untuk menganalisis dan meningkatkan kegunaan AdZap"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Data ini bersifat anonim dan hanya digunakan secara internal. Kami tidak pernah membagikannya dengan pihak ketiga"
@@ -1318,10 +1318,10 @@
         "message": "Peramban Anda telah memodifikasi daftar filter bawaan yang aktif"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "Batas aturan terlampaui dalam Ekstensi Peramban AdGuard. Silakan periksa filter Anda dan nonaktifkan yang tidak Anda perlukan"
+        "message": "Batas aturan terlampaui dalam Ekstensi Peramban AdZap. Silakan periksa filter Anda dan nonaktifkan yang tidak Anda perlukan"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "Tentang"
@@ -1354,7 +1354,7 @@
         "message": "Hapus"
     },
     "options_nav_better_than_extension": {
-        "message": "Mengapa aplikasi AdGuard lebih baik daripada ekstensinya?"
+        "message": "Mengapa aplikasi AdZap lebih baik daripada ekstensinya?"
     },
     "options_nav_compare": {
         "message": "Perbandingan"
@@ -1369,13 +1369,13 @@
         "message": "Aplikasi desktop kami dapat melindungi Anda dari hal tersebut"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Dapatkan AdGuard untuk Windows"
+        "message": "Dapatkan AdZap untuk Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Dapatkan AdGuard untuk Mac"
+        "message": "Dapatkan AdZap untuk Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Dapatkan AdGuard untuk Linux"
+        "message": "Dapatkan AdZap untuk Linux"
     },
     "options_filters_search": {
         "message": "Cari"
@@ -1384,7 +1384,7 @@
         "message": "Cari filter"
     },
     "options_about_title": {
-        "message": "Ekstensi Peramban AdGuard"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Konfigurasikan pemblokiran iklan di sini untuk menghadapi spanduk yang mengganggu, pop-up, iklan video, dan sejenisnya, sekali untuk selamanya"
@@ -1402,7 +1402,7 @@
         "message": "Lindungi diri Anda dari malware, phishing, dan ancaman daring lainnya"
     },
     "group_description_miscellaneous": {
-        "message": "Lebih banyak pengaturan untuk mengonfigurasi penjelajahan web Anda dengan AdGuard lebih jauh lagi"
+        "message": "Lebih banyak pengaturan untuk mengonfigurasi penjelajahan web Anda dengan AdZap lebih jauh lagi"
     },
     "group_description_custom": {
         "message": "Buat filter Anda sendiri untuk menyempurnakan pemfilteran web sesuai keinginan Anda."
@@ -1600,13 +1600,13 @@
         "message": "Akses ditolak"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard telah memblokir akses ke halaman ini"
+        "message": "AdZap telah memblokir akses ke halaman ini"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Diblokir oleh AdGuard"
+        "message": "Diblokir oleh AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard telah mencegah pemuatan halaman ini karena aturan filter berikut"
+        "message": "AdZap telah mencegah pemuatan halaman ini karena aturan filter berikut"
     },
     "blocking_pages_btn_go_back": {
         "message": "Kembali"

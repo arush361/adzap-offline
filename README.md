@@ -1,210 +1,95 @@
-&nbsp;
 <p align="center">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/public/Adguard/Common/Logos/ext_logo_dark.svg" width="300px" alt="AdGuard Browser Extension" />
-        <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/ext_logo.svg" width="300px" alt="AdGuard Browser Extension"/>
-    </picture>
-</p>
-<h3 align="center">Ad blocker with advanced privacy protection features</h3>
-<p align="center">
-    AdGuard is a fast and lightweight ad blocking browser extension<br/>that effectively blocks all types of ads and trackers.
+  <img src="docs/images/icon-512.png" width="120" alt="AdZap Offline icon">
 </p>
 
-<p align="center">
-    <a href="https://adguard.com/">AdGuard.com</a> |
-    <a href="https://reddit.com/r/Adguard">Reddit</a> |
-    <a href="https://twitter.com/AdGuard">Twitter</a> |
-    <a href="https://t.me/adguard_en">Telegram</a>
-    <br /><br />
-    <a href="https://github.com/AdguardTeam/AdguardBrowserExtension/releases">
-        <img src="https://img.shields.io/github/release/AdguardTeam/AdguardBrowserExtension/all.svg" alt="Latest release" />
-    </a>
-    <a href="https://addons.mozilla.org/en-US/firefox/addon/adguard-adblocker/">
-        <img src="https://img.shields.io/amo/v/adguard-adblocker?labelColor=orange" alt="Mozilla Add-on Version" />
-    </a>
-</p>
-
-<br />
+<h1 align="center">AdZap Offline</h1>
 
 <p align="center">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/public/Adguard/Common/adguard_extension_settings_dark.png" width="900px" alt="AdGuard Browser Extension" />
-        <img src="https://cdn.adguard.com/public/Adguard/Common/adguard_extension_settings_white.png" width="900px" alt="AdGuard Browser Extension"/>
-    </picture>
+  <b>An ad and tracker blocker for Chrome that never phones home.</b><br>
+  No telemetry. No update pings. No accounts. It just blocks stuff — quietly, on your computer.
 </p>
 
-AdGuard is a fast and lightweight ad blocking browser extension that effectively blocks all types of ads and trackers on all web pages. We focus on advanced privacy protection features to not just block known trackers, but prevent web sites from building your shadow profile. Unlike its standalone counterparts (AG for Windows, Mac), the browser extension is completely free and open source. You can learn more about [the difference](https://adguard.com/compare.html) here.
+---
 
-> AdGuard does not collect any information about you, and does not participate in any acceptable ads program. The only source of income we have is selling premium versions of our software, and we intend to keep it that way.
+## Why this exists
 
-- [Installation](#installation)
-    - [Chrome and Chromium-based browsers](#installation-chrome)
-    - [Firefox](#installation-firefox)
-    - [Opera](#installation-opera)
-    - [Microsoft Edge](#installation-edge)
-- [Contribution](#contribution)
-    - [Translating AdGuard](#contribution-translating)
-    - [Testing AdGuard](#contribution-testing)
-    - [Reporting issues](#contribution-reporting)
-    - [Other options](#contribution-other)
-- [Development](DEVELOPMENT.md)
-- [Deployment](DEPLOYMENT.md)
-- [Getting Started](#getting-started)
-- [Permissions](#permissions-required)
-- [Auto-publish builds](#auto-publish-builds)
-- [Versioning Schema](#versioning-schema)
-- [Minimum supported browser versions](#browser-compatibility)
-- [Documentation](#documentation)
-<!-- TOC:AMO_REVIEW -->
+Most ad blockers are great at blocking other people's tracking — but a lot of them still talk to their own servers in the background. Update checks with a unique ID, usage stats, "thank you" pages that open on install, and so on.
 
-## <a name="installation"></a> Installation
+AdZap Offline is a version of an ad blocker that's been locked down so it **can't** do any of that. Chrome itself is told to block every connection the extension tries to make to the internet. I tested this by watching all network traffic while browsing — the extension made zero connections out.
 
-### <a name="installation-chrome"></a> Chrome and Chromium-based browsers
+## What it does
 
-Install from the [Chrome Web Store](https://agrd.io/extension_chrome).
+- **Blocks ads, pop-ups and trackers** on the sites you visit — the blocking lists are built in.
+- **Works fully offline.** Nothing about your browsing ever leaves your computer.
+- **No telemetry, no stats, no "anonymous usage data"** — those features are removed, not just switched off.
+- **No accounts, no sign-up, no tracking ID.**
+- **Block anything manually** — click "Block ads manually" in the menu and point at the thing you want gone.
+- **Allowlist** — turn blocking off for sites you trust (or sites that break).
+- **Pause with one click** if a page isn't working right.
+- **Filtering log** — see exactly what was blocked on a page.
+- **Your own rules** for power users, plus import/export of settings.
+- **Light and dark mode**, and it's translated into 50+ languages.
 
-### <a name="installation-firefox"></a> Firefox
+<p align="center">
+  <img src="docs/images/popup.png" width="300" alt="AdZap Offline popup">
+  &nbsp;&nbsp;
+  <img src="docs/images/filters.png" width="520" alt="AdZap Offline filter settings">
+</p>
 
-Install from the [Mozilla Add-ons website](https://agrd.io/extension_firefox).
+## How to install (about 2 minutes)
 
-### <a name="installation-opera"></a> Opera
+AdZap Offline isn't on the Chrome Web Store, so you install it by hand. It's easier than it sounds.
 
-Install from the [Opera Add-ons store](https://agrd.io/extension_opera).
+1. **Download it.** Go to the [Releases page](https://github.com/arush361/adzap-offline/releases/latest) and download the file called `AdZap-Offline-v1.0.0.zip`.
+2. **Unzip it.** Double-click the zip. You'll get a folder called `AdZap-Offline`.
+3. **Move that folder somewhere it can stay forever** — like your Documents folder. ⚠️ If you move or delete this folder later, the extension stops working.
+4. **Open Chrome's extensions page.** Type `chrome://extensions` into the address bar and press Enter.
+5. **Turn on "Developer mode"** using the switch in the top-right corner.
+6. **Click "Load unpacked"** (top-left) and pick the `AdZap-Offline` folder from step 3.
+7. **Pin it** so it's easy to find: click the puzzle-piece icon next to the address bar, then the pin next to AdZap Offline.
 
-### <a name="installation-edge"></a> Microsoft Edge
+That's it. You'll see the purple lightning-bolt shield in your toolbar. Click it any time to see what's been blocked or to pause it.
 
-Install from the [Microsoft Store](https://agrd.io/extension_edge).
+### Updating to a new version
 
-## <a name="contribution"></a> Contribution
+There's no automatic updating — that's on purpose, since updates would mean contacting a server. To update:
 
-We are blessed to have a community that does not only love AdGuard, but also
-gives back. A lot of people volunteer in various ways to make other users'
-experience with AdGuard better, and you can join them!
+1. Open AdZap settings → **General** → **Export settings** (keeps your allowlist and rules).
+2. On `chrome://extensions`, click **Remove** on the old AdZap Offline.
+3. Install the new version using the steps above, then **Import settings**.
 
-We, on our part, can only be happy to reward the most active members of the
-community. So, what can you do?
+### Uninstalling
 
-### <a name="contribution-translating"></a> Translating AdGuard
+Go to `chrome://extensions`, find AdZap Offline and click **Remove**. Then delete the folder. Done — no account to close, no data left on a server anywhere.
 
-If you want to help with AdGuard translations, please learn more about
-translating our products here: <https://adguard.com/kb/miscellaneous/contribute/translate/program/>
+## Limitations — please read
 
-### <a name="contribution-testing"></a> Testing AdGuard
+I'd rather be upfront about these:
 
-You can get a beta version of AdGuard Browser Extension for any browser.
-All necessary information on this topic can be found on a
-[dedicated page on our website](https://adguard.com/beta.html).
+- **Chrome only (for now).** Built and tested on Google Chrome. It'll probably work on other Chromium browsers like Edge and Brave, but I haven't tested them. No Firefox, Safari or phones.
+- **The blocking lists don't update themselves.** They're frozen at the date the version was built (this one: late August 2026). New kinds of ads may slip through over time until you install a newer version. That's the trade-off for being fully offline.
+- **No automatic security fixes.** Because it never checks for updates, you won't get fixes unless you install a new version yourself. Watch this repo (the "Watch" button at the top) if you want to hear about new releases.
+- **"Developer mode" has to stay on.** Chrome may now and then remind you that you have developer-mode extensions installed. That's normal for anything installed this way.
+- **Work computers may block it.** If your company manages your browser, "Developer mode" or "Load unpacked" might be greyed out. Check with your IT team before installing on a work machine.
+- **Some sites may act up.** Any ad blocker can occasionally break a page (logins, video players, checkout pages). Hit the pause button or add the site to your allowlist.
+- **Subscribing to extra filter lists from a web address doesn't work** — that would need an internet connection, which this extension deliberately doesn't have.
+- **It's an extension, not a system-wide blocker.** It only protects Chrome, not other apps.
+- **No warranty.** It's free, open source and provided as-is. I'm one person maintaining it.
 
-### <a name="contribution-reporting"></a> Reporting issues
+## Is it really offline? How do I know?
 
-GitHub can be used to report a bug or to submit a feature request. To do so, go
-to [this page](https://github.com/AdguardTeam/AdguardBrowserExtension/issues)
-and click the *New issue* button.
+You don't have to take my word for it:
 
-> [!NOTE]
-> For the filter-related issues (missed ads, false positives etc.) use
-> the [dedicated repository](https://github.com/AdguardTeam/AdguardFilters).
+- The extension's manifest includes a rule (`connect-src 'self'`) that tells Chrome to block every outgoing connection the extension tries to make. Chrome enforces this, not the extension.
+- The code that sent update checks, usage stats and filter statistics has been removed.
+- I loaded it in a fresh browser, deliberately switched **on** every data-sharing setting, browsed news sites, and recorded all network traffic. The extension made zero connections — while still blocking over 24,000 ad and tracker requests.
 
-### <a name="contribution-other"></a> Other options
+If you're technical and want to check for yourself, see [docs/BUILDING.md](docs/BUILDING.md) to build it from source.
 
-Here is a [dedicated page](https://adguard.com/contribute.html) for those who
-are willing to contribute.
+## Found a problem?
 
-## <a name="getting-started"></a> Getting Started
+[Open an issue](https://github.com/arush361/adzap-offline/issues) and tell me what happened and on which website. Screenshots help.
 
-After installing the extension from your browser's store:
+## License and credits
 
-1. **Click the AdGuard icon** in the browser toolbar to open the popup. Ad blocking is enabled by default with a recommended set of filter lists.
-2. **Toggle protection** on or off for the current website using the main switch in the popup.
-3. **Open settings** by clicking the gear icon in the popup to access the full options page.
-4. **Use the Assistant** — click the AdGuard icon, then select "Block an element on this page" to visually pick and block unwanted page elements.
-
-The extension works out of the box with sensible defaults.
-
-## <a name="permissions-required"></a> Permissions required
-
-### Common permissions for all browsers and manifest versions
-
-- `tabs`                          - required to get the URL of the options page tab
-- `webRequest`                    - required to apply cosmetic rules, detect and remove tracking cookies, and count blocked resources
-- `cookies`                       - required to delete cookies from requests or change their lifetime
-- `contextMenus`                  - required to create a context menu
-- `storage`                       - required to save user settings, user rules, and custom filters
-- `unlimitedStorage`              - required to save large filter lists
-- `webNavigation`                 - required to catch the moment for injecting scriptlets
-- `privacy`                       - allows access to browser privacy settings; required in Firefox, optional in Chrome/Edge/Opera
-
-### Permissions for MV2 only
-
-- `<all_urls>`                    - grants access to all websites to apply content scripts and filtering rules
-- `webRequestBlocking`            - required to block or modify HTTP requests synchronously
-
-### Permissions for MV3 only
-
-- `host_permissions`              - grants access to all websites (MV3 uses this instead of `<all_urls>`)
-- `userScripts`                   - required to let the user subscribe to custom filter lists and evaluate rules from these lists
-- `scripting`                     - required to inject the assistant script into pages
-- `declarativeNetRequest`         - required to block, redirect, and modify URL requests
-- `declarativeNetRequestFeedback` - required to create a log of the blocked, redirected, or modified URL requests
-
-## <a name="auto-publish-builds"></a> Auto-publish builds
-
-Due to the transition from MV2 to MV3, we cannot update our filters remotely. To keep the filters as fresh as possible, we have configured automated tasks in our CI plans. These tasks will build a new version of the extension with only the updated `@adguard/dnr-rulesets` package, which contains new static rulesets.
-
-### Auto-update cycle
-
-We have set up an automated update cycle that regularly syncs with fresh releases from the [`@adguard/dnr-rulesets`](https://www.npmjs.com/package/@adguard/dnr-rulesets) npm package. The update frequency is configured in our [CI build schedule](../bamboo-specs/auto-build.yaml). This ensures our extension stays up-to-date with the latest filter rules.
-
-To deploy new releases as soon as possible, we have implemented all the steps outlined in Chrome's [Skip Review documentation](https://developer.chrome.com/docs/webstore/skip-review). This allows us to publish updates to the Chrome Web Store without waiting for the full review cycle.
-
-### Skip review restrictions
-
-However, there is an important restriction when using the "skip review" option: **we cannot update the extension with skip review if it contains changes to filtering script rules**. This is because all script rules are collected during build time into a file called `local_script_rules.js` (for safe use them with the scripting API).
-
-Therefore, any updates that include changes to script rules will require the full review cycle in the Chrome Web Store as usual.
-
-### Build process
-
-These automated tasks will run all necessary checks: unit tests, translation checks, and linter. After that, they will update resources, including filters and local script rules, create a build, and run integration tests to ensure the update is safe.
-
-Finally, the new version of the extension will be published to the Chrome Web Store.
-
-## <a name="versioning-schema"></a> Versioning Schema
-
-The extension uses the following versioning schema:
-
-```
-major.minor.patch+autoBuildIncrementVersion.buildTag.dnrRulesetsVersion
-```
-
-- **major.minor.patch**: Standard semantic versioning for the extension codebase.
-- **autoBuildIncrementVersion**: An incrementing number used as the fourth part of the manifest version (e.g., `88` in `5.2.1.88`).
-- **buildTag**: A delimiter indicating the build's readiness.
-- **dnrRulesetsVersion**: The patch version of the DNR rulesets, which includes the build date for those rulesets.
-
-Example: `5.2.1+88.beta.20251014`
-
-But for build versions we will use following format: `major.minor.patch.autoBuildIncrementVersion` to comply with the browser requirements for version.
-
-## <a name="browser-compatibility"></a> Minimum supported browser versions
-
-The extension supports both Manifest V2 (MV2) and Manifest V3 (MV3) platforms. MV3 is the newer extension platform required by Chrome and other Chromium-based browsers going forward.
-
-<!-- NOTE: see MIN_SUPPORTED_VERSION in ./constants.ts -->
-
-| Browser                     | Version |
-|---------------------------- |---------|
-| Chromium-based browsers MV2 | ✅ 106  |
-| Chromium-based browsers MV3 | ✅ 121  |
-| Firefox                     | ✅ 78   |
-| Firefox Mobile              | ✅ 113  |
-| Opera                       | ✅ 67   |
-| Opera MV3                   | ✅ 107  |
-| Edge Chromium               | ✅ 80   |
-| Edge Legacy                 | ❌      |
-
-## <a name="documentation"></a> Documentation
-
-- [Development](DEVELOPMENT.md) — development setup and build instructions
-- [Changelog](CHANGELOG.md) — version history
-- [LLM agent rules](AGENTS.md) — guidance for AI coding assistants
+AdZap Offline is free and open-source software under the [GNU GPL v3](LICENSE). It's a modified version of an existing open-source GPL-3.0 project — see [NOTICE](NOTICE) for the original copyright, what was changed and the third-party licenses.

@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, {
@@ -24,7 +26,8 @@ import React, {
     useState,
 } from 'react';
 
-import loadingVideo from '../../../../../assets/videos/loading.webm';
+// AdZap Offline: static shield + CSS pulse instead of the upstream branded video.
+import loaderIcon from '../../../../../assets/images/logo-shield.svg';
 import { logger } from '../../../../common/logger';
 
 import './animated-loader.pcss';
@@ -122,6 +125,7 @@ export const AnimatedLoader = ({
 
     const showContent = (loaded && waited) || fastLoaded;
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const handleVideoLoadedMetadata = () => {
         if (!videoRef.current) {
             logger.warn('[ext.AnimatedLoader]: Video ref is null when loading metadata');
@@ -141,16 +145,11 @@ export const AnimatedLoader = ({
 
     const loader = (
         <div className="animated-loader">
-            <video
-                ref={videoRef}
-                className="animated-loader__video"
-                src={loadingVideo}
-                autoPlay
-                loop
-                muted
-                playsInline
-                onLoadedMetadata={handleVideoLoadedMetadata}
-                onPlay={handleVideoPlay}
+            <img
+                className="animated-loader__video animated-loader__icon"
+                src={loaderIcon}
+                alt=""
+                onLoad={handleVideoPlay}
             />
         </div>
     );

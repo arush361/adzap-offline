@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Norėdami nukopijuoti ir įklijuoti taisykles, leiskite „AdGuard“ pasiekti iškarpinę. <a>Leisti<\/a>"
+        "message": "Norėdami nukopijuoti ir įklijuoti taisykles, leiskite „AdZap“ pasiekti iškarpinę. <a>Leisti<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Įveskite filtro pavadinimą"
@@ -27,13 +27,13 @@
         "message": "Prieš įjungdamas (-a) erzinančius filtrus atidžiai perskaityk"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Jūs ketinate įjungti vieną ar daugiau susierzinimo filtrų. Jie blokuoja elementus, kurie nėra susiję su svetainės turiniu arba susiję, bet erzina jūsų naudotojo patirtį. Svetainių savininkai gali laikyti šiuos elementus privalomais: jei juos blokuosite, galbūt pažeisite jų sąlygas; kai kurios svetainių funkcijos gali būti nepasiekiamos arba neveikti tinkamai. Jūs suprantate ir sutinkate, kad esate vienintelis atsakingas už lankomų svetainių naudojimo sąlygų laikymąsi ir kad AdGuard nėra atsakingas už jūsų laikymąsi naudodami mūsų produktus."
+        "message": "Jūs ketinate įjungti vieną ar daugiau susierzinimo filtrų. Jie blokuoja elementus, kurie nėra susiję su svetainės turiniu arba susiję, bet erzina jūsų naudotojo patirtį. Svetainių savininkai gali laikyti šiuos elementus privalomais: jei juos blokuosite, galbūt pažeisite jų sąlygas; kai kurios svetainių funkcijos gali būti nepasiekiamos arba neveikti tinkamai. Jūs suprantate ir sutinkate, kad esate vienintelis atsakingas už lankomų svetainių naudojimo sąlygų laikymąsi ir kad nėra atsakingas už jūsų laikymąsi naudodami mūsų produktus."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Įjungti šiuos filtrus?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Išsamios informacijos apie tai, ką blokuoja AdGuard susierzinimo filtrai, žr. <a>Filtrų politika<\/a>"
+        "message": "Išsamios informacijos apie tai, ką blokuoja susierzinimo filtrai, žr. <a>Filtrų politika<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Įjungti"
@@ -57,10 +57,10 @@
         "message": "Tęsti"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard skirtas iOS"
+        "message": "AdZap skirtas iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard skirtas Android"
+        "message": "AdZap skirtas Android"
     },
     "options_filters_filter_version": {
         "message": "versija:"
@@ -159,10 +159,10 @@
         "message": "Užsiprenumeruoti"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Nepralenkiama apsauga nuo reklamų ir iškylančių langų. Blokuoja skelbimus Facebook, YouTube ir visose kitose svetainėse.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Baltasis sąrašas"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard neblokuoja reklamų ir seklių svetainėse iš sąrašo"
+        "message": "AdZap neblokuoja reklamų ir seklių svetainėse iš sąrašo"
     },
     "options_allowlist_invert": {
         "message": "Invertuoti baltąjį sąrašą"
@@ -313,7 +313,7 @@
         "message": "Nepavyko išsaugoti pakeitimų. Pabandykite dar kartą arba susisiekite su palaikymu"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Kad importuotumėte šį nustatymų failą, leiskite AdGuard pakeisti Jūsų privatumo nustatymus."
+        "message": "Kad importuotumėte šį nustatymų failą, leiskite AdZap pakeisti Jūsų privatumo nustatymus."
     },
     "options_popup_import_success_title": {
         "message": "Nustatymai importuoti"
@@ -472,7 +472,7 @@
         "message": "buvo atnaujinti."
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuard plėtinys atnaujintas iki versijos %current_version%"
+        "message": "AdZap plėtinys atnaujintas iki versijos %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "Šioje versijoje pagrinde yra klaidų ištaisymai bei nedideli patobulinimai."
@@ -484,7 +484,7 @@
         "message": "Kas naujo šioje versijoje?"
     },
     "options_popup_version_update_offer": {
-        "message": "Ar žinote, kad AdGuard galimybės neapsiriboja šia naršykle?"
+        "message": "Ar žinote, kad AdZap galimybės neapsiriboja šia naršykle?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "Sužinoti daugiau"
@@ -499,10 +499,10 @@
         "message": "Pašalinti naudotojo taisykles šioje svetainėje"
     },
     "popup_open_settings": {
-        "message": "Atverti AdGuard nustatymus"
+        "message": "Atverti AdZap nustatymus"
     },
     "popup_protection_button": {
-        "message": "AdGuard apsauga"
+        "message": "AdZap apsauga"
     },
     "context_block_site_ads": {
         "message": "Blokuoti reklamas rankiniu būdu"
@@ -514,19 +514,19 @@
         "message": "Pranešti apie problemą"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard negali filtruoti šio puslapio"
+        "message": "AdZap negali filtruoti šio puslapio"
     },
     "context_disable_protection": {
-        "message": "Pristabdyti AdGuard apsaugą"
+        "message": "Pristabdyti AdZap apsaugą"
     },
     "context_enable_protection": {
-        "message": "Atnaujinti AdGuard apsaugą"
+        "message": "Atnaujinti AdZap apsaugą"
     },
     "context_site_protection_disabled": {
-        "message": "AdGuard apsauga laikinai sustabdyta"
+        "message": "AdZap apsauga laikinai sustabdyta"
     },
     "context_open_settings": {
-        "message": "AdGuard nustatymai"
+        "message": "AdZap nustatymai"
     },
     "context_open_log": {
         "message": "Filtravimo logas"
@@ -778,7 +778,7 @@
         "message": "Navigacija"
     },
     "options_settings": {
-        "message": "AdGuard nustatymai"
+        "message": "AdZap nustatymai"
     },
     "options_general_settings": {
         "message": "Pagrindiniai"
@@ -790,7 +790,7 @@
         "message": "Paieškos rezultatuose rodomos reklamos ir svetainių savireklama. <a>Išsamiau<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Rodyti blokuojamų reklamų skaičių ant AdGuard plėtinio piktogramos"
+        "message": "Rodyti blokuojamų reklamų skaičių ant AdZap plėtinio piktogramos"
     },
     "options_enable_autodetect_filter": {
         "message": "Aktyvuoti tinkamiausius filtrus automatiškai"
@@ -947,16 +947,16 @@
         "message": "Apsauga nuo sukčiavimo ir kenkėjiškų programų"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Įspėja apie kenkėjiškas ir sukčiavimo svetaines, naudojant AdGuard Saugų naršymą. <a>Išsamiau<\/a>"
+        "message": "Įspėja apie kenkėjiškas ir sukčiavimo svetaines, naudojant Saugų naršymą. <a>Išsamiau<\/a>"
     },
     "options_site": {
         "message": "Oficiali svetainė"
     },
     "options_discuss": {
-        "message": "Aptarti AdGuard"
+        "message": "Aptarti AdZap"
     },
     "options_do_you_like_question": {
-        "message": "Ar jums patinka AdGuard?"
+        "message": "Ar jums patinka AdZap?"
     },
     "options_rate_us_cta": {
         "message": "Įvertinkite programėlę"
@@ -1029,7 +1029,7 @@
         "message": "1 parinktis. Iš naršyklės ištrinkite nereikalingus reklamas blokuojančius plėtinius. Norėdami iš naujo suaktyvinti filtrus, nurodytus skiltyje \"Filtrai įjungti prieš naujinimą\", spustelėkite <a>iš naujo suaktyvinti filtrus.<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "2 parinktis. Įdiekite „AdGuard“ skelbimų blokavimo programą: joje nėra jokių filtravimo taisyklių apribojimų. <a>Gaukite AdGuard programą<\/a>"
+        "message": "2 parinktis. Įdiekite „AdZap“ skelbimų blokavimo programą: joje nėra jokių filtravimo taisyklių apribojimų. <a>Gaukite AdZap programą<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "3 parinktis. Jei esate patenkinti šiuo metu įgalintu numatytuoju filtru, <a>uždarykite šį įspėjimą.<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Pašalinti kitas reklamos blokuokles"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Naršyklės plėtiniai dalijasi tuo pačiu taisyklių limitu. Pašalinus kitas reklamos blokuokles gali atsirasti daugiau taisyklių AdGuard naršyklės plėtiniui"
+        "message": "Naršyklės plėtiniai dalijasi tuo pačiu taisyklių limitu. Pašalinus kitas reklamos blokuokles gali atsirasti daugiau taisyklių AdZap naršyklės plėtiniui"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Valdyti plėtinius"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Rodyti informaciją AdGuard pilnoje versijoje"
+        "message": "Rodyti informaciją AdZap pilnoje versijoje"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Visa duomenų naudojimo statistika bus visam laikui ištrinta"
@@ -1150,13 +1150,13 @@
         "message": "Iš naujo nustatant nustatymus įvyko klaida"
     },
     "options_collect_hit_stats_title": {
-        "message": "Padėkite tobulinti „AdGuard“ filtrus"
+        "message": "Padėkite tobulinti „AdZap“ filtrus"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Siunčia anoniminius duomenis apie reklamos filtrų naudojimą AdGuard. <a>Išsamiau<\/a>"
+        "message": "Siunčia anoniminius duomenis apie reklamos filtrų naudojimą AdZap. <a>Išsamiau<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Pridėti AdGuard elementą į naršyklės kontekstinį meniu"
+        "message": "Pridėti AdZap elementą į naršyklės kontekstinį meniu"
     },
     "options_use_optimized_filters": {
         "message": "Naudoti optimizuotus filtrus"
@@ -1219,13 +1219,13 @@
         "message": "Pašalina sekimo parametrus iš URL"
     },
     "options_strip_tracking_params_description": {
-        "message": "Pašalina sekimo parametrus iš puslapio URL naudodamas AdGuard URL sekimo filtrą"
+        "message": "Pašalina sekimo parametrus iš puslapio URL naudodamas URL sekimo filtrą"
     },
     "options_block_known_trackers_title": {
         "message": "Blokuoti stebėjimo priemones"
     },
     "options_block_known_trackers_description": {
-        "message": "Blokuoja seklius ir svetainės analizę naudodamas AdGuard sekimo apsaugos filtrą"
+        "message": "Blokuoja seklius ir svetainės analizę naudodamas sekimo apsaugos filtrą"
     },
     "options_third_party_title": {
         "message": "Ištrinti trečiųjų šalių slapukus"
@@ -1255,7 +1255,7 @@
         "message": "Siųsti anonimizuotus plėtinių naudojimo duomenis"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Siunčia anoniminius duomenis apie plėtinio naudojimą AdGuard. <button>Išsamiau<\/button>"
+        "message": "Siunčia anoniminius duomenis apie plėtinio naudojimą AdZap. <button>Išsamiau<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Plėtinių naudojimo duomenys"
@@ -1273,7 +1273,7 @@
         "message": "Sesijų identifikatoriai"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Mes reikia šios informacijos, kad galėtume analizuoti ir tobulinti AdGuard funkcionalumą"
+        "message": "Mes reikia šios informacijos, kad galėtume analizuoti ir tobulinti AdZap funkcionalumą"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Šie duomenys yra anoniminiai ir naudojami tik įmonės viduje. Niekada nesidalijame jais su trečiosiomis šalimis"
@@ -1318,10 +1318,10 @@
         "message": "Naršyklė pakeitė aktyvių filtrų sąrašą"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "Taisyklių limitas viršytas „AdGuard“ naršyklės plėtinyje. Prašome patikrinti savo filtrus ir išjungti tuos, kurių jums nereikia"
+        "message": "Taisyklių limitas viršytas „AdZap“ naršyklės plėtinyje. Prašome patikrinti savo filtrus ir išjungti tuos, kurių jums nereikia"
     },
     "short_name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "Apie"
@@ -1354,7 +1354,7 @@
         "message": "Pašalinti"
     },
     "options_nav_better_than_extension": {
-        "message": "Kodėl AdGuard programa yra geresnė nei plėtinys?"
+        "message": "Kodėl AdZap programa yra geresnė nei plėtinys?"
     },
     "options_nav_compare": {
         "message": "Palyginti"
@@ -1369,13 +1369,13 @@
         "message": "Mūsų darbalaukio programa gali jus apsaugoti nuo jų"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Gaukite AdGuard for Windows"
+        "message": "Gaukite AdZap for Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Gaukite AdGuard for Mac"
+        "message": "Gaukite AdZap for Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Gaukite AdGuard for Linux"
+        "message": "Gaukite AdZap for Linux"
     },
     "options_filters_search": {
         "message": "Paieška"
@@ -1384,7 +1384,7 @@
         "message": "Ieškoti filtruose"
     },
     "options_about_title": {
-        "message": "AdGuard naršyklės plėtinys"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Čia sukonfigūruokite skelbimų blokavimą, kad galėtumėte susidoroti su erzinančiomis reklamjuostėmis, iškylančiais langais, vaizdo įrašų skelbimais ir panašiai, vieną ir visiems laikams"
@@ -1402,7 +1402,7 @@
         "message": "Apsaugokite save nuo kenkėjiškų programų, sukčiavimo ir kitų internetinių grėsmių"
     },
     "group_description_miscellaneous": {
-        "message": "Daugiau nustatymų, kad galėtumėte dar labiau konfigūruoti naršymą internete su AdGuard"
+        "message": "Daugiau nustatymų, kad galėtumėte dar labiau konfigūruoti naršymą internete su AdZap"
     },
     "group_description_custom": {
         "message": "Sukurkite savo filtrus, kad patikslintumėte žiniatinklio filtravimą pagal savo pageidavimus."
@@ -1600,13 +1600,13 @@
         "message": "Prieiga neleidžiama"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard užblokavo prieigą prie šio puslapio"
+        "message": "AdZap užblokavo prieigą prie šio puslapio"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Užblokavo AdGuard"
+        "message": "Užblokavo AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard neleido įkelti šio puslapio dėl šios filtravimo taisyklės"
+        "message": "AdZap neleido įkelti šio puslapio dėl šios filtravimo taisyklės"
     },
     "blocking_pages_btn_go_back": {
         "message": "Grįžti"

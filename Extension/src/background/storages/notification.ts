@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 import browser from 'webextension-polyfill';
 
@@ -313,6 +315,7 @@ const newYear25Notification: PromoNotification = {
 /**
  * In-memory notifications mapping.
  */
-export const notificationStorage = new Map<string, PromoNotification>([
-    [NEW_YEAR_25_ID, newYear25Notification],
-]);
+// AdZap Offline: no upstream AdGuard promo campaigns are shown.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const upstreamNotifications = [[NEW_YEAR_25_ID, newYear25Notification]];
+export const notificationStorage = new Map<string, PromoNotification>();

@@ -1,7 +1,7 @@
 {
-    "name": "browser-extension",
+    "name": "adzap-offline",
     "version": "5.5.2+3.build.20260825090125",
-    "description": "AdGuard Extension",
+    "description": "AdZap Offline: fully offline ad and tracker blocker",
     "type": "module",
     "scripts": {
         "dev": "cross-env BUILD_ENV=dev tsx tools/bundle.ts",
@@ -9,6 +9,7 @@
         "dev:watch:ff": "cross-env BUILD_ENV=dev tsx watch tools/bundle.ts firefox-amo",
         "beta": "cross-env BUILD_ENV=beta tsx tools/bundle.ts",
         "release": "cross-env BUILD_ENV=release tsx tools/bundle.ts",
+        "build:adzap": "cross-env BUILD_ENV=release tsx tools/bundle.ts chrome-mv3 && node tools/adzap/postbuild.mjs build/release/chrome-mv3",
         "check-bundle-size": "tsx tools/bundle-size/check.ts",
         "update-bundle-size": "tsx tools/bundle-size/update.ts",
         "adguard-api": "cross-env BUILD_ENV=dev tsx tools/bundle.ts adguard-api",
@@ -40,9 +41,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "ssh://git@github.com:AdguardTeam/AdguardBrowserExtension.git"
+        "url": "https://github.com/arush361/adzap-offline.git"
     },
-    "author": "Adguard Software Ltd <adguard@adguard.com>",
+    "author": "Arush Sharma",
+    "contributors": [
+        "Adguard Software Ltd <adguard@adguard.com> (original AdGuard Browser Extension)"
+    ],
     "license": "GPL-3.0",
     "engines": {
         "pnpm": ">=10.33.4 <11"

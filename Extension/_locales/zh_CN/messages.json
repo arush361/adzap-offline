@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "若要复制与粘贴规则，请允许 AdGuard 访问剪贴板。 <a>允许<\/a>"
+        "message": "若要复制与粘贴规则，请允许 AdZap 访问剪贴板。 <a>允许<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "输入过滤器名称"
@@ -27,13 +27,13 @@
         "message": "使用骚扰过滤功能之前请务必阅读"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "您即将启用一个或多个烦人过滤器。此类过滤器会屏蔽与网站内容无关、或虽相关但影响用户体验的干扰性元素。请注意：网站运营者可能视其为核心要素，屏蔽后可能导致以下后果：违反该网站使用条款；部分功能不可用或运行异常。您理解并同意，使用本产品访问网站时需独立承担遵守各网站使用条款的责任，AdGuard 不对您的合规行为承担法律责任。"
+        "message": "您即将启用一个或多个烦人过滤器。此类过滤器会屏蔽与网站内容无关、或虽相关但影响用户体验的干扰性元素。请注意：网站运营者可能视其为核心要素，屏蔽后可能导致以下后果：违反该网站使用条款；部分功能不可用或运行异常。您理解并同意，使用本产品访问网站时需独立承担遵守各网站使用条款的责任，不对您的合规行为承担法律责任。"
     },
     "options_filters_annoyances_consent_question": {
         "message": "启用这些过滤器？"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "有关 AdGuard 恼人广告过滤器的拦截详情，请参阅<a>过滤器政策<\/a>"
+        "message": "有关 恼人广告过滤器的拦截详情，请参阅<a>过滤器政策<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "启用"
@@ -57,10 +57,10 @@
         "message": "修复"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard for iOS"
+        "message": "AdZap for iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard for Android"
+        "message": "AdZap for Android"
     },
     "options_filters_filter_version": {
         "message": "版本："
@@ -159,10 +159,10 @@
         "message": "订阅"
     },
     "name": {
-        "message": "AdGuard 广告拦截器"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "一款无与伦比的广告拦截扩展，用以对抗各式广告与弹窗。可以拦截 Facebook、YouTube 和其它所有网站的广告。",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "白名单"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard 无法拦截列表中网站上的广告和跟踪器"
+        "message": "AdZap 无法拦截列表中网站上的广告和跟踪器"
     },
     "options_allowlist_invert": {
         "message": "颠倒白名单"
@@ -313,7 +313,7 @@
         "message": "保存失败，请重试或联系客户支持。"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "要导入此设置文件，请允许 AdGuard 更改您的隐私相关设置。"
+        "message": "要导入此设置文件，请允许 AdZap 更改您的隐私相关设置。"
     },
     "options_popup_import_success_title": {
         "message": "设置已导入"
@@ -472,7 +472,7 @@
         "message": "已为最新。"
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuard 扩展已更新到版本 %current_version%"
+        "message": "AdZap 扩展已更新到版本 %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "此版本包含众多的错误修复和小的改进。"
@@ -484,7 +484,7 @@
         "message": "此版本的新特性？"
     },
     "options_popup_version_update_offer": {
-        "message": "您可知道 AdGuard 的能力不限于此浏览器？"
+        "message": "您可知道 AdZap 的能力不限于此浏览器？"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "了解更多"
@@ -499,10 +499,10 @@
         "message": "删除用于此网站上的用户规则"
     },
     "popup_open_settings": {
-        "message": "打开 AdGuard 设置"
+        "message": "打开 AdZap 设置"
     },
     "popup_protection_button": {
-        "message": "AdGuard 保护"
+        "message": "AdZap 保护"
     },
     "context_block_site_ads": {
         "message": "手动屏蔽广告"
@@ -514,19 +514,19 @@
         "message": "问题反馈"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard 无法过滤此页面"
+        "message": "AdZap 无法过滤此页面"
     },
     "context_disable_protection": {
-        "message": "暂停 AdGuard 保护"
+        "message": "暂停 AdZap 保护"
     },
     "context_enable_protection": {
-        "message": "继续 AdGuard 保护"
+        "message": "继续 AdZap 保护"
     },
     "context_site_protection_disabled": {
-        "message": "AdGuard 保护已暂停"
+        "message": "AdZap 保护已暂停"
     },
     "context_open_settings": {
-        "message": "AdGuard 设置"
+        "message": "AdZap 设置"
     },
     "context_open_log": {
         "message": "过滤器日志"
@@ -778,7 +778,7 @@
         "message": "导航"
     },
     "options_settings": {
-        "message": "AdGuard 设置"
+        "message": "AdZap 设置"
     },
     "options_general_settings": {
         "message": "常规设置"
@@ -790,7 +790,7 @@
         "message": "在搜索结果中拦截广告与网站的自我推广。<a>了解更多<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "在 AdGuard 扩展图标上显示已拦截的广告数量"
+        "message": "在 AdZap 扩展图标上显示已拦截的广告数量"
     },
     "options_enable_autodetect_filter": {
         "message": "自动激活最适合的过滤器"
@@ -947,16 +947,16 @@
         "message": "钓鱼和恶意保护"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "通过 AdGuard 浏览安全模块警告恶意与钓鱼网站。<a>了解更多<\/a>"
+        "message": "通过 浏览安全模块警告恶意与钓鱼网站。<a>了解更多<\/a>"
     },
     "options_site": {
         "message": "官方网站"
     },
     "options_discuss": {
-        "message": "讨论 AdGuard"
+        "message": "讨论 AdZap"
     },
     "options_do_you_like_question": {
-        "message": "您喜欢 AdGuard 吗？"
+        "message": "您喜欢 AdZap 吗？"
     },
     "options_rate_us_cta": {
         "message": "评分"
@@ -1029,7 +1029,7 @@
         "message": "选项 1：从浏览器中删除不必要的广告拦截扩展。要重新激活「更新前启用的过滤器」部分中提到的过滤器，请单击「<a>重新激活过滤器<\/a>」。"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "选项 2：安装 AdGuard 广告拦截程序。该应用程序没有过滤规则的数量限制。<a>获取 AdGuard 广告拦截程序<\/a>"
+        "message": "选项 2：安装 AdZap 广告拦截程序。该应用程序没有过滤规则的数量限制。<a>获取 AdZap 广告拦截程序<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "选项 3：如果您可以接受当前启用的默认过滤器，即可<a>关闭此警告<\/a>。"
@@ -1047,7 +1047,7 @@
         "message": "移除其他广告拦截程序"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "浏览器扩展共享相同的规则上限。移除其他广告拦截程序可能为 AdGuard 浏览器扩展释放更多规则。"
+        "message": "浏览器扩展共享相同的规则上限。移除其他广告拦截程序可能为 AdZap 浏览器扩展释放更多规则。"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "管理扩展程序"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "显示关于 AdGuard 完整版本的信息"
+        "message": "显示关于 AdZap 完整版本的信息"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "所有数据使用统计将被永久删除"
@@ -1150,13 +1150,13 @@
         "message": "重置设置时出错"
     },
     "options_collect_hit_stats_title": {
-        "message": "协助完善 AdGuard 过滤器"
+        "message": "协助完善 AdZap 过滤器"
     },
     "options_collect_hit_stats_desc": {
-        "message": "向 AdGuard 发送匿名的广告过滤器使用统计。<a>了解更多<\/a>"
+        "message": "向 AdZap 发送匿名的广告过滤器使用统计。<a>了解更多<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "添加 AdGuard 到浏览器上下文菜单"
+        "message": "添加 AdZap 到浏览器上下文菜单"
     },
     "options_use_optimized_filters": {
         "message": "使用优化的过滤器"
@@ -1219,13 +1219,13 @@
         "message": "从 URL 中删除跟踪参数"
     },
     "options_strip_tracking_params_description": {
-        "message": "使用「AdGuard URL 跟踪过滤器」删除页面 URL 中的跟踪参数"
+        "message": "使用「URL 跟踪过滤器」删除页面 URL 中的跟踪参数"
     },
     "options_block_known_trackers_title": {
         "message": "拦截跟踪器"
     },
     "options_block_known_trackers_description": {
-        "message": "使用「AdGuard 防跟踪保护过滤器」拦截跟踪器和网络分析"
+        "message": "使用「防跟踪保护过滤器」拦截跟踪器和网络分析"
     },
     "options_third_party_title": {
         "message": "删除第三方 Cookie"
@@ -1255,7 +1255,7 @@
         "message": "匿名发送扩展使用数据"
     },
     "options_anonymized_usage_data_description": {
-        "message": "向 AdGuard 发送扩展使用情况的匿名统计数据。<button>了解更多<\/button>"
+        "message": "向 AdZap 发送扩展使用情况的匿名统计数据。<button>了解更多<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "扩展使用数据"
@@ -1273,7 +1273,7 @@
         "message": "会话标识符"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "我们需要这些信息来分析和改善 AdGuard 的功能。"
+        "message": "我们需要这些信息来分析和改善 AdZap 的功能。"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "数据是匿名发送的，仅在公司内部使用。我们从不与第三方分享数据。"
@@ -1318,10 +1318,10 @@
         "message": "浏览器已修改激活的内置过滤器列表。"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "AdGuard 浏览器扩展已超出规则数量限制。请检查过滤器并禁用不需要的过滤器。"
+        "message": "AdZap 浏览器扩展已超出规则数量限制。请检查过滤器并禁用不需要的过滤器。"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "关于"
@@ -1354,7 +1354,7 @@
         "message": "移除"
     },
     "options_nav_better_than_extension": {
-        "message": "为什么 AdGuard 应用程序比扩展更好？"
+        "message": "为什么 AdZap 应用程序比扩展更好？"
     },
     "options_nav_compare": {
         "message": "两者对比"
@@ -1369,13 +1369,13 @@
         "message": "我们的桌面应用可以保护您免受侵扰"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "获取 AdGuard Windows 版"
+        "message": "获取 AdZap Windows 版"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "获取 AdGuard Mac 版"
+        "message": "获取 AdZap Mac 版"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "获取 AdGuard Linux 版"
+        "message": "获取 AdZap Linux 版"
     },
     "options_filters_search": {
         "message": "搜索"
@@ -1384,7 +1384,7 @@
         "message": "搜索过滤器"
     },
     "options_about_title": {
-        "message": "AdGuard 浏览器扩展"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "配置广告拦截以一劳永逸地处理烦人的横幅、弹出窗口、视频广告等。"
@@ -1402,7 +1402,7 @@
         "message": "保护自己免受恶意软件、网络钓鱼和其他在线威胁的侵害。"
     },
     "group_description_miscellaneous": {
-        "message": "通过更多的 AdGuard 设置来进一步配置您的网上冲浪体验"
+        "message": "通过更多的 AdZap 设置来进一步配置您的网上冲浪体验"
     },
     "group_description_custom": {
         "message": "创建您自己的过滤器以根据您的喜好微调网络过滤。"
@@ -1600,13 +1600,13 @@
         "message": "拒绝访问"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard 已经阻止了该页面的加载"
+        "message": "AdZap 已经阻止了该页面的加载"
     },
     "blocking_pages_rule_header_title": {
-        "message": "由 AdGuard 拦截"
+        "message": "由 AdZap 拦截"
     },
     "blocking_pages_rule_content_title": {
-        "message": "根据以下过滤规则， Adguard 已阻止该网页加载"
+        "message": "根据以下过滤规则， AdZap 已阻止该网页加载"
     },
     "blocking_pages_btn_go_back": {
         "message": "返回上一页"

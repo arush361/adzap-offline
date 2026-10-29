@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "For at kopiere og indsætte regler, tillad AdGuard adgang til udklipsholderen. <a>Tillad<\/a>"
+        "message": "For at kopiere og indsætte regler, tillad AdZap adgang til udklipsholderen. <a>Tillad<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Angiv et filternavn"
@@ -27,13 +27,13 @@
         "message": "Læs venligst omhyggeligt, inden aktivering af irritationsfiltre"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Ét eller flere irritationsfiltre er ved at blive aktiveret. De blokerer elementer, som enten ikke er relaterede til webstedsindhold eller er relaterede, men er irriterende for brugeroplevelsen. Webstedsejere kan betragte disse elementer som obligatoriske: Blokeres de, kan brugsvilkår overtrædes; noget funktionalitet på websteder kan være utilgængelig eller muligvis ikke fungere korrekt. Brugeren forstår og accepterer, at det alene er et brugeransvar at overholde brugsvilkårene for de websteder, som besøges, samt at AdGuard ikke er ansvarlig for overholdelsen af brugsvilkårene for de websteder, som besøges med vores produkter."
+        "message": "Ét eller flere irritationsfiltre er ved at blive aktiveret. De blokerer elementer, som enten ikke er relaterede til webstedsindhold eller er relaterede, men er irriterende for brugeroplevelsen. Webstedsejere kan betragte disse elementer som obligatoriske: Blokeres de, kan brugsvilkår overtrædes; noget funktionalitet på websteder kan være utilgængelig eller muligvis ikke fungere korrekt. Brugeren forstår og accepterer, at det alene er et brugeransvar at overholde brugsvilkårene for de websteder, som besøges, samt at ikke er ansvarlig for overholdelsen af brugsvilkårene for de websteder, som besøges med vores produkter."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Aktivér disse filtre?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "For detaljer om, hvad AdGuards irritationfiltre blokerer, se <a>Filtreringspolitik<\/a>"
+        "message": "For detaljer om, hvad AdZaps irritationfiltre blokerer, se <a>Filtreringspolitik<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Aktivér"
@@ -57,10 +57,10 @@
         "message": "Genoptag"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard til iOS"
+        "message": "AdZap til iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard til Android"
+        "message": "AdZap til Android"
     },
     "options_filters_filter_version": {
         "message": "version:"
@@ -159,10 +159,10 @@
         "message": "Abonnér"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Uovertruffen adblock-udvidelse mod reklamer og pop op-vinduer. Blokerer annoncer på Facebook, YouTube og alle andre websteder.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Hvidliste"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard blokerer ikke annoncer og trackere på webstder fra listen"
+        "message": "AdZap blokerer ikke annoncer og trackere på webstder fra listen"
     },
     "options_allowlist_invert": {
         "message": "Invertér hvidlisten"
@@ -313,7 +313,7 @@
         "message": "Mislykkedes at gemme ændringerne. Forsøg igen eller kontakt supporten"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Tillad AdGuard at ændre fortrolighedsrelaterede indstillinger for at importere denne indstillingsfil."
+        "message": "Tillad AdZap at ændre fortrolighedsrelaterede indstillinger for at importere denne indstillingsfil."
     },
     "options_popup_import_success_title": {
         "message": "Indstillinger importeret"
@@ -472,7 +472,7 @@
         "message": "blev opdateret."
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuard-udvidelsen er blevet opdateret til version %current_version%"
+        "message": "AdZap-udvidelsen er blevet opdateret til version %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "Denne version indeholder primært fejlrettelser og mindre forbedringer."
@@ -484,7 +484,7 @@
         "message": "Hvad er nyt i denne version?"
     },
     "options_popup_version_update_offer": {
-        "message": "Vidste du, at AdGuards funktioner ikke er begrænset til denne browser?"
+        "message": "Vidste du, at AdZaps funktioner ikke er begrænset til denne browser?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "FÅ MERE AT VIDE"
@@ -499,10 +499,10 @@
         "message": "Slet brugerregler for dette websted"
     },
     "popup_open_settings": {
-        "message": "Åbn AdGuard-indstillinger"
+        "message": "Åbn AdZap-indstillinger"
     },
     "popup_protection_button": {
-        "message": "AdGuard-beskyttelse"
+        "message": "AdZap-beskyttelse"
     },
     "context_block_site_ads": {
         "message": "Blokér annoncer manuelt"
@@ -514,19 +514,19 @@
         "message": "Anmeld et problem"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard kan ikke filtrere denne side"
+        "message": "AdZap kan ikke filtrere denne side"
     },
     "context_disable_protection": {
-        "message": "Sæt AdGuard-beskyttelse på pause"
+        "message": "Sæt AdZap-beskyttelse på pause"
     },
     "context_enable_protection": {
-        "message": "Genoptag AdGuard-beskyttelse"
+        "message": "Genoptag AdZap-beskyttelse"
     },
     "context_site_protection_disabled": {
-        "message": "AdGuard-beskyttelse er på pause"
+        "message": "AdZap-beskyttelse er på pause"
     },
     "context_open_settings": {
-        "message": "AdGuard-indstillinger"
+        "message": "AdZap-indstillinger"
     },
     "context_open_log": {
         "message": "Filtreringslog"
@@ -778,7 +778,7 @@
         "message": "Navigering"
     },
     "options_settings": {
-        "message": "AdGuard Indstillinger"
+        "message": "AdZap Indstillinger"
     },
     "options_general_settings": {
         "message": "Generelt"
@@ -790,7 +790,7 @@
         "message": "Blokerer annoncer i søgeresultater og webstedsselvpromoveringer. <a>Læs mere<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Vis antal afblokerede annoncer på AdGuard-udvidelsesikonet"
+        "message": "Vis antal afblokerede annoncer på AdZap-udvidelsesikonet"
     },
     "options_enable_autodetect_filter": {
         "message": "Aktivér de mest passende filtre automatisk"
@@ -947,16 +947,16 @@
         "message": "Phishing- og malware-beskyttelse"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Advarer om skadelige og phishing-websteder ved brug af modulet AdGuard Browsing Security. <a>Læs mere<\/a>"
+        "message": "Advarer om skadelige og phishing-websteder ved brug af modulet Browsing Security. <a>Læs mere<\/a>"
     },
     "options_site": {
         "message": "Officiel webside"
     },
     "options_discuss": {
-        "message": "Debattér AdGuard"
+        "message": "Debattér AdZap"
     },
     "options_do_you_like_question": {
-        "message": "Synes du om AdGuard?"
+        "message": "Synes du om AdZap?"
     },
     "options_rate_us_cta": {
         "message": "Bedøm den"
@@ -1029,7 +1029,7 @@
         "message": "Mulighed 1. Slet unødvendige adblockudvidelser fra webbrowseren. For at genaktivere filtre nævnt i afsnittet \"Filtre aktiveret før opdateringen\", klik på <a>Genaktivér filtre<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Mulighed 2. Installér AdGuard Ad Blocker-appen: Den har ingen filtreringsregelrestriktioner. <a>Hent AdGuard-appen<\/a>"
+        "message": "Mulighed 2. Installér AdZap Ad Blocker-appen: Den har ingen filtreringsregelrestriktioner. <a>Hent AdZap-appen<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Mulighed 3. Er det aktuelt aktiverede standardfilter tilfredsstillende, <a>luk denne advarsel<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Fjern andre adblockere"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Webbrowserudvidelser deler samme regelkvote. Fjernelse af andre adblockere kan give plads til flere regler til AdGuard Browser Extension"
+        "message": "Webbrowserudvidelser deler samme regelkvote. Fjernelse af andre adblockere kan give plads til flere regler til AdZap Offline"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Håndtering af udvidelser"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Vis information om den fulde AdGuard-version"
+        "message": "Vis information om den fulde AdZap-version"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Alle statistikker over dataforbrug slettes permanent"
@@ -1150,13 +1150,13 @@
         "message": "Fejl under nulstilling af indstillinger"
     },
     "options_collect_hit_stats_title": {
-        "message": "Hjælp med at udvikle AdGuard-filtre"
+        "message": "Hjælp med at udvikle AdZap-filtre"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Indsender anonym statistik om brug af annoncefiltre til AdGuard. <a>Læs mere<\/a>"
+        "message": "Indsender anonym statistik om brug af annoncefiltre til AdZap. <a>Læs mere<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Føj AdGuard-element til browserens kontekstmenu"
+        "message": "Føj AdZap-element til browserens kontekstmenu"
     },
     "options_use_optimized_filters": {
         "message": "Brug optimerede filtre"
@@ -1219,13 +1219,13 @@
         "message": "Fjern sporingsparametre fra URL'er"
     },
     "options_strip_tracking_params_description": {
-        "message": "Fjerner sporingsparametre fra side-URL'er vha. AdGuard URL Tracking-filter"
+        "message": "Fjerner sporingsparametre fra side-URL'er vha. URL Tracking-filter"
     },
     "options_block_known_trackers_title": {
         "message": "Blokér trackere"
     },
     "options_block_known_trackers_description": {
-        "message": "Blokerer trackere og webanalyseværktøjer med filteret AdGuard Tracking Protection"
+        "message": "Blokerer trackere og webanalyseværktøjer med filteret Tracking Protection"
     },
     "options_third_party_title": {
         "message": "Slet tredjepartscookies"
@@ -1255,7 +1255,7 @@
         "message": "Indsend anonymiserede udvidelsesbrugsdata"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Indsender anonyme statistikdata om udvidelsesbrug til AdGuard. <button>Læs mere<\/button>"
+        "message": "Indsender anonyme statistikdata om udvidelsesbrug til AdZap. <button>Læs mere<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Udvidelsesbrugsdata"
@@ -1273,7 +1273,7 @@
         "message": "Sessionsidentifikatorer"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Vi har brug for disse oplysninger for at analysere og forbedre funktionaliteten af AdGuard"
+        "message": "Vi har brug for disse oplysninger for at analysere og forbedre funktionaliteten af AdZap"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Disse data er anonyme og bruges kun internt. De deles aldrig med tredjeparter"
@@ -1318,10 +1318,10 @@
         "message": "Webbrowseren har ændret listen over aktive indbyggede filtre"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "Regelkvote opbrugt i AdGuard Browser Extension. Tjek filtrene og deaktivér dem, som ikke er nødvendige"
+        "message": "Regelkvote opbrugt i AdZap Offline. Tjek filtrene og deaktivér dem, som ikke er nødvendige"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "Om"
@@ -1354,7 +1354,7 @@
         "message": "Fjern"
     },
     "options_nav_better_than_extension": {
-        "message": "Hvorfor er AdGuard-appen bedre end udvidelse?"
+        "message": "Hvorfor er AdZap-appen bedre end udvidelse?"
     },
     "options_nav_compare": {
         "message": "Sammenlign"
@@ -1369,13 +1369,13 @@
         "message": "Vores computer-app kan dog beskytte mod dem"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Få AdGuard til Windows"
+        "message": "Få AdZap til Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Få AdGuard til Mac"
+        "message": "Få AdZap til Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Få AdGuard til Linux"
+        "message": "Få AdZap til Linux"
     },
     "options_filters_search": {
         "message": "Søg"
@@ -1384,7 +1384,7 @@
         "message": "Find filter"
     },
     "options_about_title": {
-        "message": "AdGuard Browser-udvidelse"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Opsæt adblocking her for at håndtere irriterende bannere, pop op-vinduer, videoannoncer mv. én gang for alle"
@@ -1402,7 +1402,7 @@
         "message": "Vær beskyttet mod malware, phishing og andre online-trusler"
     },
     "group_description_miscellaneous": {
-        "message": "Flere indstillinger til yderligere at opsætte websurfing med AdGuard"
+        "message": "Flere indstillinger til yderligere at opsætte websurfing med AdZap"
     },
     "group_description_custom": {
         "message": "Opret egne filtre for finjusteret webfiltrering efter egne præferencer."
@@ -1600,13 +1600,13 @@
         "message": "Adgang nægtet"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard har blokeret adgangen til denne side"
+        "message": "AdZap har blokeret adgangen til denne side"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Blokeret af AdGuard"
+        "message": "Blokeret af AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard har forhindret denne side i at blive indlæst grundet flg. filterregel"
+        "message": "AdZap har forhindret denne side i at blive indlæst grundet flg. filterregel"
     },
     "blocking_pages_btn_go_back": {
         "message": "Gå tilbage"

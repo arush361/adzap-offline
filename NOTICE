@@ -1,0 +1,39 @@
+AdZap Offline
+Copyright (C) 2026 Arush Sharma
+
+AdZap Offline is a modified version of AdGuard Browser Extension
+(https://github.com/AdguardTeam/AdguardBrowserExtension), release v5.5.2.3,
+commit 233f9dd8bb97e714174fa4b430d35545be321edf.
+AdGuard Browser Extension is Copyright (C) 2009-2026 Adguard Software Ltd.
+
+Both the original work and this modified version are licensed under the
+GNU General Public License, version 3 or (at your option) any later version.
+See LICENSE for the full text. This program comes with ABSOLUTELY NO WARRANTY.
+
+Modifications made by Arush Sharma, 2026-10-29
+----------------------------------------------
+- Fully offline build: a Content Security Policy (connect-src 'self') blocks
+  all outbound network connections from the extension.
+- Removed the daily update check, telemetry, A/B test sign-up, filter hit
+  statistics, Safe Browsing lookups and remote metadata/filter downloads.
+- The first-run page and uninstall page no longer open any website.
+- Removed content scripts that let a website change extension settings.
+- Hidden UI for disabled online services, product promotions, ratings,
+  issue reporting to the upstream website and settings sharing.
+- New name, icons, logo and UI text (AdZap Offline). A post-build step
+  (tools/adzap/postbuild.mjs) rebrands text that comes from bundled packages.
+
+Files that were changed carry a "Modified ... for AdZap Offline" line in their
+license header. The full history of changes is in this repository's git log;
+the first commit is the unmodified upstream source.
+
+Third-party components
+----------------------
+Bundled filter lists and libraries keep their own copyright and license
+terms, as stated in their headers and package metadata.
+
+Trademarks
+----------
+"AdGuard" is a trademark of Adguard Software Ltd. AdZap Offline is an
+independent project and is not affiliated with, sponsored by or endorsed by
+Adguard Software Ltd.

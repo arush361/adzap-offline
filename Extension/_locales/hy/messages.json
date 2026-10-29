@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Կանոնների պատճենման եւ տեղադրելու համար թույլատրեք AdGuard-ին մուտք գործել սեղմատախտակ: <a>Թույլատրել<\/a>"
+        "message": "Կանոնների պատճենման եւ տեղադրելու համար թույլատրեք AdZap-ին մուտք գործել սեղմատախտակ: <a>Թույլատրել<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Մուտքագրեք ֆիլտրի անունը"
@@ -27,13 +27,13 @@
         "message": "Խնդրում ենք ուշադիր կարդալ նախքան նյարդայնացնող ֆիլտրեր հնարավորություն տալը"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Դուք պատրաստվում եք հնարավորություններ տալ մեկ կամ ավելի նյարդայնացնող ֆիլտրեր: Դրանք արգելափակում են տարրեր, որոնք կամ կապ չունեն կայքի բովանդակության հետ, կամ կապված են, բայց նյարդայնացնող են ձեր օգտատիրոջ փորձին: Կայքի սեփականատերերը կարող են համարել այս տարրերը պարտադիր՝ եթե դուք արգելափակեք դրանք, կարող եք խախտել նրանց պայմանները; կայքերի որոշ ֆունկցիոնալություններ կարող են չլինել հասանելի կամ չաշխատել ճիշտ: Դուք հասկանում և համաձայնում եք, որ բացառապես պատասխանատու եք այցելած կայքերի օգտագործման պայմաններին համապատասխանելու համար, և որ AdGuard-ը պատասխանատու չէ մեր արտադրանքն օգտագործելիս այցելած կայքերի օգտագործման պայմանների համապատասխանության համար:"
+        "message": "Դուք պատրաստվում եք հնարավորություններ տալ մեկ կամ ավելի նյարդայնացնող ֆիլտրեր: Դրանք արգելափակում են տարրեր, որոնք կամ կապ չունեն կայքի բովանդակության հետ, կամ կապված են, բայց նյարդայնացնող են ձեր օգտատիրոջ փորձին: Կայքի սեփականատերերը կարող են համարել այս տարրերը պարտադիր՝ եթե դուք արգելափակեք դրանք, կարող եք խախտել նրանց պայմանները; կայքերի որոշ ֆունկցիոնալություններ կարող են չլինել հասանելի կամ չաշխատել ճիշտ: Դուք հասկանում և համաձայնում եք, որ բացառապես պատասխանատու եք այցելած կայքերի օգտագործման պայմաններին համապատասխանելու համար, և որ AdZap-ը պատասխանատու չէ մեր արտադրանքն օգտագործելիս այցելած կայքերի օգտագործման պայմանների համապատասխանության համար:"
     },
     "options_filters_annoyances_consent_question": {
         "message": "Միացնե՞լ այս զտիչները:"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Մանրամասների համար, թե AdGuard-ի նյարդայնացնող զտիչները ինչ են արգելափակում, դիտեք <a>Զտիչ քաղաքականությունը<\/a>"
+        "message": "Մանրամասների համար, թե AdZap-ի նյարդայնացնող զտիչները ինչ են արգելափակում, դիտեք <a>Զտիչ քաղաքականությունը<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Միացնել"
@@ -57,10 +57,10 @@
         "message": "Վերականգնել հիմա"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard iOS-ի համար"
+        "message": "AdZap iOS-ի համար"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard Android-ի համար"
+        "message": "AdZap Android-ի համար"
     },
     "options_filters_filter_version": {
         "message": "տարբերակ"
@@ -159,10 +159,10 @@
         "message": "Բաժանորդագրվել"
     },
     "name": {
-        "message": "AdGuard AdBlocker"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Անգերազանցելի ընդլայնում՝ ընդդեմ գովազդի և ելնող պատուհանների: Արգելափակում է գովազդները Facebook-ում, Youtube-ում և այլ կայքերում.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Թույլատրեք ցուցակը"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard-ը չի արգելափակում մարքեթինգի հայտարարություններն ու հետևորդները ցուցակի վրա կայքերում"
+        "message": "AdZap-ը չի արգելափակում մարքեթինգի հայտարարություններն ու հետևորդները ցուցակի վրա կայքերում"
     },
     "options_allowlist_invert": {
         "message": "Շրջել թույլտվությունների ցանկը"
@@ -313,7 +313,7 @@
         "message": "Չհաջողվեց պահպանել փոփոխությունները։ Փորձեք նորից կամ կապվել աջակցությանը"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Այս կարգավիճակի ֆայլը ներբեռնելու համար թույլ տվեք AdGuard-ին փոխել ձեր գաղտնիությանը վերաբերող կարգավորումները։"
+        "message": "Այս կարգավիճակի ֆայլը ներբեռնելու համար թույլ տվեք AdZap-ին փոխել ձեր գաղտնիությանը վերաբերող կարգավորումները։"
     },
     "options_popup_import_success_title": {
         "message": "Ապահովեք ձեր փոփոխությունները հաջողությամբ ներմուծվեցին"
@@ -472,7 +472,7 @@
         "message": "թարմացվել են։"
     },
     "options_popup_version_update_title_text": {
-        "message": "AdGuard հավելվածը թարմացված է %current_version% տարբերակին"
+        "message": "AdZap հավելվածը թարմացված է %current_version% տարբերակին"
     },
     "options_popup_version_update_description_minor": {
         "message": "Այս տարբերակը հիմնականում պարունակում է բնօրինակների ուղղումներ և փոքր բարելավումներ։"
@@ -484,7 +484,7 @@
         "message": "Այս տարբերակում ինչ նորություններ կան:"
     },
     "options_popup_version_update_offer": {
-        "message": "Դուք գիտե՞ք, որ AdGuard-ի հնարավորությունները սահմանափակված չեն այս զննարկչով:"
+        "message": "Դուք գիտե՞ք, որ AdZap-ի հնարավորությունները սահմանափակված չեն այս զննարկչով:"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "Իմանալ ավելին"
@@ -499,10 +499,10 @@
         "message": "Հեռացնել օգտվողի կանոնները այս կայքի համար"
     },
     "popup_open_settings": {
-        "message": "Բացել AdGuard-ի կարգավորումները"
+        "message": "Բացել AdZap-ի կարգավորումները"
     },
     "popup_protection_button": {
-        "message": "AdGuard պաշտպանություն"
+        "message": "AdZap պաշտպանություն"
     },
     "context_block_site_ads": {
         "message": "Մանուալ՝ արգելափակեք գովազդները"
@@ -514,19 +514,19 @@
         "message": "Հաղորդել թողարկման մասին"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard չի կարող ֆիլտրել այս էջը"
+        "message": "AdZap չի կարող ֆիլտրել այս էջը"
     },
     "context_disable_protection": {
-        "message": "Դադարեցնել AdGuard-ի պաշտպանությունը"
+        "message": "Դադարեցնել AdZap-ի պաշտպանությունը"
     },
     "context_enable_protection": {
-        "message": "Շարունակել AdGuard-ի պաշտպանությունը"
+        "message": "Շարունակել AdZap-ի պաշտպանությունը"
     },
     "context_site_protection_disabled": {
-        "message": "AdGuard-ի պաշտպանությունը դադարեցված է"
+        "message": "AdZap-ի պաշտպանությունը դադարեցված է"
     },
     "context_open_settings": {
-        "message": "AdGuard-ի կարգավորումներ"
+        "message": "AdZap-ի կարգավորումներ"
     },
     "context_open_log": {
         "message": "Բացել զտման մատյանը"
@@ -778,7 +778,7 @@
         "message": "Նավիգացիա"
     },
     "options_settings": {
-        "message": "AdGuard-ի կարգավորումներ"
+        "message": "AdZap-ի կարգավորումներ"
     },
     "options_general_settings": {
         "message": "Գլխավոր կարգավորումներ"
@@ -790,7 +790,7 @@
         "message": "Արգելափակում է մարքեթինգի հայտարարությունները որոնման արդյունքներում և կայքերի ինքնագովազդը։ <a>Իմանալ ավելին<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Ցուցադրել արգելափակված գովազդների քանակը AdGuard-ի ընդլայնման պատկերակում"
+        "message": "Ցուցադրել արգելափակված գովազդների քանակը AdZap-ի ընդլայնման պատկերակում"
     },
     "options_enable_autodetect_filter": {
         "message": "Ակտիվացնել առավել համապատասխանող զտիչները ինքնաբար"
@@ -947,16 +947,16 @@
         "message": "Պաշտպանություն որսումից և վնասագրերից"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Բացի չարամիտ և ֆիշինգ կայքերից, օգտագործում է AdGuard Զննեք անվտանգությունը մոդուլը: <a>Իմանալ ավելին<\/a>"
+        "message": "Բացի չարամիտ և ֆիշինգ կայքերից, օգտագործում է Զննեք անվտանգությունը մոդուլը: <a>Իմանալ ավելին<\/a>"
     },
     "options_site": {
         "message": "Պաշտոնական կայք"
     },
     "options_discuss": {
-        "message": "Խմբագրել AdGuard"
+        "message": "Խմբագրել AdZap"
     },
     "options_do_you_like_question": {
-        "message": "Դուք հավանեցի՞ք AdGuard-ը:"
+        "message": "Դուք հավանեցի՞ք AdZap-ը:"
     },
     "options_rate_us_cta": {
         "message": "Գնահատեք դա"
@@ -1029,7 +1029,7 @@
         "message": "Ընտրություն 1: Խնդրում ենք հեռացնել անփորձ \"գովազդ արգելափակման\" ընդարձակումը ձեր բրաուզերից:  Վերականգնելու համար <a>վերականգնել ֆիլտրերը:<\/a>"
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Ընտրություն 2: Տեղադրեք AdGuard Ad Blocker հավելվածը՝ այն չունի ֆիլտրացման կանոնների սահմանափակումներ։ <a>Ստեղծեք AdGuard հավելվածը<\/a>"
+        "message": "Ընտրություն 2: Տեղադրեք AdZap Ad Blocker հավելվածը՝ այն չունի ֆիլտրացման կանոնների սահմանափակումներ։ <a>Ստեղծեք AdZap հավելվածը<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Տվյալ 3։ Եթե Դուք գոհ եք ներկայիս ակտիվ ֆիլտրից, <a>փակեք այս զգուշացումը:<\/a>"
@@ -1047,7 +1047,7 @@
         "message": "Հեռացնել այլ գովազդի արգելափակիչներ"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "Դիտարկիչի ընդլայնումները կիսում են նույն կանոնների սահմանը։ Այլ գովազդի արգելափակիչների հեռացումը կարող է ազատել ավելի շատ կանոններ AdGuard դիտարկչի ընդլայնման համար"
+        "message": "Դիտարկիչի ընդլայնումները կիսում են նույն կանոնների սահմանը։ Այլ գովազդի արգելափակիչների հեռացումը կարող է ազատել ավելի շատ կանոններ AdZap դիտարկչի ընդլայնման համար"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Կառավարել ընդլայնումները"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Ցուցադրել տեղեկությունը AdGuard-ի ամբողջական տարբերակում"
+        "message": "Ցուցադրել տեղեկությունը AdZap-ի ամբողջական տարբերակում"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Տվյալների օգտագործման բոլոր վիճակագրությունները կջնջվեն մշտապես"
@@ -1150,13 +1150,13 @@
         "message": "Սխալ ծրագրավորվել է, երբ վերակայել կարգավորումները"
     },
     "options_collect_hit_stats_title": {
-        "message": "Ներդրվեք AdGuard-ի զտիչների մշակմանը"
+        "message": "Ներդրվեք AdZap-ի զտիչների մշակմանը"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Ուղարկում է անանուն վիճակագրություն մարքեթինգի զտիչների օգտագործման մասին AdGuard-ին։ <a>Իմանալ ավելին<\/a>"
+        "message": "Ուղարկում է անանուն վիճակագրություն մարքեթինգի զտիչների օգտագործման մասին AdZap-ին։ <a>Իմանալ ավելին<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Հավելել AdGuard տարրը դիտարկիչի համատեքստային ցանկում"
+        "message": "Հավելել AdZap տարրը դիտարկիչի համատեքստային ցանկում"
     },
     "options_use_optimized_filters": {
         "message": "Կիրառեք օպտիմիզացված զտիչներ"
@@ -1219,13 +1219,13 @@
         "message": "Հեռացնել հետևող պարամետրերը URL-ներից"
     },
     "options_strip_tracking_params_description": {
-        "message": "Հեռացնում է հետևող պարամետրերը էջերի URL-ներից՝ օգտագործելով AdGuard URL Tracking ֆիլտր"
+        "message": "Հեռացնում է հետևող պարամետրերը էջերի URL-ներից՝ օգտագործելով URL Tracking ֆիլտր"
     },
     "options_block_known_trackers_title": {
         "message": "Արգելափակել հետագծողները"
     },
     "options_block_known_trackers_description": {
-        "message": "Հակադարձեք հետևողներին և վեբ անալիտիկային՝ օգտագործելով AdGuard Tracking Protection ֆիլտր"
+        "message": "Հակադարձեք հետևողներին և վեբ անալիտիկային՝ օգտագործելով Tracking Protection ֆիլտր"
     },
     "options_third_party_title": {
         "message": "Ջնջել երրորդ կողմի cookies-ը"
@@ -1255,7 +1255,7 @@
         "message": "Ուղարկել անանուն լայնացման օգտագործման տվյալներ"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Ուղարկում է անանուն վիճակագրություն ընդլայնման օգտագործման մասին AdGuard։ <button>Իմանալ ավելին<\/button>"
+        "message": "Ուղարկում է անանուն վիճակագրություն ընդլայնման օգտագործման մասին AdZap։ <button>Իմանալ ավելին<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Ընդարձակման օգտագործման տվյալներ"
@@ -1273,7 +1273,7 @@
         "message": "Նստաշրջանի նույնականացուցիչներ"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Մենք այս տեղեկությունները պետք է վերլուծենք և բարելավենք AdGuard-ի ֆունկցիոնալությունը"
+        "message": "Մենք այս տեղեկությունները պետք է վերլուծենք և բարելավենք AdZap-ի ֆունկցիոնալությունը"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Այս տվյալները անանուն են և օգտագործվում են միայն ներքին"
@@ -1318,10 +1318,10 @@
         "message": "Ձեր բրաուզերը փոխել է ակտիվ ներմուծված ֆիլտրերի ցանկը"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "AdGuard-ը չի կարող պայքարել նյարդայնացնող պաստառների, թռուցիկների և տեսահոլովակների հետ:"
+        "message": "AdZap-ը չի կարող պայքարել նյարդայնացնող պաստառների, թռուցիկների և տեսահոլովակների հետ:"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "Ծրագրի մասին"
@@ -1354,7 +1354,7 @@
         "message": "Հեռացնել"
     },
     "options_nav_better_than_extension": {
-        "message": "Ինչու՞ AdGuard ծրագիրը լավն է քան ընդլայնումը:"
+        "message": "Ինչու՞ AdZap ծրագիրը լավն է քան ընդլայնումը:"
     },
     "options_nav_compare": {
         "message": "Համեմատել"
@@ -1369,13 +1369,13 @@
         "message": "Մեր աշխատասեղանի հավելվածը կարող է պաշտպանել ձեզ դրանցից"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Ստանալ AdGuard Windows-ի համար"
+        "message": "Ստանալ AdZap Windows-ի համար"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Ստանալ AdGuard Mac-ի համար"
+        "message": "Ստանալ AdZap Mac-ի համար"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Ստանալ AdGuard Linux-ի համար"
+        "message": "Ստանալ AdZap Linux-ի համար"
     },
     "options_filters_search": {
         "message": "Որոնում"
@@ -1384,7 +1384,7 @@
         "message": "Զտիչի որոնում"
     },
     "options_about_title": {
-        "message": "AdGuard զննարկչի երկարացում"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Կոնֆիգուրացրեք գովազդների արգելումը այստեղ, որպեսզի վերջնականապես զբաղվեք նյարդային պաստառներով, թռուցիկներով, տեսանյութային գովազդներով և նման բաներով:"
@@ -1402,7 +1402,7 @@
         "message": "Կապպեկեք ինքներդ ձեզ վնասակար ծրագրերից, ֆիշինգից և այլ օնլայն վտանգներից"
     },
     "group_description_miscellaneous": {
-        "message": "Ավելի շատ կարգավորումներ ձեր վեբ զննման համար AdGuard-ով"
+        "message": "Ավելի շատ կարգավորումներ ձեր վեբ զննման համար AdZap-ով"
     },
     "group_description_custom": {
         "message": "Ստեղծեք ձեր սեփական զտիչները, որ կարողանաք կատարյալ հարմարեցնել վեբ զտումը ձեր նախասիրություններին։"
@@ -1600,13 +1600,13 @@
         "message": "Մուտքը արգելված է"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard-ը արգելափակել է մուտքը դեպի այս էջ"
+        "message": "AdZap-ը արգելափակել է մուտքը դեպի այս էջ"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Արգելափակված է AdGuard-ի կողմից"
+        "message": "Արգելափակված է AdZap-ի կողմից"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard-ը կանխել է այս էջը բեռնվելուց հետևյալ ֆիլտրի կանոնի պատճառով"
+        "message": "AdZap-ը կանխել է այս էջը բեռնվելուց հետևյալ ֆիլտրի կանոնի պատճառով"
     },
     "blocking_pages_btn_go_back": {
         "message": "Վերադառնալ"

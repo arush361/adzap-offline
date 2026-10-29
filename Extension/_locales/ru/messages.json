@@ -1,6 +1,6 @@
 {
     "options_clipboard_permission_warning": {
-        "message": "Чтобы копировать и вставлять правила, разрешите AdGuard доступ к буферу обмена. <a>Разрешить<\/a>"
+        "message": "Чтобы копировать и вставлять правила, разрешите AdZap доступ к буферу обмена. <a>Разрешить<\/a>"
     },
     "options_popup_title_placeholder": {
         "message": "Введите название фильтра"
@@ -27,13 +27,13 @@
         "message": "Пожалуйста, внимательно прочитайте текст ниже, прежде чем включать фильтры раздражителей"
     },
     "options_filters_annoyances_consent_description": {
-        "message": "Вы собираетесь включить один или несколько фильтров раздражителей. Они блокируют элементы, которые либо не имеют отношения к содержимому сайта, либо имеют, но раздражают пользователя. Владельцы сайтов могут считать эти элементы обязательными: если вы блокируете их, вы можете нарушить их условия; некоторая функциональность сайтов может быть недоступна или работать некорректно. Включая фильтры, вы понимаете и соглашаетесь с тем, что несёте полную ответственность за соблюдение условий использования посещаемых вами сайтов и что AdGuard не несёт ответственности за соблюдение вами условий использования сайтов, которые вы посещаете, используя наши продукты."
+        "message": "Вы собираетесь включить один или несколько фильтров раздражителей. Они блокируют элементы, которые либо не имеют отношения к содержимому сайта, либо имеют, но раздражают пользователя. Владельцы сайтов могут считать эти элементы обязательными: если вы блокируете их, вы можете нарушить их условия; некоторая функциональность сайтов может быть недоступна или работать некорректно. Включая фильтры, вы понимаете и соглашаетесь с тем, что несёте полную ответственность за соблюдение условий использования посещаемых вами сайтов и что не несёт ответственности за соблюдение вами условий использования сайтов, которые вы посещаете, используя наши продукты."
     },
     "options_filters_annoyances_consent_question": {
         "message": "Включить фильтры?"
     },
     "options_filters_annoyances_consent_filter_policy": {
-        "message": "Подробнее о том, что блокируют раздражающие фильтры AdGuard, читайте <a>в Политике фильтрации<\/a>"
+        "message": "Подробнее о том, что блокируют раздражающие фильтры AdZap, читайте <a>в Политике фильтрации<\/a>"
     },
     "options_filters_annoyances_consent_enable_button": {
         "message": "Включить"
@@ -57,10 +57,10 @@
         "message": "Возобновить"
     },
     "popup_adguard_for_ios": {
-        "message": "AdGuard для iOS"
+        "message": "AdZap для iOS"
     },
     "popup_adguard_for_android": {
-        "message": "AdGuard для Android"
+        "message": "AdZap для Android"
     },
     "options_filters_filter_version": {
         "message": "Версия:"
@@ -81,7 +81,7 @@
         "message": "Отключить уведомления"
     },
     "popup_adguard_footer_title": {
-        "message": "AdGuard для iOS и Android"
+        "message": "AdZap для iOS и Android"
     },
     "options_popup_call_to_action": {
         "message": "Введите корректный URL фильтра или путь к локальному файлу в строку выше."
@@ -159,10 +159,10 @@
         "message": "Подписаться"
     },
     "name": {
-        "message": "AdGuard Антибаннер"
+        "message": "AdZap Offline"
     },
     "description": {
-        "message": "Эффективное расширение для блокировки рекламы и всплывающих окон. Блокирует рекламу в VK, Одноклассниках, YouTube и других сайтах.",
+        "message": "Fully offline ad and tracker blocker. No telemetry, no update pings, no phone-home. Open source (GPL-3.0).",
         "description": "TEXT MAX LENGTH: 132"
     },
     "popup_tooltip_protection_enabled": {
@@ -187,7 +187,7 @@
         "message": "Белый список"
     },
     "options_allowlist_desc": {
-        "message": "AdGuard не блокирует рекламу и трекеры на сайтах из списка"
+        "message": "AdZap не блокирует рекламу и трекеры на сайтах из списка"
     },
     "options_allowlist_invert": {
         "message": "Инвертировать белый список"
@@ -313,7 +313,7 @@
         "message": "Не удалось сохранить изменения. Попробуйте ещё раз или напишите в поддержку"
     },
     "options_popup_import_error_required_privacy_permission": {
-        "message": "Чтобы импортировать этот файл, разрешите AdGuard изменить ваши настройки конфиденциальности."
+        "message": "Чтобы импортировать этот файл, разрешите AdZap изменить ваши настройки конфиденциальности."
     },
     "options_popup_import_success_title": {
         "message": "Настройки импортированы"
@@ -472,7 +472,7 @@
         "message": "обновлены."
     },
     "options_popup_version_update_title_text": {
-        "message": "Расширение AdGuard было обновлено до версии %current_version%"
+        "message": "Расширение AdZap было обновлено до версии %current_version%"
     },
     "options_popup_version_update_description_minor": {
         "message": "Эта версия содержит в основном исправления ошибок и незначительные улучшения."
@@ -484,7 +484,7 @@
         "message": "Что нового в этой версии?"
     },
     "options_popup_version_update_offer": {
-        "message": "Вы знали, что возможности AdGuard не ограничиваются только блокировкой в этом браузере?"
+        "message": "Вы знали, что возможности AdZap не ограничиваются только блокировкой в этом браузере?"
     },
     "options_popup_version_update_offer_button_text": {
         "message": "ПОДРОБНЕЕ"
@@ -499,10 +499,10 @@
         "message": "Удалить правила для этого сайта"
     },
     "popup_open_settings": {
-        "message": "Открыть настройки AdGuard"
+        "message": "Открыть настройки AdZap"
     },
     "popup_protection_button": {
-        "message": "Защита AdGuard"
+        "message": "Защита AdZap"
     },
     "context_block_site_ads": {
         "message": "Блокировать рекламу вручную"
@@ -514,19 +514,19 @@
         "message": "Сообщить о проблеме"
     },
     "context_site_filtering_disabled": {
-        "message": "AdGuard не может фильтровать эту страницу"
+        "message": "AdZap не может фильтровать эту страницу"
     },
     "context_disable_protection": {
-        "message": "Приостановить защиту AdGuard"
+        "message": "Приостановить защиту AdZap"
     },
     "context_enable_protection": {
-        "message": "Возобновить защиту AdGuard"
+        "message": "Возобновить защиту AdZap"
     },
     "context_site_protection_disabled": {
-        "message": "Защита AdGuard остановлена"
+        "message": "Защита AdZap остановлена"
     },
     "context_open_settings": {
-        "message": "Настройки AdGuard"
+        "message": "Настройки AdZap"
     },
     "context_open_log": {
         "message": "Журнал фильтрации"
@@ -778,7 +778,7 @@
         "message": "Навигация"
     },
     "options_settings": {
-        "message": "Настройки AdGuard"
+        "message": "Настройки AdZap"
     },
     "options_general_settings": {
         "message": "Основные"
@@ -790,7 +790,7 @@
         "message": "Блокирует рекламу в результатах поиска и саморекламу сайтов. <a>Подробнее<\/a>"
     },
     "options_show_blocked_ads_count_title": {
-        "message": "Показывать количество заблокированной рекламы на иконке расширения AdGuard"
+        "message": "Показывать количество заблокированной рекламы на иконке расширения AdZap"
     },
     "options_enable_autodetect_filter": {
         "message": "Автоматически подключать наиболее подходящие фильтры"
@@ -947,16 +947,16 @@
         "message": "Защита от фишинговых и вредоносных сайтов"
     },
     "options_safebrowsing_enabled_desc": {
-        "message": "Предупреждает о вредоносных и фишинговых сайтах с использованием модуля AdGuard *Защита от фишинга*. <a>Подробнее<\/a>"
+        "message": "Предупреждает о вредоносных и фишинговых сайтах с использованием модуля *Защита от фишинга*. <a>Подробнее<\/a>"
     },
     "options_site": {
         "message": "Официальный сайт"
     },
     "options_discuss": {
-        "message": "Обсудить AdGuard"
+        "message": "Обсудить AdZap"
     },
     "options_do_you_like_question": {
-        "message": "Вам нравится AdGuard?"
+        "message": "Вам нравится AdZap?"
     },
     "options_rate_us_cta": {
         "message": "Оценить"
@@ -1014,7 +1014,7 @@
         "message": "Что произошло?"
     },
     "options_rule_limits_warning_explanation_description": {
-        "message": "Лимит активных встроенных правил был превышен: возможно, обновилось расширение AdGuard или вы установили новое расширение. Согласно Manifest V3 Chrome отключил все фильтры, кроме фильтров по умолчанию."
+        "message": "Лимит активных встроенных правил был превышен: возможно, обновилось расширение AdZap или вы установили новое расширение. Согласно Manifest V3 Chrome отключил все фильтры, кроме фильтров по умолчанию."
     },
     "options_rule_limits_warning_list_enabled_before_title": {
         "message": "Фильтры до обновления"
@@ -1029,7 +1029,7 @@
         "message": "Вариант 1. Удалите ненужные расширения, блокирующие рекламу. Чтобы заново включить фильтры из раздела «Фильтры до обновления», нажмите <a>включить<\/a>."
     },
     "options_rule_limits_warning_actions_install_app": {
-        "message": "Вариант 2. Установите приложение AdGuard: у него нет ограничений по правилам фильтрации. <a>Скачать AdGuard<\/a>"
+        "message": "Вариант 2. Установите приложение AdZap: у него нет ограничений по правилам фильтрации. <a>Скачать AdZap<\/a>"
     },
     "options_rule_limits_warning_actions_close_warning_one_filter": {
         "message": "Вариант 3. Если текущие фильтры вас устраивают, <a>закройте это предупреждение<\/a>."
@@ -1047,7 +1047,7 @@
         "message": "Удалите другие блокировщики рекламы"
     },
     "options_rule_limits_warning_variant_b_remove_blockers_description": {
-        "message": "У браузерных расширений общий лимит правил. Удаление других блокировщиков рекламы может освободить больше правил для Браузерного расширения AdGuard"
+        "message": "У браузерных расширений общий лимит правил. Удаление других блокировщиков рекламы может освободить больше правил для Браузерного расширения AdZap"
     },
     "options_rule_limits_warning_variant_b_manage_extensions": {
         "message": "Управляйте расширениями"
@@ -1123,7 +1123,7 @@
         "description": "Note: <settings-link> and <external-link> are just <a> tags, so it would be rendered as a link."
     },
     "options_show_adguard_full_version_title": {
-        "message": "Показывать информацию о полной версии AdGuard"
+        "message": "Показывать информацию о полной версии AdZap"
     },
     "options_clear_stats_confirm_modal_subtitle": {
         "message": "Вся статистика использования данных будет безвозвратно удалена"
@@ -1150,13 +1150,13 @@
         "message": "Ошибка при сбросе настроек"
     },
     "options_collect_hit_stats_title": {
-        "message": "Помогать в разработке фильтров AdGuard"
+        "message": "Помогать в разработке фильтров AdZap"
     },
     "options_collect_hit_stats_desc": {
-        "message": "Отправляет в AdGuard анонимную статистику об использовании рекламных фильтров. <a>Подробнее<\/a>"
+        "message": "Отправляет в AdZap анонимную статистику об использовании рекламных фильтров. <a>Подробнее<\/a>"
     },
     "options_show_context_menu_title": {
-        "message": "Добавить AdGuard в контекстное меню браузера"
+        "message": "Добавить AdZap в контекстное меню браузера"
     },
     "options_use_optimized_filters": {
         "message": "Использовать оптимизированные фильтры"
@@ -1255,7 +1255,7 @@
         "message": "Отправлять анонимные данные об использовании расширения"
     },
     "options_anonymized_usage_data_description": {
-        "message": "Отправляет в AdGuard анонимную статистику об использования расширения. <button>Узнать больше<\/button>"
+        "message": "Отправляет в AdZap анонимную статистику об использования расширения. <button>Узнать больше<\/button>"
     },
     "options_anonymized_usage_data_modal_title": {
         "message": "Данные об использовании расширения"
@@ -1273,7 +1273,7 @@
         "message": "Идентификаторы сеансов"
     },
     "options_anonymized_usage_data_modal_reason": {
-        "message": "Нам нужна эта информация, чтобы проанализировать и улучшить функциональность AdGuard"
+        "message": "Нам нужна эта информация, чтобы проанализировать и улучшить функциональность AdZap"
     },
     "options_anonymized_usage_data_modal_privacy_note": {
         "message": "Эти данные анонимны и используются только внутри компании. Мы никогда не передаём их третьим лицам"
@@ -1318,10 +1318,10 @@
         "message": "Браузер изменил список активных встроенных фильтров"
     },
     "snack_on_websites_limits_exceeded_warning": {
-        "message": "Превышен лимит правил в Браузерном расширении AdGuard. Проверьте фильтры и отключите те, которые вам не нужны"
+        "message": "Превышен лимит правил в Браузерном расширении AdZap. Проверьте фильтры и отключите те, которые вам не нужны"
     },
     "short_name": {
-        "message": "AdGuard"
+        "message": "AdZap"
     },
     "options_about": {
         "message": "О программе"
@@ -1354,7 +1354,7 @@
         "message": "Удалить"
     },
     "options_nav_better_than_extension": {
-        "message": "Почему приложение AdGuard лучше расширения?"
+        "message": "Почему приложение AdZap лучше расширения?"
     },
     "options_nav_compare": {
         "message": "Сравнить"
@@ -1369,13 +1369,13 @@
         "message": "От них защитит наше приложение"
     },
     "options_desktop_app_promo_button_windows": {
-        "message": "Скачать AdGuard для Windows"
+        "message": "Скачать AdZap для Windows"
     },
     "options_desktop_app_promo_button_mac": {
-        "message": "Скачать AdGuard для Mac"
+        "message": "Скачать AdZap для Mac"
     },
     "options_desktop_app_promo_button_linux": {
-        "message": "Установить AdGuard для Linux"
+        "message": "Установить AdZap для Linux"
     },
     "options_filters_search": {
         "message": "Поиск"
@@ -1384,7 +1384,7 @@
         "message": "Поиск по фильтрам"
     },
     "options_about_title": {
-        "message": "Браузерное расширение AdGuard"
+        "message": "AdZap Offline"
     },
     "group_description_adblocking": {
         "message": "Настройте блокировку рекламы, чтобы раз и навсегда избавиться от надоедливых баннеров, всплывающих окон, видеорекламы и прочих раздражителей"
@@ -1402,7 +1402,7 @@
         "message": "Защитите себя от вредоносных программ, фишинга и других онлайн-угроз"
     },
     "group_description_miscellaneous": {
-        "message": "Дополнительные настройки, чтобы сделать веб-сёрфинг ещё более удобным с помощью AdGuard"
+        "message": "Дополнительные настройки, чтобы сделать веб-сёрфинг ещё более удобным с помощью AdZap"
     },
     "group_description_custom": {
         "message": "Создавайте свои фильтры, чтобы ещё более детально настроить веб-фильтрацию под себя."
@@ -1600,13 +1600,13 @@
         "message": "Доступ заблокирован"
     },
     "blocking_pages_safe_header_title": {
-        "message": "AdGuard заблокировал доступ к этой странице"
+        "message": "AdZap заблокировал доступ к этой странице"
     },
     "blocking_pages_rule_header_title": {
-        "message": "Заблокировано AdGuard"
+        "message": "Заблокировано AdZap"
     },
     "blocking_pages_rule_content_title": {
-        "message": "AdGuard предотвратил загрузку этой страницы в соответствии со следующим правилом фильтрации"
+        "message": "AdZap предотвратил загрузку этой страницы в соответствии со следующим правилом фильтрации"
     },
     "blocking_pages_btn_go_back": {
         "message": "Назад"

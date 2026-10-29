@@ -16,6 +16,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Modified 2026-10-29 by Arush Sharma for AdZap Offline (see NOTICE).
  */
 
 import React, { useContext } from 'react';
@@ -40,6 +42,9 @@ import { AboutLink } from './AboutLink';
 
 import './about-page.pcss';
 
+const ADZAP_GITHUB_URL = 'https://github.com/arush361/adzap-offline';
+const LICENSE_URL = 'https://www.gnu.org/licenses/gpl-3.0.html';
+
 const About = observer(() => {
     const { settingsStore, telemetryStore } = useContext(rootStore);
 
@@ -57,6 +62,7 @@ const About = observer(() => {
 
     const currentYear = new Date().getFullYear();
     const copyRightText = `© 2009-${currentYear} Adguard Software Ltd.`;
+    const forkCopyRightText = `AdZap Offline modifications © ${currentYear} Arush Sharma.`;
 
     return (
         <>
@@ -95,18 +101,14 @@ const About = observer(() => {
                     </ul>
                 </div>
                 <div className="about__copyright">
-                    <span>{copyRightText}</span>
+                    <span>{`${forkCopyRightText} Portions ${copyRightText}`}</span>
                     <span className="about__copyright-reserved">
-                        {translator.getMessage('options_copyright')}
+                        Licensed under GPL-3.0, without warranty.
                     </span>
                 </div>
                 <div className="links-menu">
-                    <AboutLink href={CHANGELOG_URL} title={translator.getMessage('options_open_changelog')} />
-                    <AboutLink href={PRIVACY_URL} title={translator.getMessage('options_privacy_policy')} />
-                    <AboutLink href={WEBSITE_URL} title={translator.getMessage('options_site')} />
-                    <AboutLink href={DISCUSS_URL} title={translator.getMessage('options_discuss')} />
-                    <AboutLink href={ACKNOWLEDGMENTS_URL} title={translator.getMessage('options_acknowledgment')} />
-                    <AboutLink href={GITHUB_URL} title={translator.getMessage('options_github')} />
+                    <AboutLink href={ADZAP_GITHUB_URL} title="AdZap Offline on GitHub" />
+                    <AboutLink href={LICENSE_URL} title="GPL-3.0 license" />
                 </div>
             </div>
         </>
